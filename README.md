@@ -1,5 +1,5 @@
 # OATargets
-**OA Targets: A knowledge base of osteoarthritis associated genes in animals**
+**OATargets: A knowledge base of osteoarthritis associated genes in animals**
 
 The knowledge base can be found at: http://skeletalvis.ncl.ac.uk/OATargets/
 
