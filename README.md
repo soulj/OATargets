@@ -1,7 +1,7 @@
 # OATargets
 **OA Targets: A knowledge base of osteoarthritis associated genes in animals**
 
-The knowledge can be found at: http://skeletalvis.ncl.ac.uk/OATargets/
+The knowledge base can be found at: http://skeletalvis.ncl.ac.uk/OATargets/
 
 The following R notebooks can be used to generate the figures and tables shown in the paper:
 
