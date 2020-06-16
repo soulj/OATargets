@@ -11,5 +11,5 @@ The following R notebooks can be used to generate the figures and tables shown i
 
 * OATargetPrediction.Rmd - Predicts new OA genes using network diffusion based similarity
 
-* PathwayEnrichment.Rmd - Idenifies pathways enriched in animal model OA genes.
+* PathwayEnrichment.Rmd - Identifies pathways enriched in animal model OA genes.
 
