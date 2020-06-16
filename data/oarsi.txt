@@ -1,0 +1,12 @@
+Gene	Ref
+PPARGC1A	https://doi.org/10.1016/j.joca.2020.02.040
+ACLY	https://doi.org/10.1016/j.joca.2020.02.059
+HMGA2	https://doi.org/10.1016/j.joca.2020.02.072
+GRK2	https://doi.org/10.1016/j.joca.2020.02.141
+SERPINA3	https://doi.org/10.1016/j.joca.2020.02.124
+DEFA1	https://doi.org/10.1016/j.joca.2020.02.125
+PRDX3	https://doi.org/10.1016/j.joca.2020.02.132
+ITGAM	https://doi.org/10.1016/j.joca.2020.02.133
+EDN1	https://doi.org/10.1016/j.joca.2020.02.142
+ZC3H12A	https://doi.org/10.1016/j.joca.2020.02.155
+

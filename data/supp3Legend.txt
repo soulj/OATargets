@@ -1,0 +1,22 @@
+Supplementary Table 3: Reactome Pathway analysis		
+		
+Enriched	The reactome pathways significantly enriched with genes studied in animal models of OA	
+		
+	Columns:	
+	Term	Reactome pathway name
+	Genes	The animal model OA genes within the pathway
+	Adj.pvalue	The BH-adjusted p-value of the overlap
+	Enrichment	The percentage of the pathway covered by animal model OA genes
+		
+Studied	Pathways significantly enriched in OA transcriptomic datasets (detailed in supplementary table 2) that are covered by animal model OA gene	
+		
+	Columns:	
+	Pathway	Reactome pathway name
+	Experiment	experiment where it is differentially expressed
+		
+Missing	Pathways significantly enriched in OA transcriptomic datasets (detailed in supplementary table 2) that are not covered by any animal model OA genes	
+		
+	Columns:	
+	Pathway	Reactome pathway name
+	Experiment	experiment where it is differentially expressed
+

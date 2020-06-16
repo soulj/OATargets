@@ -1,0 +1,206 @@
+---
+title: "Summary of genes modulated in animal models of osteoarthritis"
+output: html_notebook
+---
+
+Create summary graphs for Figure 1
+```{r}
+library(ggplot2)
+library(gridExtra)
+library(tidyverse)
+library(ggsci)
+library(lubridate)
+library(WriteXLS)
+library(readxl)
+library(cowplot)
+
+
+#read the annotations and combine for summary graphs
+geneticAnnotations <- read.delim("../data/geneticAnnotations.txt",check.names = F)
+geneticAnnotations$Model <- stringr::str_trim(geneticAnnotations$Model)
+
+geneticAnnotations <- geneticAnnotations[ geneticAnnotations$`Susceptibility observed` %in% c("Protective","Detrimental","No effect"),]
+geneticAnnotations$`Susceptibility observed`  <- as.factor(geneticAnnotations$`Susceptibility observed` )
+geneticAnnotations$`Susceptibility observed`  <-  factor(geneticAnnotations$`Susceptibility observed` ,levels(geneticAnnotations$`Susceptibility observed` )[c(1,3,2,4)])
+colnames(geneticAnnotations)[7]<-"Delivery"
+
+
+exogenousAnnotations <- read.delim("../data/exogenousAnnotations.txt",check.names = F)
+exogenousAnnotations$Model <- stringr::str_trim(exogenousAnnotations$Model)
+
+exogenousAnnotations <- exogenousAnnotations[ exogenousAnnotations$`Susceptibility observed`  %in% c("Protective","Detrimental","No effect"),]
+exogenousAnnotations$`Susceptibility observed`  <- as.factor(exogenousAnnotations$`Susceptibility observed` )
+exogenousAnnotations$`Susceptibility observed`  <-  factor(exogenousAnnotations$`Susceptibility observed` ,levels(exogenousAnnotations$`Susceptibility observed` )[c(1,3,2,4)])
+colnames(exogenousAnnotations)[2]<-"Gene"
+
+geneticAnnotations$Type <- "Genetic"
+exogenousAnnotations$Type <- "Exogenous"
+
+
+geneticAnnotations$Intervention <- NA
+combined <- rbind(geneticAnnotations,exogenousAnnotations)
+
+#plot the suceptibility observed split by type of intervention
+effect <- ggplot(combined, aes(x=`Susceptibility observed` ,fill=`Susceptibility observed` )) +  
+    geom_bar(colour = "black") +
+  scale_fill_npg(name="Susceptibility observed") + labs(x="Susceptibility observed") +
+    cowplot::theme_cowplot(font_size = 20) + theme(legend.position = "none") + facet_wrap( ~ Type, ncol=1)
+effect
+
+
+
+combined$Model <- stringr::str_trim(combined$Model)
+
+#type of mouse model
+combined <- combined %>% mutate(
+    simpleModel = case_when(
+      Model == "MIA" ~ "MIA",
+      Model %in% c("papain","Collagenase")~ "Protease",
+      Model == "Spontaneous"~ "Ageing",
+      Model %in% c("COL11","Col11a1 hap","DNIIR","STR/ORT","Col11a1 haploinsufficient","Dominant-negative TGFBR2","HMWTg")~ "Genetic",
+      Model == "High Fat Diet" ~ "High Fat Diet",
+      Model %in% c("TGFB and Treadmill","Treadmill","Exercise") ~ "Exercise",
+      TRUE ~ "Surgical"
+    ))
+
+model <- ggplot(combined, aes(x=simpleModel,fill=simpleModel)) +  
+    geom_bar(colour = "black") +
+  scale_fill_npg() +  coord_flip()+ xlab("Model") +
+    cowplot::theme_cowplot(font_size = 20) + theme(legend.position = "none") + facet_wrap( ~ Type, ncol=1)
+model
+
+#number of individual papers (PMIDs) per gene - split by type of study
+counts <- combined %>% dplyr::group_by(Gene,Type)  %>% distinct(Gene,Type,PMID,.keep_all = TRUE)  %>% dplyr::count()
+counts$n<-as.factor(counts$n)
+
+gene <- ggplot(counts, aes(x=n,fill=n)) +  
+geom_bar(colour="black") +
+  scale_fill_npg(name="Number of studies per Gene")  + labs(x="Number of studies per Gene") +
+    cowplot::theme_cowplot(font_size = 20) + theme(legend.position = "none") + facet_wrap( ~ Type, ncol=1)
+gene
+
+
+#number of types of models per gene
+counts <- combined %>% group_by(Gene,Type) %>%  dplyr::mutate(n =  dplyr::n_distinct(simpleModel)) %>% filter(row_number(Gene) == 1)
+counts$n<-as.factor(counts$n)
+
+gene2 <- ggplot(counts, aes(x=n,fill=n)) +  
+geom_bar(colour="black") +
+  scale_fill_npg(name="Number of Models per Gene")  + labs(x="Number of Models per Gene") +  cowplot::theme_cowplot(font_size = 20)  + theme(legend.position = "none") + facet_wrap( ~ Type, ncol=1)
+gene2
+
+combined$pub_date <- ymd(combined$pub_date,truncated = 2)
+combinedDates <- combined[!duplicated(combined$PMID),]
+  
+dates <- ggplot(combinedDates, aes(pub_date)) +   stat_bin(aes(y=cumsum(..count..)),geom="line") + xlab("Publication Date") + ylab("Total Studies") + cowplot::theme_cowplot(font_size = 20)
+
+first_row = cowplot::plot_grid(dates, labels = c('A'),label_size = 22)
+second_row = cowplot::plot_grid(model,gene,effect,gene2, labels = c("B","C","D","E"), nrow = 2,rel_heights = c(1,0.8),label_size = 22)
+gg_all = cowplot::plot_grid(first_row, second_row, labels=c('', ''), ncol=1,align = 'v', axis = 'r',rel_heights = c(1,2))
+
+
+cowplot::save_plot("../results/SummaryofStudies_Figure1.jpg",gg_all,base_width = 10,base_height = 12)
+
+  
+```
+
+Numbers of observations
+```{r}
+paste("the number of total papers is ",length(unique(c(geneticAnnotations$PMID,exogenousAnnotations$PMID))))
+paste("the number of total genes is ",length(unique(combined$Gene)))
+
+paste("the number of genetic publications is ",length(unique(geneticAnnotations$PMID)))
+paste("the number of exogenous publications is ",length(unique(exogenousAnnotations$PMID)))
+
+paste("the number of genetic genes is ",length(unique(geneticAnnotations$Gene)))
+paste("the number of exogenous genes is ",length(unique(exogenousAnnotations$Gene)))
+
+paste("the number of genetic observations is ",nrow(geneticAnnotations))
+paste("the number of exogenous observations is ", nrow(exogenousAnnotations))
+
+#most common
+geneticAnnotations %>%  distinct(Gene, PMID, .keep_all = TRUE) %>% group_by(Gene) %>% tally() %>% top_n(4,n)
+exogenousAnnotations %>%  distinct(Gene, PMID, .keep_all = TRUE) %>% group_by(Gene) %>% tally() %>% top_n(4,n)
+
+
+```
+
+
+disrepancies between studies and overlap between the genetic and the exogenous
+```{r}
+
+#Do the spontanous models and surgical models have the same inferred effect generally?
+#get the consensus effect split by type of model and remove genes which are ambiguous within each type of model
+modelEffect <- combined %>% dplyr::group_by(Gene,simpleModel) %>% dplyr::mutate(effectConsensus =  replace(`Inferred gene effect`,  dplyr::n_distinct(`Inferred gene effect`)>1,"Ambiguous" ) )  %>%  dplyr::filter(row_number(Gene) == 1) %>% dplyr::filter(effectConsensus != "Ambiguous") %>% as.data.frame()
+
+
+#get the genes studied in both spontenous and surgical models
+surgical <- modelEffect[ modelEffect$simpleModel=="Surgical",]
+ageing <- modelEffect[ modelEffect$simpleModel=="Ageing",]
+studiedInBoth <- merge(surgical,ageing,by="Gene",suffixes=c(".surgical",".ageing"))
+
+#what percentage of inferred effects are the same between the models?
+table(studiedInBoth$`Inferred gene effect.ageing`==studiedInBoth$`Inferred gene effect.surgical`)
+
+#consistent genes
+# consistentBetweenModels <- studiedInBoth[studiedInBoth$`Inferred gene effect.ageing`==studiedInBoth$`Inferred gene effect.surgical`,]
+# 
+# inconsistentBetweenModels <- studiedInBoth[studiedInBoth$`Inferred gene effect.ageing`!=studiedInBoth$`Inferred gene effect.surgical`,]
+
+```
+
+consensus effects by type of study
+```{r}
+#Do the spontanous models and surgical models have the same inferred effect generally?
+#get the consensus effect split by type of model and remove genes which are ambiguous within each type of model
+typeEffect <- combined %>% dplyr::group_by(Gene,Type) %>% dplyr::mutate(effectConsensus =  replace(`Inferred gene effect`,  dplyr::n_distinct(`Inferred gene effect`)>1,"Ambiguous" ) )  %>%  dplyr::filter(row_number(Gene) == 1) %>% as.data.frame()
+
+#get the genes studied in both spontenous and surgical models
+genetic <- typeEffect[ typeEffect$Type=="Genetic",]
+exogenous <- typeEffect[ typeEffect$Type=="Exogenous",]
+studiedInBoth <- merge(genetic,exogenous,by="Gene",suffixes=c(".genetic",".exogenous"))
+
+#what percentage of inferred effects are the same between the models?
+table(studiedInBoth$`Inferred gene effect.genetic`== studiedInBoth$`Inferred gene effect.exogenous`)
+
+```
+
+
+Consensus effects regardless of model or type of study
+```{r}
+
+#get the consensus effect for all the data ignoring the type of model
+combined <- combined %>% dplyr::group_by(Gene) %>% dplyr::mutate(effectConsensus =  replace(`Inferred gene effect`,  dplyr::n_distinct(`Inferred gene effect`)>1,"Ambiguous" ) ) %>% as.data.frame()
+
+selectedGenes <- c("EZH2","RELA","PTGS2","WNT16","ADAMTS7","MINK1","TGFBR2","TLR4","CD9")
+
+#write.table(combined[combined$Gene %in% selectedGenes,], file="../results/table1.txt", sep = "\t",row.names=F,quote = F,col.names = T)
+
+
+#find the most promising targets for table 3
+#filter the genes by those that have a consistant inferred effect, are studied in more than one model, in more than one paper and both genetic and exogneous evidence.
+
+promising <- combined[ combined$effectConsensus  != "Ambiguous",]
+promising <- promising %>% group_by(Gene) %>% filter( dplyr::n_distinct(Model)>1)  %>% group_by(Gene) %>% filter( dplyr::n_distinct(Type)>1) %>% group_by(Gene) %>% filter( dplyr::n_distinct(PMID)>1) %>% arrange(Gene)
+
+
+#order by gene name
+combined <- combined[order(combined$Gene),]
+combined <- combined %>% group_by(Gene) %>% add_tally(name = "NumStudies")
+
+legend <- read.delim("../data/supp1Legend.txt",header = F,stringsAsFactors = F)
+WriteXLS(list(legend,combined,promising),"../supp/SupplementryTable1.xlsx", SheetNames = c("Legend","All Data","Promising"),AdjWidth = TRUE)
+
+
+#Percentage of genes with discrepancies within the genetic and exogenous type of studies where studied more than once.
+colnames(geneticAnnotations)[6] <- "effect"
+colnames(exogenousAnnotations)[7] <- "effect"
+geneticAnnotations <- geneticAnnotations %>% dplyr::group_by(Gene) %>% dplyr::mutate(effectConsensus =  replace(effect,  dplyr::n_distinct(effect)>1,"Ambiguous" ) ) %>% as.data.frame()
+exogenousAnnotations <- exogenousAnnotations %>% dplyr::group_by(Gene) %>% dplyr::mutate(effectConsensus =  replace(effect,  dplyr::n_distinct(effect)>1,"Ambiguous" ) ) %>% as.data.frame()
+
+geneticAnnotations %>% dplyr::group_by(Gene) %>% filter(row_number(Gene) > 1) %>% filter(row_number(Gene) == 1) %>% dplyr::group_by(effectConsensus) %>% count()
+
+
+exogenousAnnotations %>% dplyr::group_by(Gene) %>% filter(row_number(Gene) > 1) %>% filter(row_number(Gene) == 1) %>% dplyr::group_by(effectConsensus) %>% count() 
+
+```

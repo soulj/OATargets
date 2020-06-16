@@ -1,0 +1,807 @@
+accession	comparison	comparisonsText
+GSE107363	1	HobRAvsHob
+GSE85761	1	EVvsCells
+GSE89179	1	siCon_FOB_ObvssiCon_FOB_Und
+GSE89179	2	siCHD1_FOB_ObvssiCon_FOB_Ob
+GSE89179	3	siCon_MSC_AdvssiCon_MSC_Und
+GSE89179	4	siCon_MSC_ObvssiCon_MSC_Und
+GSE89179	5	siCHD1_MSC_AdvssiCon_MSC_Ad
+GSE89179	6	siCHD1_MSC_UndvssiCon_MSC_Und
+GSE89179	7	siCHD1_MSC_ObvssiCon_MSC_Ob
+22659600	1	OAvsNonOA
+24361742	1	damagedvsundamaged
+GSE72258	1	Rheumatoid.arthritis.synovial.fibroblast..HDAC1..25.nm.siRNA.knockdown..48.hvsRheumatoid.arthritis.synovial.fibroblast..NTC..25.nm.siRNA.knockdown..48.h
+GSE72258	2	Rheumatoid.arthritis.synovial.fibroblast..C5orf30..50nm.siRNA..knockdown.24hvsRheumatoid.arthritis.synovial.fibroblast..NTC..50nm.siRNA..knockdown.24h
+GSE69531	1	Plastic-PelletvsPlastic-Cell
+GSE69531	2	ECM-PelletvsECM-Cell
+GSE69531	3	ECM-PelletvsPlastic-Pellet
+GSE69531	4	Plastic-PelletvsPlastic-Cell
+GSE58203	1	IL1.1vsIL1.0
+GSE58203	2	IL1.2vsIL1.0
+GSE58203	3	IL1.4vsIL1.0
+GSE58203	4	IL1.12vsIL1.0
+GSE58203	5	PDGF.1vsPDGF.0
+GSE58203	6	PDGF.2vsPDGF.0
+GSE58203	7	PDGF.4vsPDGF.0
+GSE58203	8	PDGF.12vsPDGF.0
+GSE59642	1	osteoarthiritisvsreference
+GSE59642	2	degenerated cartilagevsreference
+GSE59642	3	degenerated cartilagevsosteoarthiritis
+GSE64922	1	PlGF siRNAvscontrol siRNA
+GSE60162	1	TBX5 overexpressionvsvector control
+GSE31685	1	Interleukin.1beta.pre.stimulated.and.resveratrol.treatedvsNK..Interleukin.1beta.pre.stimulated
+E-MEXP-3890	1	CD14-positive macrophagevsCD14-positive monocyte
+GSE31980	1	MSC.aggregates.cultured.in.hanging.drop.culture.for.3.daysvsMSCs.in.a.monolayer.culture
+GSE15615	1	TNFalphavsno cytokine
+GSE15083	1	persistentvsextended
+GSE108035	1	chondrocyte-like cells (ChiPS)vshuman induced pluripotent stem cells (GPCCi001-A)
+GSE108035	2	chondrocyte-like cells (ChiPS)vschondrocyte cell line:  HC-402-05a
+GSE108035	3	chondrocyte-like cells (ChiPS)vsprimary articular cartilage chondrocyte cell culture
+GSE21959	1	HSF (healthy synovial fibroblasts) gene expression under hypoxic conditionsvsHSF (healthy synovial fibroblasts) gene expression under normoxic conditions
+GSE21959	2	RASF (rheumatoid arthritis synovial fibroblasts) gene expression under hypoxic conditionsvsRASF (rheumatoid arthritis synovial fibroblasts) gene expression under normoxic conditions
+GSE24742	1	EULAR Good-responder.12 weeks of RTX therapyvsEULAR Good-responder.baseline
+GSE24742	2	EULAR Moderate-responder.12 weeks of RTX therapyvsEULAR Moderate-responder.baseline
+GSE24742	3	EULAR Poor-responder.12 weeks of RTX therapyvsEULAR Poor-responder.baseline
+GSE74668	1	treated with IL-17A _4hvsnon-treated control_4h
+E-GEOD-57723	1	TNFvsnone
+E-GEOD-57723	2	co-culture with fibroblastvsnone
+E-GEOD-57723	3	TNF and co-culture with fibroblastvsnone
+E-GEOD-83930	1	Pre-miR-17vsNC-Pre-miR
+GSE100268	1	HPIP_KOvsControl
+E-GEOD-10024	1	NDSF stimulated chondrocytesvsunstimulated chondrocytes
+E-GEOD-10024	2	RASF stimulated chondrocytesvsunstimulated chondrocytes
+E-GEOD-12860	1	RASF stimulated chondrocytesvsNDSF stimulated chondrocytes
+E-GEOD-12860	2	Chondrocytes stimulated with prednisolone (solu-decortin) treated RASFvsNDSF stimulated chondrocytes
+E-GEOD-12860	3	Chondrocytes stimulated with prioxicam treated RASFvsNDSF stimulated chondrocytes
+E-GEOD-12860	4	Chondrocytes stimulated with azathioprine (imurek) treated RASFvsNDSF stimulated chondrocytes
+E-GEOD-12860	5	Chondrocytes stimulated with diclofenac treated RASFvsNDSF stimulated chondrocytes
+E-GEOD-12860	6	Chondrocytes stimulated with methylprednisolone (urbason) treated RASFvsNDSF stimulated chondrocytes
+E-GEOD-12860	7	Chondrocytes stimulated with sodium aurothiomalate (tauredon) treated RASFvsNDSF stimulated chondrocytes
+E-GEOD-12860	8	Chondrocytes stimulated with chloroquine phosphate (resochin) treated RASFvsNDSF stimulated chondrocytes
+E-GEOD-14359	1	conventional ostosarcoma tissuevsNon-neoplastic primary osteoblast cells with limited live span in vitro
+E-GEOD-14359	2	metastatis tissuevsconventional ostosarcoma tissue
+E-GEOD-1919	1	rheumatoid arthritis.disease modifying antirheumatic drugsvsrheumatoid arthritis.non-steroidal anti-inflammatory drugs
+E-GEOD-1919	2	rheumatoid arthritis.steroids, disease modifying antirheumatic drugs and non-steroidal anti-inflammatory drugsvsrheumatoid arthritis.non-steroidal anti-inflammatory drugs
+E-GEOD-1919	3	rheumatoid arthritis.steroids, disease modifying antirheumatic drugs and non-steroidal anti-inflammatory drugsvsrheumatoid arthritis.disease modifying antirheumatic drugs
+E-GEOD-1919	4	rheumatoid arthritis.disease modifying antirheumatic drugsvsnormal.none
+E-GEOD-1919	5	rheumatoid arthritis.steroids, disease modifying antirheumatic drugs and non-steroidal anti-inflammatory drugsvsnormal.none
+E-GEOD-1919	6	rheumatoid arthritis.non-steroidal anti-inflammatory drugsvsnormal.none
+E-GEOD-1919	7	osteoarthritis.non-steroidal anti-inflammatory drugsvsnormal.none
+E-GEOD-1919	8	osteoarthritis.nonevsnormal.none
+E-GEOD-1919	9	osteoarthritis.non-steroidal anti-inflammatory drugsvsosteoarthritis.none
+E-GEOD-19664	1	Pooled_6_MSCs_d3vsPooled_5_MSCs_d0
+E-GEOD-19664	2	Pooled_7_MSCs_d7vsPooled_5_MSCs_d0
+E-GEOD-19664	3	Pooled_8_MSCs_d14vsPooled_5_MSCs_d0
+E-GEOD-19664	4	Pooled_6_MSCs_d3vsPooled_5_MSCs_d0
+E-GEOD-19664	5	Pooled_7_MSCs_d7vsPooled_6_MSCs_d3
+E-GEOD-19664	6	Pooled_8_MSCs_d14vsPooled_7_MSCs_d7
+E-GEOD-19664	7	Pooled_10_Chondros_d3vsPooled_9_Chondros_d0
+E-GEOD-19664	8	Pooled_11_Chondros_d7vsPooled_10_Chondros_d3
+E-GEOD-19664	9	Pooled_12_Chondros_d14vsPooled_11_Chondros_d7
+E-GEOD-43923	1	osteophytic cartilagevsarticular cartilage
+E-GEOD-51812	1	Chondrocyte_condensation_6wks_LCMvsArticular_chondrocytes_17wks
+E-GEOD-51812	2	Remaining limb cells_6wks_LCMvsArticular_chondrocytes_17wks
+E-GEOD-68760	1	X50.µg.ml.Galectin.1.for.24h.in.starvation.mediumvsuntreated
+E-GEOD-82107	1	osteoarthritisvsHealthy control
+E-GEOD-9451	1	chondrocytevsiliac
+E-GEOD-9451	2	osteoblastvsiliac
+E-GEOD-9451	3	fibroblastvsiliac
+E-GEOD-9451	4	adipocytevsiliac
+E-MEXP-2019	1	intermediate cell derived from dendritic cellsvsdendritic cell
+E-MEXP-2019	2	osteoclast derived from dendritic cellsvsintermediate cell derived from dendritic cells
+E-MEXP-2019	3	intermediate cell derived from monocytesvsmonocyte
+E-MEXP-2019	4	osteoclast derived from monocytesvsintermediate cell derived from monocytes
+E-MEXP-2276	1	thanatophoric dysplasiavsnormal
+E-MEXP-2488	1	articular cartilagevsnucleus pulposus
+E-MEXP-3129	1	X550vsX380
+E-MEXP-3474	1	Kashin-beck diseasevsprimary osteoarthritis
+E-MTAB-3010	1	DMEM-F12 + MIMIC miR450a-5pvsDMEM-F12
+E-MTAB-3010	2	DMEM + beta-glycerol phosphate, ascorbic acid and dexamethasone for 7 days + MIMIC miR28-5pvsDMEM + beta-glycerol phosphate, ascorbic acid and dexamethasone for 7 days
+E-MTAB-3010	3	DMEM + beta-glycerol phosphate, ascorbic acid and dexamethasone for 7 daysvsDMEM + beta-glycerol phosphate, ascorbic acid and dexamethasone for 2 days
+E-MTAB-3010	4	DMEM + beta-glycerol phosphate, ascorbic acid and dexamethasone for 21 daysvsDMEM + beta-glycerol phosphate, ascorbic acid and dexamethasone for 7 days
+E-MTAB-4152	1	direct co-culture with human umbilical vein endothelial cellsvsindirect co-culture with human umbilical vein endothelial cells
+E-MTAB-4152	2	indirect co-culture with human umbilical vein endothelial cellsvsmonoculture
+E-MTAB-4152	3	direct co-culture with human umbilical vein endothelial cellsvsmonoculture
+GSE100609	1	normal - osteoporosis: Osteoporosisvsnormal - osteoporosis: Normal
+GSE100786	1	Bone marrow Monocytes from RA patientvsBone marrow Monocytes from OA patient
+GSE100786	2	Peripheral blood Monocytes from RA patientvsPeripheral blood Monocytes from OA patient
+GSE103697	1	ARP-1.5 ug/ml CRP for 24 hoursvsARP-1.Control
+GSE103697	2	MM.1S.5 ug/ml CRP for 24 hoursvsMM.1S.Control
+GSE103697	3	U266.5 ug/ml CRP for 24 hoursvsU266.Control
+GSE104113	1	chondrocyte.Adultvschondrocyte.Juvenile
+GSE104113	2	Stem cells.Adultvschondrocyte.Juvenile
+GSE104113	3	chondrocyte.Adultvschondrocyte.Juvenile
+GSE10575	1	migratory cells only found in diseased OA tissue with stem cell characteristicsvshealthy chondrocytes
+GSE10575	2	Osteocytes/-blasts in P2 from human bone chips of patients with OAvshealthy chondrocytes
+GSE10575	3	T/C-28 cells (fetal human sternal chondrocytes, immortalized, M.Goldring)vshealthy chondrocytes
+GSE13604	1	mesenchymal stem cells treated 8 hours with BMP6vsmesenchymal stem cells cultured 8 hours without BMP6
+GSE13837	1	TGF stimulated synovial fibroblasts (1h).rheumatoid arthritisvsTGF stimulated synovial fibroblasts (0h).rheumatoid arthritis
+GSE13837	2	TGF stimulated synovial fibroblasts (2h).rheumatoid arthritisvsTGF stimulated synovial fibroblasts (0h).rheumatoid arthritis
+GSE13837	3	TGF stimulated synovial fibroblasts (4h).rheumatoid arthritisvsTGF stimulated synovial fibroblasts (0h).rheumatoid arthritis
+GSE13837	4	TGF stimulated synovial fibroblasts (12h).rheumatoid arthritisvsTGF stimulated synovial fibroblasts (0h).rheumatoid arthritis
+GSE13837	5	TGF stimulated synovial fibroblasts (1h).osteoarthritisvsTGF stimulated synovial fibroblasts (0h).osteoarthritis
+GSE13837	6	TGF stimulated synovial fibroblasts (2h).osteoarthritisvsTGF stimulated synovial fibroblasts (0h).osteoarthritis
+GSE13837	7	TGF stimulated synovial fibroblasts (4h).osteoarthritisvsTGF stimulated synovial fibroblasts (0h).osteoarthritis
+GSE13837	8	TGF stimulated synovial fibroblasts (12h).osteoarthritisvsTGF stimulated synovial fibroblasts (0h).osteoarthritis
+GSE13837	9	TGF stimulated synovial fibroblasts (1h).rheumatoid arthritisvsTGF stimulated synovial fibroblasts (1h).osteoarthritis
+GSE13837	10	TGF stimulated synovial fibroblasts (2h).rheumatoid arthritisvsTGF stimulated synovial fibroblasts (2h).osteoarthritis
+GSE13837	11	TGF stimulated synovial fibroblasts (4h).rheumatoid arthritisvsTGF stimulated synovial fibroblasts (4h).osteoarthritis
+GSE13837	12	TGF stimulated synovial fibroblasts (12h).rheumatoid arthritisvsTGF stimulated synovial fibroblasts (12h).osteoarthritis
+GSE13837	13	TNF stimulated synovial fibroblasts (1h).rheumatoid arthritisvsTNF stimulated synovial fibroblasts (0h).rheumatoid arthritis
+GSE13837	14	TNF stimulated synovial fibroblasts (2h).rheumatoid arthritisvsTNF stimulated synovial fibroblasts (0h).rheumatoid arthritis
+GSE13837	15	TNF stimulated synovial fibroblasts (4h).rheumatoid arthritisvsTNF stimulated synovial fibroblasts (0h).rheumatoid arthritis
+GSE13837	16	TNF stimulated synovial fibroblasts (12h).rheumatoid arthritisvsTNF stimulated synovial fibroblasts (0h).rheumatoid arthritis
+GSE13837	17	TNF stimulated synovial fibroblasts (1h).osteoarthritisvsTNF stimulated synovial fibroblasts (0h).osteoarthritis
+GSE13837	18	TNF stimulated synovial fibroblasts (2h).osteoarthritisvsTNF stimulated synovial fibroblasts (0h).osteoarthritis
+GSE13837	19	TNF stimulated synovial fibroblasts (4h).osteoarthritisvsTNF stimulated synovial fibroblasts (0h).osteoarthritis
+GSE13837	20	TNF stimulated synovial fibroblasts (12h).osteoarthritisvsTNF stimulated synovial fibroblasts (0h).osteoarthritis
+GSE13837	21	TNF stimulated synovial fibroblasts (1h).rheumatoid arthritisvsTNF stimulated synovial fibroblasts (1h).osteoarthritis
+GSE13837	22	TNF stimulated synovial fibroblasts (2h).rheumatoid arthritisvsTNF stimulated synovial fibroblasts (2h).osteoarthritis
+GSE13837	23	TNF stimulated synovial fibroblasts (4h).rheumatoid arthritisvsTNF stimulated synovial fibroblasts (4h).osteoarthritis
+GSE13837	24	TNF stimulated synovial fibroblasts (12h).rheumatoid arthritisvsTNF stimulated synovial fibroblasts (12h).osteoarthritis
+GSE16464	1	monolayer chondrocytes from OAvsmonolayer chondrocytes from normal
+GSE16464	2	3D-cultured chondrocytes from OAvsmonolayer chondrocytes from OA
+GSE19060	1	OAvsNormal
+GSE27372	1	co-cultured with the JJN3 human myeloma cell linevscontrol
+GSE27390	1	rheumatoid arthritisvsosteoarthritis
+GSE29106	1	Measles Virus Nucleocapsid ProteinvsEmpty Vector
+GSE29107	1	p62_wild_typevsp62_empty_vector
+GSE29107	2	p62_P392Lvsp62_wild_type
+GSE29745	1	Gene expression of human amnion infected 5 genesvsGene expression of human fetal re-differentiation chondrocytes
+GSE29745	2	Gene expression of human adult re-differentiation chondrocytesvsGene expression of human fetal re-differentiation chondrocytes
+GSE29745	3	Gene expression of human amnion infected 5 genesvsGene expression of human amnion
+GSE35546	1	Kartogenin_1nM_6hvsDMSO
+GSE35546	2	Kartogenin_10nM_6hvsDMSO
+GSE35546	3	Kartogenin_100nM_6hvsDMSO
+GSE35546	4	Kartogenin_1nM_24hvsDMSO
+GSE35546	5	Kartogenin_10nM_24hvsDMSO
+GSE35546	6	Kartogenin_100nM_24hvsDMSO
+GSE35955	1	hMSC-old_elderlyvshMSC-C_middle-aged
+GSE35956	1	diagnosis: primary osteoporosisvstissue: bone marrow
+GSE35957	1	hMSC-senescentvshMSC-C_middle-aged
+GSE35958	1	diagnosis: primary osteoporosisvstissue: bone marrow
+GSE39340	1	ankylosing spondylitisvsrheumatoid arthritis
+GSE39340	2	osteoarthritisvsrheumatoid arthritis
+GSE39340	3	ankylosing spondylitisvsosteoarthritis
+GSE39795	1	cartilage, middle zonevscartilage, deep zone
+GSE39795	2	cartilage, superficial zonevscartilage, deep zone
+GSE39795	3	cartilage, superficial zonevscartilage, middle zone
+GSE41038	1	ankylosing spondylitisvsnormal control
+GSE41038	2	seronegative spondyloarthropyvsnormal control
+GSE41038	3	osteoarthritisvsnormal control
+GSE41992	1	IL3vsnone
+GSE42235	1	passage: 2vspassage: 0
+GSE42235	2	passage: 4vspassage: 0
+GSE42235	3	passage: 6vspassage: 0
+GSE42235	4	passage: 8vspassage: 0
+GSE45233	1	Knee meniscus, old, chondrosisvsKnee meniscus, young, chondrosis
+GSE45233	2	Knee meniscus, old, chondrosisvsKnee meniscus, old, no chondrosis
+GSE45233	3	Knee meniscus, young, chondrosisvsKnee meniscus, young, no chondrosis
+GSE45233	4	Knee meniscus, old, no chondrosisvsKnee meniscus, young, no chondrosis
+GSE46053	1	MSCs from healthy Donor cocultured with MM.1S cellsvsMSCs from healthy Donor cultured in solitary (i.e. no cocultured)
+GSE46053	2	MSCs from MM patient cocultured with MM.1S cellsvsMSCs from healthy Donor cultured in solitary (i.e. no cocultured)
+GSE46750	1	cultured.cells.from.synovial.membrane..inflammatoryvscultured.cells.from.synovial.membrane.normal.reactive
+GSE51588	1	OA-Subchondral bone from medial tibialvsNormal-Subchondral bone from medial tibial
+GSE51588	2	OA-Subchondral bone from lateral tibialvsNormal-Subchondral bone from lateral tibial
+GSE51588	3	OA-Subchondral bone from medial tibialvsOA-Subchondral bone from lateral tibial
+GSE52817	1	dOB (osteoblasts)vsgingival fibroblasts
+GSE52817	2	dOB (osteoblasts)vsosteoblasts (OB)
+GSE52817	3	dOB (osteoblasts)vsmesenchymal stem cells (MSC)
+GSE52817	4	osteoblasts (OB)vsgingival fibroblasts
+GSE55235	1	synovial tissue from rheumatoid arthritis jointvssynovial tissue from osteoarthritic joint
+GSE55235	2	synovial tissue from rheumatoid arthritis jointvssynovial tissue from healthy joint
+GSE55235	3	synovial tissue from osteoarthritic jointvssynovial tissue from healthy joint
+GSE55457	1	rheumatoid arthritisvsosteoarthritis
+GSE55457	2	rheumatoid arthritisvsnormal control
+GSE55584	1	rheumatoid arthritisvsosteoarthritis
+GSE57218	1	OAvsPreserved
+GSE60762	1	OsteoarthriticvsHealthy
+GSE62914	1	iPSC differentiated to chondrocyte for 4 daysvsiPSC
+GSE62914	2	iPSC differentiated to chondrocyte for 9 daysvsiPSC
+GSE62914	3	iPSC-derived chondrocytes (passage 3)vsiPSC
+GSE62914	4	iPSC-derived chondrocytes (passage 3)vsadult chondrocyte
+GSE64394	1	OA chondrocytesvsNormal chondrocytes
+GSE66635	1	injured meniscusvsnormal articular cartilage
+GSE68038	1	cartilage from knee (tibial plateau)vscartilage from proximal interphalangeal joint (PIP)
+GSE68428	1	untreated + IL1vsuntreated
+GSE68428	2	neg vehicle control + IL1vsuntreated
+GSE68428	3	Lama4 + IL1vsuntreated
+GSE69459	1	resFOP-iMSCs (+ActA)vsresFOP-iMSCs (-ActA)
+GSE69459	2	FOP-iMSCs (+ActA)vsFOP-iMSCs (-ActA)
+GSE69459	3	FOP-iMSCs (+ActA)vsresFOP-iMSCs (+ActA)
+GSE69459	4	FOP-iMSCs (+ActA)vsresFOP-iMSCs (-ActA)
+GSE69992	1	MSX1 siRNAvscontrol siRNA
+GSE70719	1	fluoride (8 ppm) for 30 daysvsnone (untreated control)
+GSE7116	1	Multiple Myeloma patient with osteonecrosis of the jawvsMultiple Myeloma patient on bisphosphonate therapy without osteonecrosis of the jaw
+GSE7116	2	Multiple Myeloma patient with osteonecrosis of the jawvsHealthy volunteer
+GSE7116	3	Multiple Myeloma patient on bisphosphonate therapy without osteonecrosis of the jawvsHealthy volunteer
+GSE72575	1	IL-1β-stimulated in the presence of alloxanvsnon-stimulated
+GSE72575	2	IL-1β-stimulated in the presence of GlcNvsnon-stimulated
+GSE72575	3	IL-1β-stimulated in the presence of GlcN and alloxanvsnon-stimulated
+GSE72575	4	IL-1β-stimulated MH7Avsnon-stimulated
+GSE75181	1	cultured chondrocytes from cartilage_COTvscultured chondrocytes from cartilage_control
+GSE75181	2	cultured chondrocytes from cartilage_ctrl_IL1Bvscultured chondrocytes from cartilage_control
+GSE75181	3	cultured chondrocytes from cartilage_COT_IL1Bvscultured chondrocytes from cartilage_control
+GSE75230	1	OIM treated, grow at 39oCvsuntreated, grow at 39oC in BM
+GSE7669	1	fibroblasts_RAvsfibroblasts_OA
+GSE77916	1	EPZ.5676.3.µM.4.daysvsvehicle..DMSO..4.days
+GSE80614	1	AD_1hrvsAD_0hr
+GSE80614	2	AD_2hrvsAD_0hr
+GSE80614	3	AD_05hrvsAD_0hr
+GSE80614	4	AD_6hrvsAD_0hr
+GSE80614	5	AD_12hrvsAD_0hr
+GSE80614	6	AD_1dvsAD_0hr
+GSE80614	7	AD_2dvsAD_0hr
+GSE80614	8	AD_4dvsAD_0hr
+GSE80614	9	OS_1hrvsOS_0hr
+GSE80614	10	OS_2hrvsOS_0hr
+GSE80614	11	OS_05hrvsOS_0hr
+GSE80614	12	OS_6hrvsOS_0hr
+GSE80614	13	OS_12hrvsOS_0hr
+GSE80614	14	OS_1dvsOS_0hr
+GSE80614	15	OS_2dvsOS_0hr
+GSE80614	16	OS_4dvsOS_0hr
+GSE85254	1	chondrocytes, Gal-3, 50 µg/mlvschondrocytes, untreated
+GSE86578	1	IL.1.OSM.1vsnone (control).0
+GSE86578	2	IL.1.OSM.1.25vsnone (control).0
+GSE86578	3	IL.1.OSM.24vsnone (control).0
+GSE9329	1	OsteoarthritisvsRhumatoid arthritis
+GSE93698	1	diffuse systemic sclerosisvsMicrocrystalline arthritis
+GSE93698	2	diffuse systemic sclerosisvsOsteoarthritis
+GSE93698	3	diffuse systemic sclerosisvsRheumatoid arthritis
+GSE93698	4	diffuse systemic sclerosisvsSeronegative arthritis
+GSE93698	5	diffuse systemic sclerosisvsSystemic lupus erythematosus
+GSE93698	6	Microcrystalline arthritisvsOsteoarthritis
+GSE93698	7	Microcrystalline arthritisvsRheumatoid arthritis
+GSE93698	8	Microcrystalline arthritisvsSeronegative arthritis
+GSE93698	9	Microcrystalline arthritisvsSystemic lupus erythematosus
+GSE93698	10	OsteoarthritisvsRheumatoid arthritis
+GSE93698	11	OsteoarthritisvsSeronegative arthritis
+GSE93698	12	OsteoarthritisvsSystemic lupus erythematosus
+GSE93698	13	Rheumatoid arthritisvsSeronegative arthritis
+GSE93698	14	Rheumatoid arthritisvsSystemic lupus erythematosus
+GSE93698	15	Seronegative arthritisvsSystemic lupus erythematosus
+E-GEOD-55769	1	Ad-NOER_E2vsAd-NOER
+E-GEOD-55769	2	Ad-NERKI_E2vsAd-NERKI
+E-GEOD-55769	3	Ad-Era_E2vsAd-Era
+E-MTAB-4304	1	DamagedvsIntact
+E-MTAB-4879	1	osteocyte_oldvsosteocyte_young
+E-MTAB-4879	2	chondrocyte_oldvschondrocyte_young
+E-MTAB-4879	3	tendon_oldvstendon_young
+E-MTAB-4879	4	msc_oldvsmsc_young
+E-MTAB-5564	1	osteoarthritisvsnormal
+E-MTAB-6266	1	OAvsnonOA
+GSE77753	1	EDS-HT/JHSvshealthy
+GSE43861	1	Fibrogenesis imperfecta ossiumvscontrol
+GSE112809	1	PBMC after 56 days of CPN10 treatmentvsPBMC at baseline
+GSE111946	1	synthetic precursor miR-218vsscrambled control
+GSE111946	2	inhibitors of miR-218vsAnti-miR Negative Control
+E-MTAB-3201	1	psoriatic arthritis.synovial fluidvshealthy.synovial fluid
+GSE54749	1	treated.with.Hh.inhibitorvsnone
+GSE74220	1	IL1BvsControl
+GSE114007	1	OAvsNonOA
+GSE109503	1	Day21vsDay14
+GSE109503	2	Day14vsDay7
+GSE109503	3	Day7vsDay3
+GSE109503	4	Day3vsDay1
+GSE109503	5	Day1vsDay0
+GSE109503	6	Day21vsDay0
+GSE109503	7	Day14vsDay0
+GSE109503	8	Day7vsDay0
+GSE109503	9	Day3vsDay0
+GSE109503	10	Day1vsDay0
+GSE109108	1	mir138_day2vsNS_control_day2
+GSE109108	2	mir138_day7vsNS_control_day7
+GSE109108	3	mir181_day2vsNS_control_day2
+GSE109108	4	mir181_day7vsNS_control_day7
+GSE57218_B	1	OAvsHealthy
+GSE57218_B	2	PreservedvsHealthy
+GSE99662	1	HighvsLow
+GSE73087	1	MSC-Day1 Induction-ApoA1vsMSC-Day1-Induction
+GSE73087	2	MSC-Day3-Induction-ApoA1vsMSC-Day3-Induction
+GSE73087	3	MSC-Day5-Induction-ApoA-1vsMSC-Day5-Induction
+GSE121892	1	transfected.with.miR.320a.inhibitor..I.vstransfected.with.control.inhibitor..CI.
+GSE121892	2	transfected.with.miR.320a.mimic..M.vstransfected.with.control.mimic..CM.
+GSE114237	1	MG-63, mineralized bonevsMG-63, demineralized bone
+GSE108771	1	Activinvscontrol
+GSE108771	2	Activin + CP-724714vscontrol
+GSE108771	3	Activin + Lapatinibvscontrol
+GSE108771	4	Activin + TAKvscontrol
+EGAD00001001331	1	OsteoarthritisvsNormal
+GSE125167	1	Control_10_days_difvsControl_2_days_dif
+GSE125167	2	Control_2_days_difvsNaiveControl
+GSE125167	3	PLZF_10_days_diffvsPLZF_2_days_diff
+GSE125167	4	PLZF_2_days_diffvsNaivePLZF
+GSE125167	5	PLZF_10_days_diffvsControl_10_days_dif
+GSE125167	6	PLZF_2_days_diffvsControl_2_days_dif
+GSE125167	7	NaivePLZFvsNaiveControl
+GSE80285	1	treated with 40ng/ml recombinant a-Klotho for 7 daysvsuntreated
+GSE80285	2	transfected with siRNA against a-Klothovstransfected with siRNA control
+OANOF	1	OAvsNOF
+GSE70667	1	Flow_2hvsControl_2h
+GSE87608	1	Runx2HET_vehiclevsWT_vehicle
+GSE87608	2	WT_MS275vsWT_vehicle
+GSE87608	3	Runx2HET_MS275vsRunx2HET_vehicle
+GSE87608	4	Runx2HET_MS275vsWT_MS275
+GSE90890	1	Cdc73fKOvsWT
+GSE97118	1	WT_D7vsWT_D3
+GSE97118	2	WT_D14vsWT_D7
+GSE97118	3	Ezh2_cKO_D7vsEzh2_cKO_D3
+GSE97118	4	Ezh2_cKO_D14vsEzh2_cKO_D7
+GSE97118	5	Ezh2_cKO_D7vsWT_D7
+GSE97118	6	Ezh2_cKO_D14vsWT_D14
+GSE97118	7	Ezh2_cKO_D3vsWT_D3
+GSE57740	1	shRNA specific for CHADLvsscrambled negative control shRNA
+GSE52992	1	human TNF transgenic and knockout in Rsk2 gene (Rsk2-/y FLS)vshuman TNF transgenic without knockout (Rsk2+/y FLS)
+GSE17160	1	Wild-type.LPS-treatedvsWild-type.none
+GSE17160	2	Wild-type.HA-treatedvsWild-type.none
+GSE17160	3	Wild-type.TSG6-treatedvsWild-type.none
+GSE17160	4	Wild-type.TNFa-treatedvsWild-type.none
+GSE17160	5	TSG-6 knockout.LPS-treatedvsTSG-6 knockout.none
+GSE17160	6	TSG-6 knockout.HA-treatedvsTSG-6 knockout.none
+GSE17160	7	TSG-6 knockout.TSG6-treatedvsTSG-6 knockout.none
+GSE17160	8	TSG-6 knockout.TNFa-treatedvsTSG-6 knockout.none
+GSE17160	9	TSG-6 knockout.LPS-treatedvsWild-type.LPS-treated
+GSE17160	10	TSG-6 knockout.HA-treatedvsWild-type.HA-treated
+GSE17160	11	TSG-6 knockout.TSG6-treatedvsWild-type.TSG6-treated
+GSE17160	12	TSG-6 knockout.TNFa-treatedvsWild-type.TNFa-treated
+GSE22971	1	MMP-8 KO control mousevsMMP-8 wild type control mouse
+GSE22971	2	MMP-8 KO arthritic mousevsMMP-8 wild type arthritic mouse
+GSE22971	3	MMP-8 wild type arthritic mousevsMMP-8 wild type control mouse
+GSE22971	4	MMP-8 KO arthritic mousevsMMP-8 KO control mouse
+GSE13590	1	siRNA-140vssiRNA-96
+GSE13590	2	antimicroRNA-140vsantimicroRNA-449
+GSE99731	1	DMM.1 wkvssham.1 wk
+GSE99731	2	DMM.6 wkvssham.6 wk
+GSE99731	3	DMM.6 wkvsDMM.1 wk
+GSE27492	1	Ankle.D01vsAnkle.D00
+GSE27492	2	Ankle.D03vsAnkle.D00
+GSE27492	3	Ankle.D07vsAnkle.D00
+GSE27492	4	Ankle.D12vsAnkle.D00
+GSE27492	5	Ankle.D18vsAnkle.D00
+GSE27492	6	Synovial fluid.D07vsSynovial fluid.D03
+GSE27492	7	Synovial fluid.D12vsSynovial fluid.D03
+GSE27492	8	Synovial fluid.D18vsSynovial fluid.D03
+GSE107592	1	Adult CartilagevsEmbryonic Cartilage
+GSE92641	1	Uhrf1KOvsControl
+GSE107849	1	RORB_KOvsControl
+E-GEOD-15069	1	LY294002-treated embryonic primary chondrocyte cultures, incubated for 24hrs.vsDMSO-treated embryonic primary chondrocyte cultures, incubated for 24hrs.
+E-GEOD-15069	2	SB202190-treated embryonic primary chondrocyte cultures, incubated for 24hrs.vsDMSO-treated embryonic primary chondrocyte cultures, incubated for 24hrs.
+E-GEOD-15069	3	TSA-treated embryonic primary chondrocyte cultures, incubated for 24hrs.vsDMSO-treated embryonic primary chondrocyte cultures, incubated for 24hrs.
+E-GEOD-15069	4	UO126-treated embryonic primary chondrocyte cultures, incubated for 24hrs.vsDMSO-treated embryonic primary chondrocyte cultures, incubated for 24hrs.
+E-GEOD-15118	1	The CH10T1/2 cell line transfected with the wild type PTHR1 treated with PTHrPvsThe CH10T1/2 cell line transfected with the wild type PTHR1
+E-GEOD-15118	2	The CH10T1/2 cell line transfected with the R150C variant PTHR1 treated for one hour with PTHrPvsThe CH10T1/2 cell line transfected with the R150C variant PTHR1 treated with carrier
+E-GEOD-15118	3	The CH10T1/2 cell line transfected with the R150C variant PTHR1 treated for one hour with PTHrPvsThe CH10T1/2 cell line transfected with the wild type PTHR1 treated with PTHrP
+E-GEOD-15118	4	The CH10T1/2 cell line transfected with the R150C variant PTHR1 treated with carriervsThe CH10T1/2 cell line transfected with the wild type PTHR1
+E-GEOD-16007	1	microRNA-140 depletionvscontrol
+E-GEOD-17473	1	tissue: TMJ condyle; developmental stage: embryo; age: E16.5vstissue: TMJ fossa; developmental stage: embryo; age: E16.5
+E-GEOD-18647	1	Cre.;Tgfbr2lox/wt.Intervertebral disc (IVD)vsCre.;Tgfbr2lox/lox.Intervertebral disc (IVD)
+E-GEOD-18647	2	Cre.;Tgfbr2lox/wt.VertebraevsCre.;Tgrbr2lox.lox.Vertebrae
+E-GEOD-18647	3	Cre.;Tgfbr2lox/wt.Intervertebral disc (IVD)vsCre.;Tgfbr2lox/wt.Vertebrae
+E-GEOD-18647	4	Cre.;Tgfbr2lox/lox.Intervertebral disc (IVD)vsCre.;Tgrbr2lox.lox.Vertebrae
+E-GEOD-18648	1	TGF.beta1vsnone
+E-GEOD-18648	2	BMP4vsnone
+E-GEOD-2154	1	X15vsX12
+E-GEOD-2154	2	X12vsX9
+E-GEOD-2154	3	X9vsX6
+E-GEOD-2154	4	X6vsX3
+E-GEOD-26475	1	Murine knee joint_Operated (DMM)_6hrvsMurine knee joint_Operated (Sham)_6hr
+E-GEOD-26475	2	Murine knee joint_Operated (DMM)_3dayvsMurine knee joint_Operated (Sham)_3day
+E-GEOD-26475	3	Murine knee joint_Operated (DMM)_7daysvsMurine knee joint_Operated (Sham)_7days
+E-GEOD-33567	1	Mouse C2C12 cells (96h)vsMouse C2C12 cells (0h)
+E-GEOD-33567	2	Mouse C2C12 cells treated with BMP2 (96h)vsMouse C2C12 cells (96h)
+E-GEOD-37287	1	Interdigital Tissue Tbr2Prx1KO mutantsvsInterdigital Tissue Controls
+E-GEOD-37287	2	Growth Plate Chondrocyte Tgfbr2Prx1KO  mutantsvsGrowth Plate Chondrocyte Controls
+E-GEOD-37287	3	Interzone Tgfbr2Prx1KO mutantsvsInterzone Controls
+E-GEOD-51994	1	SZvsMZ
+E-GEOD-51994	2	SZvsDZ
+E-GEOD-51994	3	MZvsDZ
+E-GEOD-54216	1	superficial zonevsintermediate/deep zone
+E-GEOD-54216	2	superficial zonevsresting zone
+E-GEOD-54216	3	intermediate/deep zonevsresting zone
+E-GEOD-6119	1	IL-1vscontrol
+E-GEOD-6119	2	glucosaminevscontrol
+E-GEOD-6119	3	IL-1 and glucosaminevscontrol
+E-GEOD-65077	1	Over expression day 1 (vsControl day 1 (
+E-GEOD-8077	1	contralateral osteoarthritis inductionvsipsilateral osteoarthritic induction
+E-GEOD-8077	2	contralateral osteoarthritis inductionvssham surgery
+E-GEOD-8077	3	ipsilateral osteoarthritic inductionvssham surgery
+E-MEXP-1244	1	dexamethasonevsnone
+E-MTAB-1123	1	wild type.12vswild type.6
+E-MTAB-1123	2	mOL-AR knockout.12vsmOL-AR knockout.6
+E-MTAB-1123	3	mOL-AR knockout.12vswild type.12
+E-MTAB-1123	4	mOL-AR knockout.6vswild type.6
+E-MTAB-1391	1	X27vsX9
+E-MTAB-1391	2	X27vsX0
+E-MTAB-1391	3	X9vsX0
+E-MTAB-2450	1	control.rhBMP2vscontrol.none
+E-MTAB-2450	2	miR-195 transfection.rhBMP2vsmiR-195 transfection.none
+E-MTAB-2450	3	miR-195 transfection.rhBMP2vscontrol.rhBMP2
+E-MTAB-2450	4	miR-195 transfection.nonevscontrol.none
+E-MTAB-5023	1	Mesenchymal cell-specific homozygous deletion of SbdsvsSbds wildtype
+E-MTAB-5326	1	25 MPa pressure.1vsno hydrostatic pressure.NA
+E-MTAB-5326	2	25 MPa pressure.4vsno hydrostatic pressure.NA
+E-MTAB-5326	3	25 MPa pressure.24vsno hydrostatic pressure.NA
+GSE102588	1	X13del.tg.mutant.with.bone.overgrowthvswild.type
+GSE103416	1	monosodium iodoacetate (MIA).2vsnaive.0
+GSE103416	2	monosodium iodoacetate (MIA).14vsnaive.0
+GSE103416	3	monosodium iodoacetate (MIA).28vsnaive.0
+GSE104793	1	IL-1b treatedvsUntreated
+GSE104794	1	Ad-Epas1(HIF-2a) infectedvsAd-null infected
+GSE104795	1	Ad-Zip8 infectedvsAd-null infected
+GSE105139	1	AhsgHETvsAhsgWT
+GSE105139	2	AhsgKOvsAhsgWT
+GSE105139	3	AhsgKOvsAhsgHET
+GSE10555	1	osteoblast Slc39a13 knockoutvsosteoblast wild type
+GSE10556	1	chondrocyte Slc39a13 knockoutvschondrocyte wild type
+GSE106631	1	galectin-8 treated (50nM, 24hrs)vsnone
+GSE13104	1	c2984, osteosarcoma from p53+/- mouse. Non-treated.vsCell type: mc3T3 mouse osteoblast, non-tumorigenic. Non-treated.
+GSE13104	2	Osteosarcoma arisen from p53+/- mouse. Non-treated.vsCell type: mc3T3 mouse osteoblast, non-tumorigenic. Non-treated.
+GSE13104	3	Rhabdomyosarcoma arisen from p53+/- mouse. Non-treated.vsCell type: mc3T3 mouse osteoblast, non-tumorigenic. Non-treated.
+GSE16749	1	RAW 264.7, RANKL + M-CSFvsRAW 264.7, Unstimulated
+GSE16749	2	RAW 264.7, Unstimulated, miR-155vsRAW 264.7, Unstimulated
+GSE16749	3	RAW 264.7, RANKL + M-CSF, miR-155vsRAW 264.7, Unstimulated, miR-155
+GSE17348	1	conditioned medium of MDA-PCa2b cellsvsconditioned medium of PC-3 cells
+GSE17563	1	Differentiating precursorvsPrecursor
+GSE17563	2	OsteoclastvsDifferentiating precursor
+GSE17569	1	ALCAM(+) Sca-1(-)vsALCAM(-) Sca-1(-)
+GSE17569	2	ALCAM(-) Sca-1(+)vsALCAM(-) Sca-1(-)
+GSE17570	1	PDGFRa(+) Sca-1(+)vsPDGFRa(-) Sca-1(-)
+GSE17570	2	PDGFRa(+) Sca-1(-)vsPDGFRa(-) Sca-1(-)
+GSE18991	1	Hoxd4 transgenicvswild type
+GSE18992	1	Hoxc8 transgenicvswild type
+GSE19299	1	Rb KnockoutvsWild type
+GSE19950	1	prothrombin adherent cells from long bonevsosteopontin adherent cells from long bone
+GSE21093	1	RCCSvscontrol
+GSE21523	1	TERC-/-vsTERC+/+
+GSE21639	1	RAW_RL_day1vsRAW_CTRL_day1
+GSE21639	2	RAW_RL_day2vsRAW_CTRL_day2
+GSE21639	3	RAW_RL_day4vsRAW_CTRL_day4
+GSE21639	4	RAW_RL_day5vsRAW_CTRL_day5
+GSE21710	1	time: 24 hvstime: 0 h
+GSE21710	2	time: 12 hvstime: 0 h
+GSE21710	3	time: 6 hvstime: 0 h
+GSE22925	1	Wild type mice, endothelial, G-CSFvsWild type mice, endothelial, untreated
+GSE22925	2	Wild type mice, osteoblasts, G-CSFvsWild type mice, osteoblasts, untreated
+GSE26499	1	RANKlowFmshighvsRANKhighFmslow
+GSE30160	1	knockin mutantvswild type
+GSE30322	1	subchondral bone,operation,1 week postsurgeryvssubchondral bone,sham operation,1 week postsurgery
+GSE30322	2	subchondral bone,operation,2 weeks postsurgeryvssubchondral bone,sham operation,2 weeks postsurgery
+GSE30322	3	subchondral bone,operation,4 weeks postsurgeryvssubchondral bone,sham operation,4 weeks postsurgery
+GSE30628	1	Col10a1 p.Asn617Lysvswild type
+GSE30628	2	ColXTgcogvswild type
+GSE32163	1	del175k mutantvswild-type
+GSE33656	1	Frzb -/-vswild-type
+GSE33754	1	age: 8 weeks.strain: Str/ortvsage: 8 weeks.strain: CBA
+GSE33754	2	age: 18 weeks.strain: Str/ortvsage: 18 weeks.strain: CBA
+GSE33754	3	age: 40 weeks.strain: Str/ortvsage: 40 weeks.strain: CBA
+GSE34570	1	osteoblasts_2uM PP1_24hrvsosteoblasts_DMSO_24hr
+GSE35003	1	Ift88-deletedvswild-type
+GSE35466	1	bone marrow cells, adiponectin, 4 hrsvsbone marrow cells, unterated, 4 hrs
+GSE35466	2	bone marrow cells, adiponectin, 10 hrsvsbone marrow cells, unterated, 10 hrs
+GSE35466	3	bone marrow cells, adiponectin, 24 hrsvsbone marrow cells, unterated, 24 hrs
+GSE35466	4	bone marrow cells, adiponectin, 72 hrsvsbone marrow cells, unterated, 72 hrs
+GSE35466	5	bone marrow cells, adiponectin, 120 hrsvsbone marrow cells, unterated, 120 hrs
+GSE36925	1	BMP2(-),LOXL2(+)vsBMP2(-),LOXL2(-)
+GSE36925	2	BMP2(+),LOXL2(-)vsBMP2(-),LOXL2(-)
+GSE36925	3	BMP2(+),LOXL2(+)vsBMP2(-),LOXL2(-)
+GSE37219	1	NFATc1 fl/fl MxCre+vsNFATc1 fl/fl MxCre-
+GSE37676	1	Mc3T3 cells_treated with AA_5 daysvsMc3T3_untreated_5 days
+GSE41342	1	Gene expression data from DMM joints 2 weeks after surgeryvsGene expression data from sham controls 2 weeks after surgery
+GSE41342	2	Gene expression data from DMM joints 4 weeks after surgeryvsGene expression data from sham controls 4 weeks after surgery
+GSE41342	3	Gene expression data from DMM joints 8 weeks after surgeryvsGene expression data from sham controls 8 weeks after surgery
+GSE41342	4	Gene expression data from DMM joints 16 weeks after surgeryvsGene expression data from sham controls 16 weeks after surgery
+GSE41997	1	Estrogen Receptor alpha knock-outvscontrol
+GSE42295	1	surgery: OA.time after surgery: 2 weeksvssurgery: Sham.time after surgery: 2 weeks
+GSE42295	2	surgery: OA.time after surgery: 8 weeksvssurgery: Sham.time after surgery: 8 weeks
+GSE42295	3	surgery: OA.time after surgery: 8 weeksvssurgery: OA.time after surgery: 2 weeks
+GSE43242	1	Osteoblast specific beta-catenin constitutively expressedvswild type
+GSE43242	2	Osteoblast specific FoxO1 deletedvswild type
+GSE43663	1	PG4P1vsWTP1
+GSE43854	1	mutant (Gnptabc.3082insC)vswild-type
+GSE45656	1	pre-osteoclastsvsMouse bone marrow macrophage
+GSE45656	2	mature osteoclasts on platevspre-osteoclasts
+GSE45656	3	mature resorbing osteoclasts on dentinvspre-osteoclasts
+GSE45793	1	Adamts5Dcat DMM 6wkvsAdamts5Dcat Sham 6wk
+GSE45793	2	Adamts5Dcat DMM 1wkvsAdamts5Dcat Sham 1wk
+GSE45793	3	WT DMM 6wkvsWT Sham 6wk
+GSE45793	4	WT DMM 2wkvsWT Sham 2wk
+GSE45793	5	WT DMM 1wkvsWT Sham 1wk
+GSE46390	1	CSF1vscontrol
+GSE48438	1	Scl-tTA::TRE-BCR/ABLvsControl
+GSE50549	1	SAHA2hrvsDMSO
+GSE50549	2	SAHA6hrvsDMSO
+GSE51098	1	Intermediate interzonevsouter interzone
+GSE53857	1	X2.wks.post.surgery_treatedvsX2.wks.post.surgery_untreated
+GSE53857	2	X4.wks.post.surgery_treatedvsX4.wks.post.surgery_untreated
+GSE53857	3	X8.wks.post.surgery_treatedvsX8.wks.post.surgery_untreated
+GSE53982	1	differentiating MC3T3-E1 cells treated with control scramble shRNAvsproliferating MC3T3-E1 cells treated with control scramble shRNA
+GSE53982	2	differentiating MC3T3-E1 cells treated with Runx2-specific shRNAvsdifferentiating MC3T3-E1 cells treated with control scramble shRNA
+GSE54779	1	Bone marrow monocytes treated with M-CSF and sRANKLvsBone marrow monocytes treated with M-CSF alone
+GSE55900	1	Lrp5KOvsLrp5WT
+GSE57104	1	Rs1 expressing osteoblastsvswild type osteoblasts
+GSE59387	1	Dnmt3a knockoutvswild type
+GSE60401	1	SXR_EtvsDsRed_Et
+GSE60401	2	SXR_VK2vsDsRed_VK2
+GSE60651	1	overexpressing A-CEBPvsoverexpressing GFP
+GSE60737	1	overexpressing HES1vsoverexpressing GFP
+GSE60761	1	genotype: wildtype.treatment: Calcitoninvsgenotype: wildtype.treatment: untreated
+GSE60761	2	genotype: CalcrKO.treatment: Calcitoninvsgenotype: CalcrKO.treatment: untreated
+GSE60761	3	genotype: CalcrKO.treatment: Calcitoninvsgenotype: wildtype.treatment: Calcitonin
+GSE60761	4	genotype: CalcrKO.treatment: untreatedvsgenotype: wildtype.treatment: untreated
+GSE63017	1	Pax1KOvsWT
+GSE63017	2	Pax1HETvsWT
+GSE63017	3	Pax1KOPax9KOvsWT
+GSE63017	4	Pax1KOPax9HETvsWT
+GSE63939	1	Osteoblastic in vitro differentiation of Kusa4b10 mouse cell line.vsKusa4b10 mouse cell line
+GSE63939	2	Osteoblastic in vitro differentiation of Kusa4b10 mouse cell line.vsOsteosarcoma cell line
+GSE64141	1	after 15 days of differentiation in chondrogenic mediavsprior to differentiation
+GSE64965	1	X482.cells.Sox2shRNA.vsX482.cells.scrambledshRNA
+GSE65745	1	X500.ng.ml.doxycyclinevsvehicle..control.
+GSE65745	2	X10nM.E2vsvehicle..control.
+GSE65745	3	X500.ng.ml.doxycycline.and.10nM.E2vsvehicle..control.
+GSE66416	1	MC3T3-E1_over-expressing_periostinvsMC3T3-E1_empty_vector
+GSE66554	1	newbornvsadult
+GSE66554	2	youthvsadult
+GSE66554	3	early-stage elderlyvsadult
+GSE66554	4	latter-stage elderlyvsadult
+GSE66862	1	Eed cKOvsWT
+GSE69108	1	Nasal chondrocytevsRib Chondrocyte
+GSE71565	1	differentiated for 12 daysvsdifferentiated for 5 days
+GSE72261	1	Xbp1Cart{delta}Ex2 HZvsWt HZ
+GSE72261	2	ColXN617K HZvsWt HZ
+GSE72261	3	C/X HZvsWt HZ
+GSE74898	1	cartilage, exercised for 2 daysvscartilage, control
+GSE74898	2	cartilage, exercised for 5 daysvscartilage, control
+GSE74898	3	cartilage, exercised for 15 daysvscartilage, control
+GSE7683	1	DEX-treated embryonic primary chondrocyte cultures, incubated for 6vsDMSO-treated embryonic primary chondrocyte cultures, incubated for 6
+GSE7683	2	DEX-treated embryonic primary chondrocyte cultures, incubated for 24vsDMSO-treated embryonic primary chondrocyte cultures, incubated for 24
+GSE78980	1	TO+/+ 1g no treatmentvsTO+/+ 0g no treatment
+GSE78980	2	TO+/+ 1g treatedvsTO+/+ 1g no treatment
+GSE78980	3	TO+/+ 0g treatedvsTO+/+ 0g no treatment
+GSE78980	4	TO-/- 1g no treatmentvsTO-/- 0g no treatment
+GSE78980	5	TO-/- 1g treatedvsTO-/- 1g no treatment
+GSE78980	6	TO-/- 0g treatedvsTO-/- 0g no treatment
+GSE78980	7	TO-/- 1g no treatmentvsTO+/+ 1g no treatment
+GSE78980	8	TO-/- 0g no treatmentvsTO+/+ 0g no treatment
+GSE78980	9	TO-/- 1g treatedvsTO+/+ 1g treated
+GSE78980	10	TO-/- 0g treatedvsTO+/+ 0g treated
+GSE79176	1	low (0.01mg/ml) concentration of polyphosphatesvsnone (control)
+GSE79176	2	high (1mg/ml) concentration of polyphosphatesvsnone (control)
+GSE79176	3	high (1mg/ml) concentration of polyphosphatesvslow (0.01mg/ml) concentration of polyphosphates
+GSE81399	1	FACS sorted Dmp1-Cre targeted CAR cells from mouse bone marrowvsFACS sorted Dmp1-Cre non-targeted CAR cells from mouse bone marrow
+GSE84609	1	X100.ng.ml.rGDF11vsVehicle.control
+GSE84907	1	pH7.8vspH7.4
+GSE84907	2	pH8.4vspH7.4
+GSE84907	3	pH8.4vspH7.8
+GSE85785	1	leptin-inducedvshealthy control
+GSE90127	1	osteoblasts in differentiation medium and cabozantinib for 30 daysvsundifferentiated mouse osteoblasts
+GSE90127	2	osteoblasts in differentiation medium and cabozantinib for 30 daysvsdifferentiated 30 day mouse osteoblasts
+GSE90127	3	differentiated 30 day mouse osteoblastsvsundifferentiated mouse osteoblasts
+GSE9247	1	MS-275 treated MC3T3 micevsDMSO treated MC3T3 mice
+GSE9247	2	TSA treated MC3T3 micevsDMSO treated MC3T3 mice
+GSE9247	3	VPA treated MC3T3 micevsDMSO treated MC3T3 mice
+GSE99306	1	X13delChopKO_LHZvsWT_LHZ
+GSE99306	2	X13delChopKO_LHZvsX13del_LHZ
+GSE99306	3	X13del_LHZvsWT_LHZ
+GSE99306	4	X13delChopKO_MHZvsX13del_MHZ
+GSE99306	5	X13delChopKO_pHZvsWT_pHZ
+GSE99306	6	X13delChopKO_pHZvsX13del_pHZ
+GSE99306	7	X13del_pHZvsWT_pHZ
+GSE99306	8	X13delChopKO_PZvsWT_PZ
+GSE99306	9	X13delChopKO_PZvsX13del_PZ
+GSE99306	10	X13del_PZvsWT_PZ
+GSE99306	11	X13delChopKO_UHZvsWT_UHZ
+GSE99306	12	X13delChopKO_UHZvsX13del_UHZ
+GSE99306	13	X13del_UHZvsWT_UHZ
+GSE99414	1	Il15ra nullvsCtrl
+E-ERAD-89	1	MELATONIN_6vsDMSO_6
+E-ERAD-89	2	MELATONIN_24vsDMSO_24
+E-ERAD-89	3	SEROTONIN_24vsDMSO_24
+E-ERAD-89	4	MELATONIN_48vsDMSO_48
+E-GEOD-45893	1	Osr1MutvsOsr1WT
+E-GEOD-53105	1	diaphysis_KOvsdiaphysis_WT
+E-GEOD-53105	2	metaphysis_KOvsmetaphysis_WT
+E-GEOD-54461	1	Day4vsDay2
+E-GEOD-54461	2	Day6vsDay2
+E-GEOD-54461	3	Day8vsDay2
+E-GEOD-54461	4	Day10vsDay2
+E-GEOD-54461	5	Day12vsDay2
+E-GEOD-54461	6	Day14vsDay2
+E-GEOD-54461	7	Day16vsDay2
+E-GEOD-54461	8	Day18vsDay2
+E-GEOD-73372	1	P1vsE18.5
+E-GEOD-73372	2	P3vsE18.5
+E-GEOD-73372	3	P3vsP1
+E-GEOD-75549	1	hdac3KOvsWT
+E-GEOD-76988	1	STAT5_cKOvsSTAT5_WT
+E-MTAB-2923	1	osteoblastvsimmature_osteoblast
+E-MTAB-2923	2	immature_osteoblastvsosteoprogenitor
+E-MTAB-2923	3	osteoblastvsosteoprogenitor
+E-MTAB-2923	4	osteoblastvsmesenchymal_stem_cell
+E-MTAB-3428	1	KO-5AMvsWT-5AM
+E-MTAB-3428	2	KO-5PMvsWT-5PM
+E-MTAB-3428	3	KO-9AMvsWT-9AM
+E-MTAB-3428	4	KO-9PMvsWT-9PM
+GSE102856	1	Senp6-MutvsWT
+GSE103492	1	WT_Wnt3avsWT
+GSE103492	2	Lrp5KOvsWT
+GSE103492	3	Lrp5KO_Wnt3avsWT
+GSE103492	4	Lrp5KO_Wnt3avsLrp5KO
+GSE103492	5	Lrp6_KOvsLrp6_Ctl
+GSE103492	6	Lrp6KO_Wnt3avsLrp6_Ctl
+GSE103492	7	Lrp6KO_Wnt3avsLrp6_KO
+GSE103492	8	Lrp5_6_KOvsLrp5_6_Ctl
+GSE103492	9	Lrp5_6_KO_Wnt3avsLrp5_6_Ctl
+GSE103492	10	Lrp5_6_KO_Wnt3avsLrp5_6_KO
+GSE106259	1	CCL5vsControl
+GSE23492	1	Cell culture of isolated chondrocytes from growth plate cartilage, day 20 of differentiationvsNative growth plate cartilage
+GSE23492	2	Cell culture of isolated chondrocytes from growth plate cartilage, day 10 of differentiationvsNative growth plate cartilage
+GSE23492	3	Cell culture of isolated chondrocytes from articular cartilage, day 20 of differentiationvsNative articular cartilage
+GSE23492	4	Cell culture of isolated chondrocytes from articular cartilage, day 10 of differentiationvsNative articular cartilage
+GSE23492	5	Native articular cartilagevsNative growth plate cartilage
+GSE44991	1	cartilage tissue from the condylus medialis femoris.affectedvscartilage tissue from the condylus medialis femoris.non-affected
+GSE44991	2	cartilage tissue from the medial part of condylus humeri.affectedvscartilage tissue from the medial part of condylus humeri.non-affected
+GSE39796	1	cartilage, superficial zonevscartilage, deep zone
+GSE39796	2	cartilage, middle zonevscartilage, deep zone
+GSE39796	3	cartilage, superficial zonevscartilage, middle zone
+GSE18394	1	chondrocytes_day28vsMSC_day0
+GSE18394	2	chondrocytes_day28vsMSC_day28
+GSE18394	3	MSC_day28vsMSC_day0
+GSE29233	1	TGFb treatedvsUntreated
+E-MEXP-2291	1	nucleus pulposusvsarticular cartilage
+E-MEXP-2291	2	annulus fibrosusvsarticular cartilage
+E-MEXP-2291	3	nucleus pulposusvsannulus fibrosus
+GSE110581	1	Zfp36l1 shRNA AdenovirusvsNull Control Adenovirus
+GSE110581	2	Zfp36l1 AdenovirusvsNull Control Adenovirus
+GSE47799	1	meniscusvsarticular cartilage
+GSE47799	2	meniscusvscruciate ligament
+GSE47799	3	cruciate ligamentvsarticular cartilage
+E-MTAB-5879	1	Injury.Day7vsControl.Day0
+E-MTAB-5879	2	Injury.Day28vsControl.Day0
+E-MTAB-5879	3	InjuryReconstruct.Day7vsControl.Day0
+E-MTAB-5879	4	InjuryReconstruct.Day28vsControl.Day0
+E-MTAB-5879	5	InjuryRepair.Day7vsControl.Day0
+E-MTAB-5879	6	InjuryRepair.Day28vsControl.Day0
+E-MTAB-5879	7	InjuryRepair.Day28vsInjury.Day28
+E-MTAB-5879	8	InjuryReconstruct.Day28vsInjury.Day28
+E-MTAB-5879	9	InjuryRepair.Day7vsInjury.Day7
+E-MTAB-5879	10	InjuryReconstruct.Day7vsInjury.Day7
+E-MTAB-4294	1	synovitisvsControl
+E-MTAB-4294	2	synovitis_with_corticosteroidvsControl
+E-MTAB-4294	3	synovitis_with_corticosteroidvssynovitis
+E-MTAB-3186	1	Day1vsControl
+E-MTAB-3186	2	Day5vsControl
+E-MTAB-3186	3	Day9vsControl
+E-MTAB-3186	4	Day14vsControl
+GSE110303	1	WT_PlbvsWT_E2
+GSE110303	2	KO_PlbvsWT_Plb
+GSE110303	3	KO_E2vsWT_E2
+GSE110300	1	WT_PlbvsWT_E2
+GSE110300	2	KO_PlbvsWT_Plb
+GSE110300	3	KO_E2vsWT_E2
+GSE110281	1	Sox9PosvsLrg5Pos
+GSE110281	2	Sox9PosvsLrg5Neg
+GSE110281	3	Lrg5PosvsLrg5Neg
+GSE104459	1	E12.5_Pitx_KOvsE12.5WT
+GSE104459	2	E11.5_Pitx_KOvsE11.5WT
+GSE104459	3	E9.5_Pitx_KOvsE9.5WT
+GSE110051	1	Mature_cartilagevsImmature_cartilage
+GSE110051	2	BonevsMature_cartilage
+GSE110051	3	BonevsImmature_cartilage
+GSE111628	1	ovariectomizedvssham surgery
+GSE111628	2	ovariectomized mice with treadmill trainingvsovariectomized
+GSE111628	3	ovariectomized mice with treadmill trainingvssham surgery
+GSE5657	1	Hyp malevsNormal male
+GSE5657	2	Hyp femalevsNormal female
+GSE13782	1	InflamedvsNormal
+GSE41039	1	proteoglycan-induced spondylitisvsnone (Control)
+GSE112694	1	Zfp384KO_3DayvsWT_3Days
+GSE112694	2	Zfp384KO_7DayvsWT_7Days
+GSE112694	3	WT_7DaysvsWT_3Days
+GSE112694	4	Zfp384KO_7DayvsZfp384KO_3Day
+GSE84198	1	Ezh2 KO proximal tibia PZvsWT proximal tibia PZ
+GSE84198	2	Ezh2 KO proximal tibia HZvsWT proximal tibia HZ
+GSE84198	3	WT proximal tibia PZvsWT proximal tibia HZ
+GSE114469	1	Y1 deficient mousevsWT mouse
+GSE108036	1	ANP32A KOvsWild.type
+GSE97232	1	p21 misexpressionvsControl
+GSE114079	1	SMAD3KO_E11.5vsWT_E11.5
+GSE114079	2	SMAD3KO_E12.5vsWT_E12.5
+GSE114079	3	SMAD3KO_E13.5vsWT_E13.5
+GSE114079	4	SMAD3KO_E14.5vsWT_E14.5
+GSE104828	1	Tet2KOvsWT
+GSE114521	1	Sox9null_E11.5vsControl_E11.5
+GSE114521	2	Sox9null_E12.5vsControl_E12.5
+GSE112413	1	Mutant_SkullvsWT_Skull
+GSE112413	2	WT_Cranial_BasevsWT_Skull
+GSE101909	1	E14.5_Fgf8vsE14.5_Ctrl
+GSE101909	2	E16.5_Fgf8vsE16.5_Ctrl
+GSE114919	1	Phalanx_PZ_1wkvsPhalanx_HZ_1wk
+GSE114919	2	Tibia_PZ_4wkvsTibia_PZ_1wk
+GSE114919	3	Tibia_PZ_4wkvsTibia_HZ_4wk
+GSE114919	4	Tibia_PZ_1wkvsTibia_HZ_1wk
+GSE114919	5	Tibia_HZ_4wkvsTibia_HZ_1wk
+GSE60451	1	TIMPlessvswild type
+GSE47902	1	SHOX transgenevswildtype
+GSE44325	1	Sost-/-; Sostdc1-/-vswild-type
+GSE4481	1	R/P.CNP at 10exp(-6) MvsR/P.vehicle: BSA/HCL 1.0 Mm
+GSE4481	2	H.CNP at 10exp(-6) MvsH.vehicle: BSA/HCL 1.0 Mm
+GSE4481	3	M.CNP at 10exp(-6) MvsM.vehicle: BSA/HCL 1.0 Mm
+GSE102292	1	15 daysvs12 days
+GSE102292	2	12 daysvs9 days
+GSE102292	3	9 daysvs6 days
+GSE102292	4	6 daysvs2 days
+GSE114919_Rat	1	Phalanx_PZ_1wkvsPhalanx_HZ_1wk
+GSE114919_Rat	2	Tibia_PZ_4wkvsTibia_PZ_1wk
+GSE114919_Rat	3	Tibia_PZ_4wkvsTibia_HZ_4wk
+GSE114919_Rat	4	Tibia_PZ_1wkvsTibia_HZ_1wk
+GSE114919_Rat	5	Tibia_HZ_4wkvsTibia_HZ_1wk
+GSE41898	1	Lkb1 mutant micevscontrol mice
+GSE18738	1	hypertrophic zonevsreserve zone
+GSE87605	1	Hypertrophic cell layervsFlat cell layer
+GSE87605	2	Flat cell layervsRound cell layer
+GSE87605	3	Hypertrophic cell layervsRound cell layer
+GSE16981	1	Hypertrophic zone.1 weekvsProliferative zone.1 week
+GSE16981	2	Resting zone.1 weekvsProliferative zone.1 week
+GSE16981	3	Hypertrophic zone.1 weekvsResting zone.1 week
+GSE16981	4	Hypertrophic zone.1 weekvsResting zone.1 week
+GSE16981	5	Proliferative and early hypertrophic zone.6weeksvsProliferative and early hypertrophic zone.3weeks
+GSE16981	6	Proliferative and early hypertrophic zone.9weeksvsProliferative and early hypertrophic zone.6weeks
+GSE16981	7	Proliferative and early hypertrophic zone.12weeksvsProliferative and early hypertrophic zone.9weeks
+GSE29859	1	CorticalBone_ExcessVitAvsCorticalBone_Control
+GSE29859	2	CorticalBone.Marrow_ExcessVitAvsCorticalBone.Marrow_Control
+GSE121780	1	Apert syndrome_mandibular bonevscontrol_mandibular bone
+GSE121780	2	Apert syndrome_Meckel's cartilagevscontrol_Meckel's cartilage
+GSE121780	3	Apert syndrome_mandibular condylar cartilagevscontrol_mandibular condylar cartilage
+GSE104473	1	Mandibular Distraction_10_BCSPvsMandibular Fracture_10_BCSP
+GSE104473	2	Mandibular Distraction_10_OPvsMandibular Fracture_10_OP
+GSE104473	3	Mandibular Distraction_10_SSCvsMandibular Fracture_10_SSC
+GSE104473	4	Mandibular Distraction_15_BCSPvsMandibular Fracture_15_BCSP
+GSE104473	5	Mandibular Distraction_15_OPvsMandibular Fracture_15_OP
+GSE104473	6	Mandibular Fracture_15_SSCvsMandibular Distraction_15_SSC
+GSE121033	1	Lentiviruses expressing LucvsNon surgery
+GSE121033	2	Lentiviruses expressing PC2vsNon surgery
+GSE108721	1	WT_RANKLvsWT_Basal
+GSE108721	2	Mir182Loss_BasalvsWT_Basal
+GSE108721	3	Mir182Gain_BasalvsWT_Basal
+GSE108721	4	Mir182Loss_RANKLvsWT_RANKL
+E-MTAB-6417	1	bone marrow.fracturevsbone marrow.none
+E-MTAB-6417	2	periosteum.fracturevsperiosteum.none
+E-MTAB-6417	3	periosteum.fracturevsbone marrow.fracture
+E-MTAB-6417	4	periosteum.nonevsbone marrow.none
+GSE120308	1	P5 Xbp1 KOvsP5 Xbp1 WT
+GSE120308	2	P5 Xbp1 WT Matn3 MUTvsP5 Xbp1 KO Matn3 MUT
+GSE120308	3	P5 Xbp1 KO Matn3 MUTvsP5 Xbp1 KO
+GSE120308	4	P5 Xbp1 WT Matn3 MUTvsP5 Xbp1 WT
+GSE115084	1	Flcn targeted siRNA transfectedvsscramble siRNA transfected
+E-GEOD-8488	1	LYvsDMSO
+E-GEOD-8488	2	UO126vsDMSO
+E-GEOD-8488	3	SB90vsDMSO
+E-GEOD-8488	4	TSAvsDMSO
+E-MTAB-6857	1	FournucleivsTwonuclei
+GSE112641	1	Injured_MRL_MpJ_1_day_post_injuryvsUninjured_MRL_MpJ_1_day_post_injury
+GSE112641	2	Injured_C57BL_6_1_day_post_injuryvsUninjured_C57BL_6_1_day_post_injury
+GSE112641	3	Injured_STR_ort_1_day_post_injuryvsUninjured_STR_ort_1_day_post_injury
+GSE112641	4	Injured_MRL_MpJ_1_week_post_injuryvsUninjured_MRL_MpJ_1_week_post_injury
+GSE112641	5	Injured_C57BL_6_1_week_post_injuryvsUninjured_C57BL_6_1_week_post_injury
+GSE112641	6	Injured_STR_ort_1_week_post_injuryvsUninjured_STR_ort_1_week_post_injury
+GSE112641	7	Injured_MRL_MpJ_2_weeks_post_injuryvsUninjured_MRL_MpJ_2_weeks_post_injury
+GSE112641	8	Injured_C57BL_6_2_weeks_post_injuryvsUninjured_C57BL_6_2_weeks_post_injury
+GSE112641	9	Injured_STR_ort_2_weeks_post_injuryvsUninjured_STR_ort_2_weeks_post_injury
+GSE120244	1	Cre recombinasevsGFP
+GSE121029	1	Lentiviruses expressing WT DGCR8vsLentiviruses expressing Luc
+GSE121029	2	Lentiviruses expressing mtDRBD DGCR8vsLentiviruses expressing Luc
+GSE123076	1	Adamts17-/-vswild type
+GSE125153	1	Bcl3 knockout_1 dayvsWild-type_1 day
+GSE125153	2	Bcl3 knockout_3 daysvsWild-type_3 days
+GSE125153	3	Wild-type_3 daysvsWild-type_1 day
+GSE125153	4	Bcl3 knockout_3 daysvsBcl3 knockout_1 day
+GSE128402	1	Col2Cre; Adgrg6f/fvswild type
+GSE7685	1	Manually.microdissected.embryonic.tibiae..zone.I.of.growth.platevsManually.microdissected.embryonic.tibiae..zone.II.of.growth.plate
+GSE7685	2	Manually.microdissected.embryonic.tibiae..zone.II.of.growth.platevsManually.microdissected.embryonic.tibiae..zone.III.of.growth.plate
+GSE7685	3	Manually.microdissected.embryonic.tibiae..zone.I.of.growth.platevsManually.microdissected.embryonic.tibiae..zone.III.of.growth.plate
+GSE97828	1	MUTvsWT
+GSE98295	1	miR-140 WT/G heterovsmiR-140 WT
+GSE98295	2	miR-140 G/GvsmiR-140 WT
+GSE98295	3	miR-140 KOvsmiR-140 WT

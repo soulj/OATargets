@@ -1,0 +1,253 @@
+---
+title: "Network Expansion of OA genes"
+output: html_notebook
+---
+Network diffusion to find genes likely to affect OA and expand existing known pathways.
+
+Get all the known OA genes to be used as input into the algorithm
+```{r}
+library(ggplot2)
+library(dplyr)
+library(gridExtra)
+library(tidyverse)
+library(ggsci)
+library(lubridate)
+library(WriteXLS)
+library(diffuStats)
+library(igraph)
+library(readxl)
+library(cowplot)
+library(ggbeeswarm)
+
+#read the annotations and combine for summary graphs
+geneticAnnotations <- read.delim("../data/geneticAnnotations.txt",check.names = F)
+geneticAnnotations$Model <- stringr::str_trim(geneticAnnotations$Model)
+
+geneticAnnotations <- geneticAnnotations[ geneticAnnotations$`Susceptibility observed` %in% c("Protective","Detrimental","No effect"),]
+geneticAnnotations$`Susceptibility observed`  <- as.factor(geneticAnnotations$`Susceptibility observed` )
+geneticAnnotations$`Susceptibility observed`  <-  factor(geneticAnnotations$`Susceptibility observed` ,levels(geneticAnnotations$`Susceptibility observed` )[c(1,3,2,4)])
+colnames(geneticAnnotations)[7]<-"Delivery"
+
+
+exogenousAnnotations <- read.delim("../data/exogenousAnnotations.txt",check.names = F)
+exogenousAnnotations$Model <- stringr::str_trim(exogenousAnnotations$Model)
+
+exogenousAnnotations <- exogenousAnnotations[ exogenousAnnotations$`Susceptibility observed`  %in% c("Protective","Detrimental","No effect"),]
+exogenousAnnotations$`Susceptibility observed`  <- as.factor(exogenousAnnotations$`Susceptibility observed` )
+exogenousAnnotations$`Susceptibility observed`  <-  factor(exogenousAnnotations$`Susceptibility observed` ,levels(exogenousAnnotations$`Susceptibility observed` )[c(1,3,2,4)])
+colnames(exogenousAnnotations)[2]<-"Gene"
+
+geneticAnnotations$Type <- "Genetic"
+exogenousAnnotations$Type <- "Exogenous"
+geneticAnnotations$Intervention <- NA
+
+#combine the data
+combined <- geneticAnnotations[,c(2,6,4,7)]
+combined2 <- exogenousAnnotations[ ,c(2,7,5,8)]
+colnames(combined2)<-colnames(combined)
+combined <- rbind(combined,combined2)
+colnames(combined)[2] <- "effect"
+
+
+#remove no effect genes as often the cause of the ambignousness and aim to maximise the number of genes to learn from
+combined <- combined[ combined$effect != "No effect",]
+combined <- combined %>% dplyr::group_by(Gene) %>% dplyr::mutate(effectConsensus =  replace(effect,  dplyr::n_distinct(effect)>1,"Ambiguous" ) ) %>%  dplyr::filter(row_number(Gene) == 1) %>% as.data.frame()
+combined$effectConsensus <- as.character(combined$effectConsensus)
+combined <- combined[order(combined$effectConsensus),]
+
+
+```
+
+
+Cross Validation to test the performance - 5 fold - repeated 100x
+```{r}
+#set to the network
+network <- read.delim("../data/network.txt",stringsAsFactors = F)
+network <- igraph::graph.data.frame(network,directed = F)
+network <- decompose.graph(network)[[1]]
+network <- simplify(network)
+mat <- as.matrix(ifelse(V(network)$name %in% combined$Gene,1,0))
+colnames(mat)<-"OA"
+rownames(mat)<-V(network)$name
+network <- as.undirected(network)
+
+#computation of the kernal takes ~4 hours but only has to be done once if saved
+#kernal <- diffuStats::regularisedLaplacianKernel(network)
+# save(kernal,file="../data/kernal.RData")
+
+#load the precomputed kernal
+load("../data/kernal2.RData")
+
+
+#5 fold cross-validation
+set.seed(123)
+
+combinedGenes <- unique(combined$Gene)
+combinedGenes <- combinedGenes[ combinedGenes %in% V(network)$name]
+
+crossValidate <- function(kernal,network){
+  
+  #get random samples  
+  indexes <- sample.int(length(combinedGenes),length(combinedGenes)/5)
+  testGenes <- combinedGenes[indexes]
+  trainGenes <- combinedGenes[-indexes]
+  unlabelledGenes <- V(network)$name[!V(network)$name %in% combinedGenes]
+  unlabelled <- unlabelledGenes[sample.int(length(unlabelledGenes),length(testGenes))]
+
+  mat <- as.matrix(ifelse(V(network)$name %in% trainGenes,1,0))
+  colnames(mat)<-"OA"
+  rownames(mat)<-V(network)$name
+  network <- as.undirected(network)
+  
+  diff <- diffuse(K = kernal,scores = mat,method = "raw")
+  
+  #test the performance
+  val <- data.frame(OA=c(rep(1,length(testGenes)),rep(0,length(unlabelled))))
+  rownames(val) <- c(as.character(testGenes),unlabelled)
+  #auc <- perf_eval(diff,as.matrix(val))
+  
+  
+  diff <- as.data.frame(diff)
+  diff$rank <- rank(-diff$OA)
+  
+  testGenes <- diff[rownames(diff) %in% combinedGenes[indexes],"rank"]
+  unlabelledGenes <- diff[!rownames(diff) %in% combinedGenes,"rank"]
+
+  return(list(testGenes,unlabelledGenes))
+
+}
+
+#cross-validate with 100 repeats
+results <- replicate(100,crossValidate(kernal,network),simplify = F)
+
+#get the ranks for the held out data, the unlabelled data and the GWAS genes
+resultsTest <- data.frame(ranks=unlist(lapply(results,"[[",1)),class="Held out OA")
+resultsUnlabelled <- data.frame(ranks=unlist(lapply(results,"[[",2)),class="Unlabelled")
+
+combinedResults<- rbind(resultsTest,resultsUnlabelled)
+
+median(resultsTest$ranks)
+
+box <- ggplot(combinedResults , aes(x = class, y = ranks,fill=class)) +  geom_violin(aes(fill=class),draw_quantiles = c(.5)) + cowplot::theme_cowplot(font_size = 20) + scale_fill_npg() +  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +ylab("Protein Rank") +theme(legend.position = "none")
+
+#cowplot::save_plot("results/networkExpansion.png",box,base_width = 10,base_height = 6)
+
+```
+
+Get the gene expression data to compare
+
+```{r}
+#get the details of the osteoarthritis datasets
+OA <- read.csv("../data/OADatasets.csv",header = T,stringsAsFactors = F)
+
+getDatasets <- function(accession,label,species){
+  toRead <- list.files(path = "../data",pattern = gsub("_","_cutTable_",accession),recursive = T,full.names = T)
+  files <- lapply(toRead,read.delim,stringsAsFactors=FALSE)
+  files <- lapply(files,summariseGeneExp,species)
+  names(files)<-rep(label,length(files))
+  return(files)
+  
+}
+
+#convert the genes to human orthologs and keep the most differentially expressed gene if multiple probes
+summariseGeneExp <- function(differentialExpression,species) {
+  
+colnames(differentialExpression)[c(1,3)] <- c("GeneSymbol","padj")  
+  
+ if(species=="Mouse") {
+   homology <- read.delim("../data/Homology.mouse.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ } else if(species=="Rat") {
+   homology <- read.delim("../data/Homology.rat.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ } else if(species=="Pig") {
+   homology <- read.delim("../data/Homology.pig.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ }
+  
+ differentialExpression <- differentialExpression %>% 
+            group_by(GeneSymbol) %>% dplyr::slice(which.min(padj)) %>% 
+            as.data.frame
+    return(differentialExpression)
+}
+
+#get the expression data 
+OADatasets <- mapply(getDatasets,OA$Accession,OA$Exp,OA$Species,SIMPLIFY = F)
+OADatasets<- unlist(OADatasets,recursive = F)
+
+diffExp <- lapply(OADatasets,function(x) na.omit(x[ abs(x[,2]) >= log2(1.5) & x[,3]<=0.05,1]))
+
+#split the datasets into human and animal model studies
+diffExp.Human <- diffExp[OA$Species=="Human"]
+diffExp.nonHuman <- diffExp[OA$Species!="Human"]
+```
+
+Use all known OA genes to rank every protein in the PPI network
+Validate using genes reported to effect OA animal models in OARSI 2020 abstracts
+```{r}
+#use all the known OA genes to predict new OA genes
+diff <- diffuStats::diffuse(K=kernal,scores=mat,method = "raw")
+diff <- data.frame(rownames(diff ),diff[,1],mat[,1])
+
+#cross reference with the human gene expression data to provide extra evidence
+#sig <- lapply(OADatasets,function(x) na.omit(x[ abs(x[,2])>=log2(1.5) & x[,3]<=0.05,1]))
+diffSig <- rowSums(do.call(rbind,lapply(diff[,1],function(gene) as.numeric(sapply(diffExp.Human,function(sig) gene %in% sig)))))
+diff$sig <- diffSig
+
+diffSig.model <- rowSums(do.call(rbind,lapply(diff[,1],function(gene) as.numeric(sapply(diffExp.nonHuman,function(sig) gene %in% sig)))))
+diff$sigModel <- diffSig.model
+
+#get number of OA genes
+V(network)$OA <- ifelse(V(network)$name %in% combinedGenes,1,0)
+neighbours <- igraph::neighborhood(network,nodes =V(network)$name, order = 1)
+prior_score <- sapply(neighbours,function(x) sum(x$OA))
+prior_score <- data.frame(V(network)$name,prior_score)
+diff <- merge(diff,prior_score,by=1,all.x=T)
+
+diff$rank <- rank(-diff$diff...1.,na.last = "keep")
+
+diff <- diff[ order(diff$rank,decreasing = F),]
+diff <- diff[,c(-2)]
+colnames(diff) <- c("Gene Name","OA associated","Number of Human Diff Exp Studies","Number of Animal Model Diff Exp Studies","OA gene interactions","Rank")
+
+
+oarsi<-read.delim("../data/oarsi.txt")
+oarsiRanks <- data.frame(rank=diff[ diff$`Gene Name` %in% oarsi$Gene,6],class="OARSI")
+
+#are the ranks of the oarsi genes significant?
+wilcox.test(oarsiRanks$rank,mu = nrow(mat)/2)
+
+validation <-  ggplot(oarsiRanks , aes(x = class, y = rank,fill=class)) + geom_quasirandom(aes(color=class,size=2))  + cowplot::theme_cowplot(font_size = 20) + scale_fill_npg() +  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +ylab("Protein Rank") +  stat_summary(fun.y = median, fun.ymin = median, fun.ymax = median,
+                 geom = "crossbar", width = 0.5) + geom_hline(yintercept=nrow(mat)/2, linetype="dashed", color = "black", size=1) + ylim(0,nrow(mat)) + theme(legend.position = "none")
+
+
+
+grid <- cowplot::plot_grid(box,validation,nrow = 1,axis = "tblr",align = "hv",rel_widths = c(1,0.7),labels = c("A","B"),label_size = 22)
+cowplot::save_plot(grid,file="../results/NetworkExpansion_Figure3.jpg",base_width = 6,base_height = 6)
+
+
+#get the GWAS nearest genes
+GWAS <- read_excel("../data/GWAS.xlsx",skip=2)
+GWAS.genes <- na.omit(unique(GWAS$`nearest gene`))
+
+#label proteins if they are mentioned in OARSI abstracts or are near OA GWAS variants
+diff$OARSI <- ifelse(diff$`Gene Name` %in% oarsi$Gene,1,0)
+diff$GWAS <- ifelse(diff$`Gene Name` %in% GWAS.genes,1,0)
+
+ tractability <- read.delim("../data/tractability_buckets-2020-03-26.tsv")
+ tractability <- tractability[ ,c("symbol","ensembl_gene_id","Category_ab","Category_sm")]
+ diff <- merge(diff,tractability,by=1,all.x=T)
+colnames(diff)[10:11]<-c("Anibody Tractability","Small molecule Tractability")
+diff <- diff[ order(diff$Rank,decreasing = F),]
+
+legend <- read.delim("../data/supp4Legend.txt",header = F,stringsAsFactors = F)
+WriteXLS(list(legend,diff,oarsi),"../supp/SupplementryTable4.xlsx",SheetNames = c("Legend","Diffusion","Validation"),AdjWidth = TRUE)
+
+
+```

@@ -1,0 +1,411 @@
+---
+title: "Comparison of animal model OA genes and OA gene expression data"
+output: html_notebook
+---
+
+overlap of OA gene expression data and the animal model modulated genes
+```{r}
+
+library(ggplot2)
+library(gridExtra)
+library(tidyverse)
+library(ggsci)
+library(GeneOverlap)
+library(WriteXLS)
+library(readxl)
+library(cowplot)
+
+#load the utility functions
+source("utilityFunctions.R")
+
+#get the details of the osteoarthritis datasets
+OA <- read.csv("../data/OADatasets.csv",header = T,stringsAsFactors = F)
+
+getDatasets <- function(accession,label,species){
+  toRead <- list.files(path = "../data",pattern = gsub("_","_cutTable_",accession),recursive = T,full.names = T)
+  files <- lapply(toRead,read.delim,stringsAsFactors=FALSE)
+  files <- lapply(files,summariseGeneExp,species)
+  names(files)<-rep(label,length(files))
+  return(files)
+  
+}
+
+#convert the genes to human orthologs and keep the most differentially expressed gene if multiple probes
+summariseGeneExp <- function(differentialExpression,species) {
+  
+colnames(differentialExpression)[c(1,3)] <- c("GeneSymbol","padj")  
+  
+ if(species=="Mouse") {
+   homology <- read.delim("../data/Homology.mouse.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ } else if(species=="Rat") {
+   homology <- read.delim("../data/Homology.rat.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ } else if(species=="Pig") {
+   homology <- read.delim("../data/Homology.pig.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ }
+  
+ differentialExpression <- differentialExpression %>% 
+            group_by(GeneSymbol) %>% dplyr::slice(which.min(padj)) %>% 
+            as.data.frame
+    return(differentialExpression)
+}
+
+#get the expression data 
+OADatasets <- mapply(getDatasets,OA$Accession,OA$Exp,OA$Species,SIMPLIFY = F)
+OADatasets<- unlist(OADatasets,recursive = F)
+
+#create lists of significantly up and down regulated genes from the datasets
+upSig <- lapply(OADatasets,function(x) na.omit(x[  x[,2]>=log2(1.5) & x[,3]<=0.05,1]))
+downSig <- lapply(OADatasets,function(x) na.omit(x[ x[,2]<= log(1/1.5) & x[,3]<=0.05,1]))
+diffExp <- lapply(OADatasets,function(x) na.omit(x[ abs(x[,2]) >= log2(1.5) & x[,3]<=0.05,1]))
+
+#split the datasets into human and animal model studies
+diffExp.Human <- diffExp[OA$Species=="Human"]
+diffExp.nonHuman <- diffExp[OA$Species!="Human"]
+
+#combine the genetic and exogenous animal model gene data
+
+#read the annotations and combine for summary graphs
+geneticAnnotations <- read.delim("../data/geneticAnnotations.txt",check.names = F)
+geneticAnnotations$Model <- stringr::str_trim(geneticAnnotations$Model)
+
+geneticAnnotations <- geneticAnnotations[ geneticAnnotations$`Susceptibility observed` %in% c("Protective","Detrimental","No effect"),]
+geneticAnnotations$`Susceptibility observed`  <- as.factor(geneticAnnotations$`Susceptibility observed` )
+geneticAnnotations$`Susceptibility observed`  <-  factor(geneticAnnotations$`Susceptibility observed` ,levels(geneticAnnotations$`Susceptibility observed` )[c(1,3,2,4)])
+colnames(geneticAnnotations)[7]<-"Delivery"
+
+
+exogenousAnnotations <- read.delim("../data/exogenousAnnotations.txt",check.names = F)
+exogenousAnnotations$Model <- stringr::str_trim(exogenousAnnotations$Model)
+
+exogenousAnnotations <- exogenousAnnotations[ exogenousAnnotations$`Susceptibility observed`  %in% c("Protective","Detrimental","No effect"),]
+exogenousAnnotations$`Susceptibility observed`  <- as.factor(exogenousAnnotations$`Susceptibility observed` )
+exogenousAnnotations$`Susceptibility observed`  <-  factor(exogenousAnnotations$`Susceptibility observed` ,levels(exogenousAnnotations$`Susceptibility observed` )[c(1,3,2,4)])
+colnames(exogenousAnnotations)[2]<-"Gene"
+
+geneticAnnotations$Type <- "Genetic"
+exogenousAnnotations$Type <- "Exogenous"
+geneticAnnotations$Intervention <- NA
+
+combined <- geneticAnnotations[,c(2,6,4,7)]
+combined2 <- exogenousAnnotations[ ,c(2,7,5,8)]
+colnames(combined2)<-colnames(combined)
+combined <- rbind(combined,combined2)
+colnames(combined)[2] <- "effect"
+
+#remove the mir genes as the gene expression studies included do not target these gene species
+combined <- combined[ -grep("mir",combined$Gene,ignore.case = T),]
+
+#percentage of animal model genes differentially expressed in at least one human gene expression study
+length(which(unique(combined$Gene) %in% unlist(diffExp.Human)))/length(unique(combined$Gene))
+
+#percentage of animal model genes differentially expressed in at least one animal model gene expression study
+length(which(unique(combined$Gene) %in% unlist(diffExp.nonHuman)))/length(unique(combined$Gene))
+
+
+#get the human gene expression datasets where each animal model modulated gene is differentially expressed
+humanDiffExp <- lapply(unique(combined$Gene),function(gene){
+  
+  datasetNames <- names(diffExp.Human)[sapply(diffExp.Human,function(dataset) gene %in% dataset)]
+  return(datasetNames)
+  
+})
+datasetName <- unlist(lapply(humanDiffExp,paste,collapse=" "))
+humanDiffExp <- data.frame(Gene=unique(combined$Gene),"Number of experiments"=sapply(humanDiffExp,length),DiffExp=datasetName)
+humanDiffExp <- humanDiffExp[ order(humanDiffExp$Gene),]
+
+
+#get the animal model gene expression datasets where each animal model modulated gene is differentially expressed
+nonHumanDiffExp <- lapply(unique(combined$Gene),function(gene){
+  
+  datasetNames <- names(diffExp.nonHuman)[sapply(diffExp.nonHuman,function(dataset) gene %in% dataset)]
+  return(datasetNames)
+  
+})
+datasetName <- unlist(lapply(nonHumanDiffExp,paste,collapse=" "))
+nonHumanDiffExp <- data.frame(Gene=unique(combined$Gene),"Number of experiments"=sapply(nonHumanDiffExp,length),DiffExp=datasetName)
+nonHumanDiffExp <- nonHumanDiffExp[ order(nonHumanDiffExp$Gene),]
+
+
+#remove observations with no effect as these are often the cause of the ambignousness
+combined <- combined[ combined$effect != "No effect",]
+combined$simpleModel <- sapply(strsplit(combined$Model," "),"[[",1)
+
+combinedGenes <- list(OAGenes =unique(combined$Gene))
+degGenes <- c(upSig, downSig)
+overlap <- newGOM(degGenes, gsetB=combinedGenes,spec='hg19.gene')
+
+
+modelGeneGroups <- lapply(c("Surgical","Spontaneous"),function(key){
+
+  ind <- which(combined$simpleModel %in% key)
+  genes <- unique(sort(combined[ind,1]))
+} )
+names(modelGeneGroups)<-c("Surgical","Spontaneous")
+
+overlap.model <- newGOM(gsetA = mapply(function(x,y) unique(c(x,y)), upSig, downSig),gsetB=modelGeneGroups,spec='hg19.gene')
+
+
+#make a heatmap of the gene expression data and animal modulated genes split by type of OA model
+drawHeatmap2(overlap.model,file="../results/heatmapModel.jpg",what = "Jaccard",grid.col = "Oranges",note.col = "Black",adj.p = TRUE)
+
+
+#get a list of surgical and sponteanous OA animal model genes
+upSig <- stack(upSig)
+downSig <- stack(downSig)
+
+upSig$exp <- sapply(strsplit(as.character(upSig$ind),".",fixed = T),"[[",2)
+downSig$exp <- sapply(strsplit(as.character(downSig$ind),".",fixed = T),"[[",2)
+
+
+combinedGenes <- list(Surgical=unique(combined[combined$simpleModel=="Surgical","Gene"]),Spontaneous=unique(combined[combined$simpleModel=="Spontaneous","Gene"]))
+  
+#for each gene expression dataset get the consensus effect of the differentially expressed animal model genes
+upCount <- sapply(unique(upSig$ind),function(x) {
+  genes <- unique(upSig[ upSig$ind==x,1])
+  spont <- which(genes %in% combinedGenes$Spontaneous)
+  surgical <- which(genes %in% combinedGenes$Surgical)
+  counts <- c(rep("Surgical",length(surgical)),rep("Spontaneous",length(spont)))
+  if(length(counts)==0) return(NA)
+  counts
+  })
+
+names(upCount)<-unique(upSig$ind)
+downCount <- sapply(unique(downSig$ind),function(x) {
+  genes <- unique(downSig[ downSig$ind==x,1])
+  spont <- which(genes %in% combinedGenes$Spontaneous)
+  surgical <- which(genes %in% combinedGenes$Surgical)
+  counts <- c(rep("Surgical",length(surgical)),rep("Spontaneous",length(spont)))
+  if(length(counts)==0) return(NA)
+  counts
+  })
+
+names(downCount)<- unique(downSig$ind)
+upCount <- stack(upCount)
+upCount$facet <- "Up Regulated"
+downCount <- stack(downCount)
+downCount$facet <- "Down Regulated"
+
+counts <- rbind(upCount,downCount)
+counts <- counts %>% drop_na() %>% group_by_all() %>% tally()
+
+counts <- counts[ counts$values %in% c("Surgical","Spontaneous"),]
+
+#get the statistics on the proportions of the spontanous and surgical models - not significant
+model.prop <- counts %>% group_by(ind,facet) %>% spread(values,n) %>% group_by(ind,facet) %>% mutate(totalSurgical=252,totalSpont=146) %>% drop_na() %>% rowwise() %>% mutate(p.value = prop.test(c(Surgical,Spontaneous), c(totalSurgical,totalSpont))$p.value) %>% ungroup() %>%  mutate(padj = p.adjust(p.value,method = "BH")) %>% as.data.frame()
+
+
+#get a list of protective and deterimental OA animal model genes
+combined <- combined %>% dplyr::group_by(Gene) %>% dplyr::mutate(effectConsensus =  replace(effect,  dplyr::n_distinct(effect)>1,"Ambiguous" ) ) %>%  dplyr::filter(row_number(Gene) == 1) %>% as.data.frame()
+combined$effectConsensus <- as.character(combined$effectConsensus)
+combined <- combined[order(combined$effectConsensus),]
+
+combinedGenes <- list(Protective=combined[combined$effectConsensus=="Protective","Gene"],Detrimental=combined[combined$effectConsensus=="Detrimental","Gene"])
+
+
+#for each gene expression dataset get the consensus effect of the differentially expressed animal model genes
+upCount <- sapply(unique(upSig$ind),function(x) {
+  genes <- unique(upSig[ upSig$ind==x,1])
+  counts <- combined[ combined$Gene %in% genes,"effectConsensus"]
+  if(length(counts)==0) return(NA)
+  counts
+  })
+
+names(upCount)<-unique(upSig$ind)
+
+downCount <- sapply(unique(downSig$ind),function(x) {
+  genes <- unique(downSig[ downSig$ind==x,1])
+ counts <- combined[ combined$Gene %in% genes,"effectConsensus"]
+  if(length(counts)==0) return(NA)
+  counts
+  })
+
+names(downCount)<- unique(downSig$ind)
+
+downGenes <- sapply(unique(downSig$ind),function(x) {
+  genes <- unique(downSig[ downSig$ind==x,1])
+  overlap <- combined[ combined$Gene %in% genes,"Gene"]
+  if(length(overlap)==0) return(NA)
+  paste(sort(overlap),collapse=" ")
+  })
+
+names(downGenes)<- unique(downSig$ind)
+
+upCount <- stack(upCount)
+upCount$facet <- "Up Regulated"
+downCount <- stack(downCount)
+downCount$facet <- "Down Regulated"
+
+counts <- rbind(upCount,downCount)
+
+#add the jaccard index to the data
+counts <- counts %>% drop_na() %>% group_by_all() %>% tally()
+jaccards <- getMatrix(overlap,"Jaccard")
+jaccards<- data.frame(ind = rownames(jaccards), jaccard=jaccards[,1])
+jaccards.up <- jaccards[1:56,]
+jaccards.down <- jaccards[-1:-56,]
+jaccards.up <- jaccards.up[ jaccards.up$ind %in% pull(unique(counts[ counts$facet=="Up Regulated","ind"])),]
+jaccards.down <- jaccards.down[ jaccards.down$ind %in% pull(unique(counts[ counts$facet=="Down Regulated","ind"])),]
+
+
+counts$facet <- as.factor(counts$facet)
+counts$facet <- relevel(counts$facet,c("Up Regulated"))
+colnames(counts)[1] <- "Effect on OA"
+
+#group the meta data for plotting
+counts<- counts %>% as.data.frame() %>% mutate(
+    Species = case_when(grepl("Human",ind) ~ "Human",
+                        grepl("Mouse",ind) ~ "Mouse",
+                        grepl("Rat",ind) ~ "Rat",
+                        grepl("Pig",ind) ~ "Pig"),
+      Condition = case_when(grepl("Damaged",ind) ~ "DamagedvsIntact",
+                        grepl("nonOA|non-OA",ind) ~ "IntactvsNonOA",
+                        grepl("Osteophytic",ind)~ "OsteophyticvsIntact",
+                        grepl("Surgical|DMM",ind) ~ "Surgical",
+                        grepl("MIA",ind) ~ "MIA",
+                        grepl("STR",ind) ~ "STR/ORTvsWT"),
+     Tissue = case_when(grepl("Joint",ind) ~ "Joint",
+                        grepl("Cartilage",ind) ~ "Cartilage",
+                        grepl("Bone|Osteophyte",ind) ~ "Bone",
+                        grepl("Marrow",ind) ~ "Bone marrow",
+                        grepl("Synovium",ind) ~ "Synovium"))
+
+
+colnames(jaccards.down)[2] <- "Jaccard"
+counts <- merge(counts,jaccards.down,by="ind")
+colnames(jaccards.up)[2] <- "jaccardUp"
+counts <- merge(counts,jaccards.up,by="ind")
+
+counts <- counts[ order(counts$Species,counts$Condition,counts$Tissue),]
+counts$ind <- factor(counts$ind, levels = unique(counts$ind))
+
+#plot the overlaps
+countsPlot <- counts%>% 
+  ggplot(aes(x = ind, y = n,fill= `Effect on OA`)) + 
+  geom_bar(stat = "identity") + facet_wrap(. ~ facet,ncol = 1)+ cowplot::theme_cowplot(font_size = 22) + xlab("Experiment") + ylab("Number of dysregulated OA associated genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) + scale_fill_npg() 
+
+
+up <- counts %>% filter(facet=="Up Regulated") %>%
+  ggplot(aes(x = ind, y = n,fill= `Effect on OA`)) +
+  geom_bar(stat = "identity") + cowplot::theme_cowplot(font_size = 20) + xlab("Experiment") + ylab("No. up-regulated OA genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) + scale_fill_npg() +
+  theme(axis.text.x.bottom = element_blank(),
+        axis.ticks = element_blank(),
+        panel.spacing.x = unit(1, "mm"),
+        axis.title.x = element_blank(),
+        strip.background.x = element_blank(),
+        strip.text.x = element_blank())
+
+labels <- levels(counts$ind)
+labels <- sapply(strsplit(labels,".",fixed = T),"[[",1)
+
+down <- counts %>% filter(facet=="Down Regulated") %>%
+  ggplot(aes(x = ind, y = n,fill= `Effect on OA`)) +
+  geom_bar(stat = "identity") + cowplot::theme_cowplot(font_size = 20) + xlab("Experiment") + ylab("No. down-regulated OA genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) + scale_fill_npg() +  theme(legend.position = "none") + theme(axis.text.x.bottom = element_text(vjust = 0.5)) + scale_x_discrete(labels=labels)
+
+jaccardUp <- counts %>% ggplot()+
+  geom_tile(mapping = aes(x = ind, y = 1, fill = jaccardUp),
+           stat = "identity",
+           width = 1) + scale_fill_gradient(low="white",high="#3C5488FF" ) +
+  theme_void()+ theme(legend.position = "none") +
+  theme(panel.spacing.x = unit(1, "mm"),plot.margin = unit(c(0.5,0,0,0),"cm"))
+
+jaccardDown <- counts%>% ggplot()+
+  geom_tile(mapping = aes(x = ind, y = 1, fill = Jaccard),
+           stat = "identity",
+           width = 1) +   scale_fill_gradient(low="white",high="#3C5488FF") +
+  theme_void(base_size = 22) +
+  theme(panel.spacing.x = unit(1, "mm"))
+
+
+species <- counts %>% ggplot()+
+  geom_tile(mapping = aes(x =ind, y = 1,fill=Species),
+           stat = "identity",
+           width = 1) +   scale_fill_npg() +
+  theme_void(base_size = 22) +
+  theme(panel.spacing.x = unit(1, "mm")) 
+
+exp <- counts %>% ggplot()+
+  geom_tile(mapping = aes(x =ind, y = 1,fill=Condition),
+           stat = "identity",
+           width = 1) +   scale_fill_npg() +
+  theme_void(base_size = 22) +
+  theme(panel.spacing.x = unit(1, "mm")) 
+
+tissue <- counts %>% ggplot()+
+  geom_tile(mapping = aes(x =ind, y = 1,fill=Tissue),
+           stat = "identity",
+           width = 1) +   scale_fill_npg() +  theme_void(base_size = 22) +   theme(panel.spacing.x = unit(1, "mm"))
+
+
+
+legend <- plot_grid(get_legend(species),get_legend(exp),get_legend(tissue),get_legend(up), get_legend(jaccardDown),ncol = 1,align = "v", axis = "tb")
+up <- up + theme(legend.position = "none")
+jaccardDown <- jaccardDown + theme(legend.position = "none")
+species <- species + theme(legend.position = "none")
+exp <- exp + theme(legend.position = "none")
+tissue <- tissue + theme(legend.position = "none")
+
+plot <- plot_grid(species,tissue,exp,jaccardUp,up,jaccardDown,down,align = "v", ncol = 1, axis = "tb", rel_heights = c(0.5,0.5,0.5,1,10,0.5,16))
+g <- plot_grid(plot, legend, nrow = 1, rel_widths = c(10, 2),rel_heights = c(1,2))
+save_plot("../results/expressionComparison_Figure2.jpg", g,base_height = 11,base_width = 16)
+
+
+
+#proportion test for the proportions of protective or detrimental across the sets of differentially expressed genes
+
+getPValue <- function(a,b,c,d){
+  pvalue <- try(prop.test(c(a,b), c(c,d))$p.value)
+  if(inherits(pvalue,"try-error")) return(NA)
+  return(pvalue)
+}
+
+counts.prop <- counts %>% group_by(ind,facet) %>% spread(`Effect on OA`,n) %>% group_by(ind,facet) %>% mutate(totalProt=166,totalDet=157) %>%  rowwise() %>% mutate(p.value = getPValue(Protective,Detrimental, totalProt,totalDet)) %>% ungroup() %>%  mutate(padj = p.adjust(p.value,method = "BH")) %>% as.data.frame()
+
+
+#get the genes in the overlaps for each of the comparisons
+geneOverlap <- apply(counts.prop,1,function(x) {
+  if(x["facet"]=="Up Regulated"){
+    diffExpGenes <- upSig[ upSig$ind==x["ind"],1]
+  } else {
+    diffExpGenes <- downSig[ downSig$ind==x["ind"],1]
+  }
+   overlap <- combined[ combined$Gene %in% diffExpGenes,]
+   Protective <- paste(overlap[ overlap$effectConsensus=="Protective",1],collapse=" ")
+   Detrimental <- paste(overlap[ overlap$effectConsensus=="Detrimental",1],collapse=" ")
+   Ambiguous <- paste( overlap[ overlap$effectConsensus=="Ambiguous",1],collapse=" ")
+   
+   return(data.frame(Protective=Protective,Detrimental=Detrimental,Ambiguous=Ambiguous))
+})
+  
+geneOverlap <- bind_rows(geneOverlap)
+counts.prop <- cbind(counts.prop,geneOverlap)
+
+legend <- read.delim("../data/supp2Legend.txt",header = F,stringsAsFactors = F)
+OA$ExperimentID <- OA$Accession
+OA$Accession <- gsub("(.*)_.*", "\\1",OA$Accession)
+
+
+counts.prop$Accession <- gsub("(.*)_.*", "\\1",counts.prop$ind )
+colnames(counts.prop)[c(1:2,6)] <- c("ExperimentID","Direction","jaccardDown")
+counts.prop <- counts.prop[,c(1,18,2:17)]
+
+accessions <- read.delim("../data/accessions.txt")
+accessions$ID <- paste(accessions$accession,accessions$comparison,sep="_")
+
+OA <- merge(OA,accessions[,3:4],by.x="ExperimentID",by.y="ID")
+colnames(OA)[5] <- "Description"
+
+
+
+WriteXLS(list(legend,OA,humanDiffExp,nonHumanDiffExp,counts.prop),"../supp/SupplementryTable2.xlsx",SheetNames = c("legend","datasets","humanOverlap","nonHumanOverlap","summary"),AdjWidth = TRUE)
+
+
+```

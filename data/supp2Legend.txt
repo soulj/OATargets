@@ -1,0 +1,41 @@
+Supplementary Table 2: 	Overlap of genes studied in animal models of OA and OA differential gene expression	
+		
+Datasets	Description of the transcriptomics datasets used. Obtained from http://skeletalvis.ncl.ac.uk/skeletal	
+	Columns:	
+	ExperimentID	comparison number used on the Skeletalvis website
+	Accession	GEO/arrayexpress accession of the experiment
+	Experiment	Simple description of the experiment
+	Species	The species under study
+	Description	Description of the comparison
+		
+humanOverlap	Human OA transcriptomic datasets where each gene studied in animal models of OA is differentially expressed	
+	Columns:	
+	Gene	Gene symbol of the gene studied
+	Number of experiments	The number of human transcriptomic experiments where this gene is differentially expressed
+	Experiment	space separated list of the experiments where that gene is differentially expressed. If blank then no evidence of differential expression is available.
+		
+modelOverlap	Animal model OA transcriptomic datasets where each gene studied in animal models of OA is differentially expressed	
+	Columns:	
+	Gene	Gene symbol of the gene studied
+	Number of experiments	The number of animal model transcriptomic experiments where this gene is differentially expressed
+	Experiment	space separated list of the experiments where that gene is differentially expressed. If blank then no evidence of differential expression is available.
+		
+Summary	Summary statistics of the animal model OA gene overlaps by transcriptomic experiment	
+	Columns:	
+	Accession	GEO/array express accession of the experiment
+	ExperimentID	comparison number used on the Skeletalvis website
+	Direction	Direction of the differential expression
+	Species	Species under study
+	JaccardDown	The jaccard coefficient of the downregulated differentially expressed genes and the animal model OA genes
+	JaccardUp	The jaccard coefficient of the upregulated differentially expressed genes and the animal model OA genes
+	Ambiguous	The number of overlapping differentially expressed and animal model genes with an ambiguous effect of OA
+	Detrimental	The number of overlapping differentially expressed and animal model genes with a inferred detrimental effect of OA
+	Protective	The number of overlapping differentially expressed and animal model genes with a inferred protective effect of OA
+	totalProt	The total number of genes with an inferred protective effect on OA
+	totalDet	The total number of genes with an inferred detrimental effect on OA
+	p.value	The chi-squared test statistic for the proportion of overlapping protective and detrimental genes
+	padj	The p-value adjusted for multiple testing correction with the Benjamini-Hochberg Procedure.
+	Protective	The genes with a inferred protective effect on OA differentially expressed in this dataset
+	Detrimental	The genes with a inferred detrimental effect on OA differentially expressed in this dataset
+	Ambiguous	The genes with a inferred ambiguous effect on OA differentially expressed in this dataset
+

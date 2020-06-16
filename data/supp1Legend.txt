@@ -1,0 +1,20 @@
+Supplementary Table 1: observations of genetic or exogenous interventions in animal models of OA	
+Full data:	Full curated data – kept up to date at http://skeletalvis.ncl.ac.uk/DOOM/
+Promising:	Data filtered to keep genes with consistent effects in multiple experimental OA models with exogenous and genetic evidence in more than one study
+	
+Column descriptions	
+PMID	The pubmed ID of the paper with describing the observation
+Gene	The human gene symbol of the gene modulated in the study
+Effect on gene product	The effect of the gene modulation on the gene product 
+Model	The type of OA model where the gene has been modulated
+Susceptibility observed	Is there a increase (detrimental) or decrease (protective) in the OA severity observed upon gene modulation
+Inferred gene effect	Given the observed effect of the gene modulation (protective or detrimental) and the effect on the gene product (increase or decrease in protein activity), is the gene likely to be protective or detrimental in OA?
+Delivery	The tissue specificity of the gene modulation.
+Species	The species under study
+pub_date	The date of publication (epub)
+LastAuthor	The last author of the publication
+Type	Genetic or exogenous modulation?
+Intervention	For the exogenous modulations what was the method of gene modulation?
+simpleModel	The broad type of OA model where the gene has been modulated
+effectConsensus	For all the observations where that gene has been modulated what is the consensus inferred gene effect? If there is any discrepancies in the inferred effect then ambiguous is given. 
+NumStudies	The number of publications studying each gene

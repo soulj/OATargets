@@ -1,0 +1,229 @@
+---
+title: "Pathway enrichment of OA animal model genes"
+output: html_notebook
+---
+
+
+What reactome pathways are enriched in the animal model data?
+```{r}
+library(tidyverse)
+library(lubridate)
+library(WriteXLS)
+library(readxl)
+library(goseq)
+library(reactome.db)
+library(org.Hs.eg.db)
+
+#get all the OA genes that have an effect
+
+#read the annotations and combine for summary graphs
+geneticAnnotations <- read.delim("../data/geneticAnnotations.txt",check.names = F)
+geneticAnnotations$Model <- stringr::str_trim(geneticAnnotations$Model)
+
+geneticAnnotations <- geneticAnnotations[ geneticAnnotations$`Susceptibility observed` %in% c("Protective","Detrimental","No effect"),]
+geneticAnnotations$`Susceptibility observed`  <- as.factor(geneticAnnotations$`Susceptibility observed` )
+geneticAnnotations$`Susceptibility observed`  <-  factor(geneticAnnotations$`Susceptibility observed` ,levels(geneticAnnotations$`Susceptibility observed` )[c(1,3,2,4)])
+colnames(geneticAnnotations)[7]<-"Delivery"
+
+
+exogenousAnnotations <- read.delim("../data/exogenousAnnotations.txt",check.names = F)
+exogenousAnnotations$Model <- stringr::str_trim(exogenousAnnotations$Model)
+
+exogenousAnnotations <- exogenousAnnotations[ exogenousAnnotations$`Susceptibility observed`  %in% c("Protective","Detrimental","No effect"),]
+exogenousAnnotations$`Susceptibility observed`  <- as.factor(exogenousAnnotations$`Susceptibility observed` )
+exogenousAnnotations$`Susceptibility observed`  <-  factor(exogenousAnnotations$`Susceptibility observed` ,levels(exogenousAnnotations$`Susceptibility observed` )[c(1,3,2,4)])
+colnames(exogenousAnnotations)[2]<-"Gene"
+
+geneticAnnotations$Type <- "Genetic"
+exogenousAnnotations$Type <- "Exogenous"
+geneticAnnotations$Intervention <- NA
+
+#combine the data
+combined <- geneticAnnotations[,c(2,6,4,7)]
+combined2 <- exogenousAnnotations[ ,c(2,7,5,8)]
+colnames(combined2)<-colnames(combined)
+combined <- rbind(combined,combined2)
+colnames(combined)[2] <- "effect"
+
+
+#remove no effect genes as often the cause of the ambignousness and aim to maximise the number of genes to learn from
+combined <- combined[ combined$effect != "No effect",]
+combined <- combined %>% dplyr::group_by(Gene) %>% dplyr::mutate(effectConsensus =  replace(effect,  dplyr::n_distinct(effect)>1,"Ambiguous" ) ) %>%  dplyr::filter(row_number(Gene) == 1) %>% as.data.frame()
+combined$effectConsensus <- as.character(combined$effectConsensus)
+combined <- combined[order(combined$effectConsensus),]
+combinedGenes <- unique(combined$Gene)
+
+
+
+xx <- as.list(reactomePATHID2EXTID)
+pathways <- as.list(reactomePATHID2EXTID)[grep("R-HSA-",names(as.list(reactomePATHID2EXTID)))]
+xx <- xx[grep("R-HSA-",names(xx))]
+xx <- lapply(seq_along(xx),function(x) {
+  if(any(xx[[x]] %in% keys(org.Hs.eg.db))){
+    mapIds(org.Hs.eg.db,keys =  xx[[x]],'SYMBOL', 'ENTREZID')
+  } else{
+    return(NA)
+  }
+})
+
+pathwayNames <- as.list(reactomePATHID2NAME)
+pathwayNames <- pathwayNames[names(pathways)]
+names(xx) <- pathwayNames
+reactome <- unstack(stack(xx)[2:1])
+
+
+
+geneticGenes <- levels(unique(geneticAnnotations$Gene))
+exogenousGenes <- levels(unique(exogenousAnnotations$Target))
+combinedGenes <- c(geneticGenes,exogenousGenes)
+
+
+
+
+genes <- names(reactome)
+genes <- ifelse(genes %in% combinedGenes, 1, 
+                0)
+names(genes) <- names(reactome)
+geneLengths <- read.delim("../data/humanGeneLengths.txt")
+geneLengths <- geneLengths[match(names(reactome), geneLengths$gene_name), ]
+x <- goseq::nullp(genes, bias.data = geneLengths$length, plot.fit = F)
+GOTerms <- goseq(x, gene2cat = reactome)
+GOTerms$padj <- p.adjust(GOTerms$over_represented_pvalue, 
+                         method = "BH")
+GOTerms.sig <- GOTerms[GOTerms$padj <= 0.05, ]
+GOTerms.sig$enrichment <- GOTerms.sig$numDEInCat/GOTerms.sig$numInCat
+GOResults = list()
+for (i in 1:nrow(GOTerms.sig)) {
+  GOTerm <- GOTerms.sig$category[i]
+  index <- sapply(reactome, function(x) GOTerm %in% 
+                    x)
+  termIDs <- names(index[index == "TRUE"])
+  sig <- combinedGenes[combinedGenes %in% termIDs ]
+  GOResults[[GOTerm]] = sig
+}
+names(GOResults) = GOTerms.sig$category
+GOResults <- lapply(GOResults, function(x) paste(x, sep = "", 
+                                                 collapse = " "))
+GOResults <- data.frame(Term = names(GOResults), ID = GOTerms.sig$category, 
+                        Genes = unlist(GOResults), Adj.pvalue = GOTerms.sig$padj, 
+                        Enrichment = GOTerms.sig$enrichment)
+
+
+
+#what percentage of pathways have one member 
+nrow(GOTerms[ GOTerms$numDEInCat>0,])/nrow(GOTerms)
+
+covered <- GOTerms[ GOTerms$numDEInCat>0,]
+```
+
+
+Get the gene expression data to compare
+
+```{r}
+#get the details of the osteoarthritis datasets
+OA <- read.csv("../data/OADatasets.csv",header = T,stringsAsFactors = F)
+
+getDatasets <- function(accession,label,species){
+  toRead <- list.files(path = "../data",pattern = gsub("_","_cutTable_",accession),recursive = T,full.names = T)
+  files <- lapply(toRead,read.delim,stringsAsFactors=FALSE)
+  files <- lapply(files,summariseGeneExp,species)
+  names(files)<-rep(label,length(files))
+  return(files)
+  
+}
+
+#convert the genes to human orthologs and keep the most differentially expressed gene if multiple probes
+summariseGeneExp <- function(differentialExpression,species) {
+  
+colnames(differentialExpression)[c(1,3)] <- c("GeneSymbol","padj")  
+  
+ if(species=="Mouse") {
+   homology <- read.delim("../data/Homology.mouse.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ } else if(species=="Rat") {
+   homology <- read.delim("../data/Homology.rat.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ } else if(species=="Pig") {
+   homology <- read.delim("../data/Homology.pig.txt",stringsAsFactors = F)
+  differentialExpression<-differentialExpression[ differentialExpression$GeneSymbol %in% homology[,3],]
+  homoloGene<-homology[match(differentialExpression$GeneSymbol,homology[,3]),4]
+  differentialExpression$GeneSymbol<-homoloGene
+ }
+  
+ differentialExpression <- differentialExpression %>% 
+            group_by(GeneSymbol) %>% dplyr::slice(which.min(padj)) %>% 
+            as.data.frame
+    return(differentialExpression)
+}
+
+#get the expression data 
+OADatasets <- mapply(getDatasets,OA$Accession,OA$Exp,OA$Species,SIMPLIFY = F)
+OADatasets<- unlist(OADatasets,recursive = F)
+
+diffExp <- lapply(OADatasets,function(x) na.omit(x[ abs(x[,2]) >= log2(1.5) & x[,3]<=0.05,1]))
+
+#split the datasets into human and animal model studies
+diffExp.Human <- diffExp[OA$Species=="Human"]
+diffExp.nonHuman <- diffExp[OA$Species!="Human"]
+```
+
+
+
+What pathways are enriched in OA transcriptomics and have they been studied through OA animal models?
+```{r}
+
+getEnrichedPathways <-  function(differentialExpression){
+  colnames(differentialExpression)[3] <- "padj"
+  
+   differentialExpression <- differentialExpression %>% 
+            group_by(GeneSymbol) %>% dplyr::slice(which.min(padj)) %>% 
+            as.data.frame
+        differentialExpression.sig <- na.omit(differentialExpression[abs(differentialExpression[, 
+            2]) >= log2(1.5) & differentialExpression[, 
+            3] <= 0.05, ])
+        
+ genes <- ifelse(as.data.frame(differentialExpression)[, 1] %in% as.data.frame(differentialExpression.sig)[, 
+            1], 1, 0)
+  names(genes) <- differentialExpression[, 1]
+  
+geneLengths <- read.delim("../data/humanGeneLengths.txt")
+geneLengths <- geneLengths[match(names(genes), geneLengths$gene_name), ]
+x <- goseq::nullp(genes, bias.data = geneLengths$length, plot.fit = F)
+GOTerms <- goseq(x, gene2cat = reactome)
+GOTerms$padj <- p.adjust(GOTerms$over_represented_pvalue, 
+                         method = "BH")
+GOTerms.sig <- GOTerms[GOTerms$padj <= 0.05, ]
+
+return(GOTerms.sig$category)
+}
+
+
+#get the enriched reactome pathways in the human OA gene expression data using goseq
+OA <- read.csv("../data/OADatasets.csv",header = T,stringsAsFactors = F)
+datasets <- OADatasets[OA$Species=="Human"]
+enrichedPathways <- lapply(datasets,getEnrichedPathways)
+enrichedPathways <- unlist(enrichedPathways)
+
+
+#not enriched
+studied <- enrichedPathways[ enrichedPathways %in% covered$category]
+missing <- enrichedPathways[ !enrichedPathways %in% covered$category]
+
+studied <- as.data.frame(studied)
+studied$exp <- rownames(studied)
+
+missing <- as.data.frame(missing)
+missing$exp <- rownames(missing)
+
+legend <- read.delim("../data/supp3Legend.txt",header = F,stringsAsFactors = F)
+
+WriteXLS(list(legend,GOResults,studied,missing),"../supp/SupplementryTable3.xlsx",SheetNames = c("legend","enriched","studied","missing"),AdjWidth = TRUE)
+
+
+#what percentage of rectome pathways are covered
+length(unique(studied$studied))/length(unique(enrichedPathways))
+```
