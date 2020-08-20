@@ -1,14 +1,15 @@
 library(readr)
+library(dplyr)
 library(biomaRt)
 #devtools::install_github("MaayanLab/genesetr")
-library(genesetr)
-library(OmnipathR)
+library(genesetr,lib.loc = ".")
+library(OmnipathR,lib.loc = ".")
 
 
 #download biogrid - https://downloads.thebiogrid.org/File/BioGRID/Release-Archive/BIOGRID-3.5.186/BIOGRID-ALL-3.5.186.mitab.zip
 
 #read in the biogrid network
-BIOGRID_ALL_3_5_186_mitab <- read_delim("BIOGRID-ALL-3.5.186.mitab.txt", 
+BIOGRID_ALL_3_5_186_mitab <- read_delim("~/Downloads/BIOGRID-ALL-3.5.186.mitab.txt", 
                                         "\t", escape_double = FALSE, trim_ws = TRUE)
 
 #keep human interactions
@@ -26,7 +27,7 @@ biogrid$B <- genesetr::HGNCapproved(as.character(biogrid$B))
 #get the omnipath interactions excluding the Wang dataset as is noisy.
 resources <- get_interaction_databases()
 resources <- resources[ resources!="Wang"]
-omnipath <- import_AllInteractions( filter_databases=resources)[,3:4]
+omnipath <- import_AllInteractions( filter_databases=resources)
 colnames(biogrid) <- colnames(omnipath)
 network <- rbind(omnipath,biogrid)
 

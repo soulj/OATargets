@@ -3,13 +3,14 @@ Supplementary Table 4: Network based expansion of animal model OA genes
 Diffusion	A network diffusion algorithm was used to rank genes in a protein-protein interaction network to predict candidate OA affecting genes.	
 Columns:	
 Gene	The protein in the protein interaction network
-AnimalModelGene	Is the gene known to have an effect in experimental models of OA? 1=yes 0=no
+OAGene	Is the gene known to have an effect on OA severity in animal models of OA? 1=yes 0=no
 Number of Human Diff Exp Studies	The number of human OA transcriptomic datasets (from Supp Table 2) where this gene is differentially expressed
 Number of Animal Model Diff Exp Studies	The number of human OA transcriptomic datasets (from Supp Table 2) where this gene is differentially expressed 
 OA gene interactions	The number of interactions in the network this protein has with genes known to have an effect in experimental models of OA
 Rank	The rank of the diffusion algorithm score for that gene in the network
 OARSI Is the gene in the validation dataset of newly reported OA associated genes from the OARSI 2020 conference? 1=yes 0=no
-GWAS Is the gene a candidate from OA GWAS? 1=yes 0=no
+Proximal to GWAS Variant	Is the gene the nearest gene (upstream or downstream) from OA GWAS Variant? 1=yes 0=no
+
 Note that NA means a protein is not present in one of the networks.
 ensembl_gene_id	The ensembl ID of the gene
 Anibody Tractability	Open targets antibody tractability prediction for this protein

@@ -1,316 +1,366 @@
-PMID	Target	Intervention	Effect on gene product	Model	Susceptibility observed	Inferred gene effect	Delivery	Species	pub_date	LastAuthor
-11237660	TGFB1	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2001 Feb	van den Berg WB
-12077282	TGFB1	soluble TGF-beta-RII	Removal	papain	Protective	Detrimental	Articular cavity	Mouse	2002 Jul 1	van den Berg WB
-12794826	MAP2K1	PD 198306	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rabbit	2003 Jun	Martel-Pelletier J
-12794826	MAP2K2	PD 198306	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rabbit	2003 Jun	Martel-Pelletier J
-13129693	CASP1	pralnacasan	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2003 Oct	van den Berg W
-13129693	CASP1	pralnacasan	Inhibition	STR/ort	Protective	Detrimental	systemic	Mouse	2003 Oct	van den Berg W
-14673992	OSM	Protein	exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2003 Dec	Cawston TE
-14673992	TNF	Protein	exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2003 Dec	Cawston TE
-14673995	SMAD6	Viral	Overexpression	papain	Protective	Protective	Articular cavity	Mouse	2003 Dec	van den Berg WB
-14673995	SMAD7	Viral	Overexpression	papain	Protective	Protective	Articular cavity	Mouse	2003 Dec	van den Berg WB
-14673995	TGFB1	MLAP-1	Inhibition	papain	Detrimental	Protective	Articular cavity	Mouse	2003 Dec	van den Berg WB
-14673995	TGFB1	Viral	Overexpression	papain	Protective	Protective	Articular cavity	Mouse	2003 Dec	van den Berg WB
-15231019	CCN2	Protein	exogenous	MIA	Protective	Protective	Articular cavity	Rat	2004 Mar 29	Takigawa M
-15692987	PPARG	Pioglitazone	Activation	Surgical - MM	Protective	Protective	systemic	Guinea pig 	2005 Feb	Pelletier JP
-16394269	HSPA2	Viral	Overexpression	MIA	Protective	Protective	Articular cavity	Rat	2006 Jan	Gillet P
-16584530	TGFB1	Viral	Overexpression	STR/ort	Ambiguous	Ambiguous	Articular cavity	Mouse	2006 Mar 29	van der Kraan PM
-16646035	CCN2	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2006 May	van der Kraan PM
-17326835	LGALS3	Protein	exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2007	Reboul P
-17590359	BMP2	Protein	exogenous	Collagenase	Protective	Protective	Articular cavity	Rat	2007 Jun 22	Han B
-17599750	PPP3CA	Cyclosporin A	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2007 Jul	Kim WU
-17623656	MMP13	MMP13 inhibitor	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Rabbit	2007 Jul 10	Dyer RD
-17907189	TNFRSF11B	Protein	exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2007 Oct	Muneta T
-17977753	BMP7	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2007 Oct 31	Amiel D
-18182309	IL4	Protein	exogenous	Surgical - DMM + ACL + MM	Protective	Protective	Articular cavity	Rat	2008 Jan 7	Ozaki T
-18668550	TNFRSF11B	Protein	exogenous	Surgical - DMM + MM	Protective	Protective	Articular cavity	Mouse	2008 Aug	Cohen-Solal ME
-18941854	BMP7	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2008 Oct 22	Amiel D
-19170094	BMP7	Protein	exogenous	Exercise	Protective	Protective	Articular cavity	Rat	2009 Aug	Muneta T
-19180479	CCN4	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2009 Feb	van den Berg WB
-19644873	CTSK	sirna	Knockdown	Surgical - ACLT	Detrimental	Protective	Articular cavity	Rabbit	2009 Aug	Uede T
-19684582	SDC4	Antibody	Inhibition	Surgical - DMM + MM	Protective	Detrimental	Articular cavity	Mouse	2009 Aug 16	Pap T
-20131282	DKK1	shRNA	Knockdown	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2010 May	Wang FS
-20131282	DKK1	shRNA	Knockdown	Collagenase	Protective	Detrimental	systemic	Mouse	2010 May	Wang FS
-20309955	THBS1	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2010 Oct	Wu CL
-20495569	EPAS1	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2010 May 23	Chun JS
-20506144	PRG4	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2010 Aug	Elsaid KA
-20584806	F2RL1	Antibody	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2010 Jun 28	McInnes IB
-20584806	F2RL1	p520	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2010 Jun 28	McInnes IB
-20733349	FGF1	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2010 Oct 31	Chen L
-20733349	IGF1	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2010 Oct 31	Chen L
-20733349	IL1RN	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2010 Oct 31	Chen L
-20872588	BMP7	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2010 Nov	Sekiya I
-21310253	IL17RA	DNA aptamers	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2011 Feb 22	Liu SQ
-21325780	ROCK1	AS1892802	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2011 Feb 16	Shimizu Y
-21325780	ROCK2	AS1892802	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2011 Feb 16	Shimizu Y
-21346391	SPHK2	ABC294640	Inhibition	MIA	Protective	Detrimental			2011 Feb 22	Smith CD
-21378032	POMC	adenoviral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2011 Mar 4	Hsieh JL
-21590680	IL6	Protein	exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2011 Sep	Chun JS
-21869830	EPAS1	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2011 Aug 26	Chun JS
-21905007	PTGS2	celecoxib	Inhibition	Surgical - DMM + MM	No effect	No effect	systemic	Mouse	2012 Jan	Kawaguchi H
-21911068	GSK3B	GIN	Inhibition	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2011 Aug 27	Karperien M
-22057346	C5	Antibody	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2011 Nov 6	Robinson WH
-22057346	C3	CR2-fH	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2011 Nov 6	Robinson WH
-22057346	C5	CR2-fH	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2011 Nov 6	Robinson WH
-22415882	FGF2	Protein	exogenous	Surgical - DMM	Ambiguous	Ambiguous	Articular cavity	Mouse	2012 Jul	Im HJ
-22484689	CTSK	L-006235	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rabbit	2012 Mar 30	Duong LT
-22488261	DKK1	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2012 Aug	Chun JS
-22909215	ASIC3	APETx2	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2012 Aug 21	Tani T
-23151456	HMOX1	Viral	Overexpression	STR/ort	No effect	No effect	Articular cavity	Mouse	2012 Nov 11	Armentano D
-23233270	SOST	Antibody	Inhibition	Surgical - Meniscus Tear	No effect	No effect	Articular cavity	Rat	2013 Mar	Babij P
-23298463	MMP13	CL82198	Inhibition	Surgical - MMTL	Protective	Detrimental	systemic	Mouse	2013 Jan 8	Chen D
-23313477	mir-181b	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2013 Jan 9	Jin EJ
-23666904	HSP90AB1	BIIB021	Inhibition	Exercise	Protective	Detrimental	systemic	Mouse	2013 Aug	Weinans H
-23685840	TGFBR1	SB505124	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rat	2013 May 19	Cao X
-23685840	TGFBR1	Antibody	Inhibition	Surgical - ACLT	Protective	Detrimental	Bone	Rat	2013 May 19	Cao X
-23723320	TNFRSF11B	Protein	exogenous	MIA	Protective	Protective	systemic	Rat	2013 May 30	Chapman V
-23954517	ADAMTS5	Antibody	Inhibition	STR/ort	Protective	Detrimental	Articular cavity	Mouse	2013 Aug 15	Visintin M
-24018042	ITGA1	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2013 Sep 7	Jin EJ
-24018042	mir-101	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2013 Sep 7	Jin EJ
-24257023	RAC1	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2013 Nov 20	Ouyang HW
-24257023	RAC1	NSC23766	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2013 Nov 20	Ouyang HW
-24347567	NAMPT	FK866	Inhibition	Spontaneous	Protective	Detrimental	Articular cavity	Mouse	2013 Dec 17	Chun JS
-24347567	NAMPT	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2013 Dec 17	Chun JS
-24529376	SLC39A8	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2014 Feb 13	Chun JS
-24578232	A2M	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2014 Jul	Wei L
-24757033	GSK3B	GSK3B-i	Inhibition	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2014 Aug	Rowan AD
-24848439	MMP13	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2014 May 22	Takahashi K
-25169730	GRN	Exogenous	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2014 Aug 28	Liu CJ
-25196583	mir-21	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2014 Sep 5	Jin EJ
-25196583	mir-21	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2014 Sep 5	Jin EJ
-25219670	IL1RN	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2014 Sep 16	Jay GD
-25230745	VEGFA	Bevacizumab	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rabbit	2014 Sep 18	Mochida J
-25366485	MDK	Protein	exogenous	Surgical - DMM	Protective	Protective	systemic	Mouse	2014	Yu Y
-25592743	CST3	Viral	Overexpression	Surgical - ACLT	No effect	No effect	Articular cavity	Rabbit	2015 Jan 16	Matthews GL
-25732515	CXCR4	AMD3100	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2015 Apr 24	Wei L
-25892493	PLAU	Protein	exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Rat	2015 Apr 20	Tang JG
-25917196	OCRL	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2015 May	Zhou Y
-25921548	mir-101	Viral	Overexpression	MIA	Detrimental	Detrimental	Articular cavity	Rat	2015 Apr 29	Ao Y
-25921548	mir-101	siRNA	Knockdown	MIA	Protective	Detrimental	Articular cavity	Rat	2015 Apr 29	Ao Y
-25937028	CNR2	HU308	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2015 Apr 30	Ralston SH
-25969431	S100A9	paquinimod	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2015 May 12	van Lent PL
-25969431	S100A9	paquinimod	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2015 May 12	van Lent PL
-25976248	WNT16	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015 May 12	van der Kraan PM
-25976248	WNT8A	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015 May 12	van der Kraan PM
-25976248	WNT5A	Viral	Overexpression	Spontaneous	No effect	No effect	Articular cavity	Mouse	2015 May 12	van der Kraan PM
-25976248	CCN4	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015 May 12	van der Kraan PM
-26015264	IGF2	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2015 Dec	Zeng L
-26103880	MECP2	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2015 Jun 24	Jin EJ
-26103880	MECP2	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2015 Jun 24	Jin EJ
-26103880	mir-373	siRNA	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2015 Jun 24	Jin EJ
-26103880	mir-373	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2015 Jun 24	Jin EJ
-26103880	mir-370	siRNA	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2015 Jun 24	Jin EJ
-26103880	mir-370	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2015 Jun 24	Jin EJ
-26103880	SHMT2	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2015 Jun 24	Jin EJ
-26103880	SHMT2	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2015 Jun 24	Jin EJ
-26108147	IL1B	siRNA	Knockdown	Surgical - DMM + ACL + MM	Protective	Detrimental	Articular cavity	Rabbit	2015 Jul 20	Liao Q
-26108147	TNF	siRNA	Knockdown	Surgical - DMM + ACL + MM	Protective	Detrimental	Articular cavity	Rabbit	2015 Jul 20	Liao Q
-26120493	EGFR	gefitinib	Inhibition	Surgical - DMM	Detrimental	Protective	systemic	Mouse	2014 Aug 5	Qin L
-26138996	CCR2	RS504393	inhibitor	Surgical - ACLT+MM	Protective	Detrimental	systemic	Rat	2015 Oct	Beier F
-26138996	EGFR	AG1478	inhibitor	Surgical - ACLT+MM	Protective	Detrimental	systemic	Rat	2015 Oct	Beier F
-26241779	EPAS1	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015 Aug 1	Chun JS
-26241779	MTF1	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015 Aug 1	Chun JS
-26241779	SLC39A8	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015 Aug 1	Chun JS
-26256766	IKBKG	NBD peptide	Inhibition	Surgical - UAC	Protective	Detrimental	systemic	Mouse	2015 Aug 6	Wang MQ
-26275694	GH1	AOD9604	Activation	Collagenase	Protective	Protective	Articular cavity	Rabbit	2015 Summer	Park GY
-26355014	TGFBR2	losartan	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2015 Sep 4	Xu L
-26410555	ADAMTS5	Antibody	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2015 Sep 26	Malfait AM
-26445328	TNF	adalimumab	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rat	2015 Jul 31	Yi CQ
-26531672	VEGFA	Protein	exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2015 Nov 4	Yang C
-26639398	SIRT6	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2015 Dec 7	Pan Z
-26673737	mir-222	siRNA	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2014 Dec 9	Jin EJ
-26686833	CALCA	BIBN4096	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016 Jan 12	Ochi M
-26728350	RUNX1	mRNA	Overexpression	Surgical - DMM + MM	Protective	Protective	Articular cavity	Mouse	2016 Jan 5	Ohba S
-26837060	TGFB1	Antibody	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2016 Feb 2	Cao X
-26851314	CXCR4	AMD3100	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2016 Jan 7	Ji P
-26903297	XDH	febuxostat	Inhibition	High Fat Diet	Protective	Detrimental	systemic	Mouse	2016 Feb 20	Asou Y
-26903440	MT1A	Viral	Overexpression	Surgical - DMM	No effect	No effect	Articular cavity	Mouse	2016 Feb 22	Chun JS
-26903440	MT2A	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2016 Feb 22	Chun JS
-27009967	SIK3	pterosin B	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2016 Mar 24	Tsumaki N
-27041213	FGFR1	G141	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2016 Apr 4	Chen L
-27052304	MTOR	Torin 1	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Rabbit	2016 Apr 6	Meng H
-27147707	BATF	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2016 May 4	Chun JS
-27147707	JUN	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2016 May 4	Chun JS
-27183574	IL3	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2016 May 13	Wani MR
-27301478	MTOR	Torin 1	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Rabbit	2016 Jun	Cui YP
-27322244	CXCR4	AMD3100	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2016 Jun 16	Chen A
-27345362	CALCA	Protein	exogenous	Surgical - ACLT	Protective	Protective	systemic	Rat	2016 Jun 27	Jean YH
-27447821	mir-142-3p	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2016 Oct	Yu H
-27473558	FGF9	Protein	exogenous	Surgical - DMM	Ambiguous	Ambiguous	Articular cavity	Mouse	2016 Jul 27	Chen L
-27477830	LCN2	Viral	Overexpression	Surgical - DMM	No effect	No effect	Articular cavity	Mouse	2016 Jul 29	Chun JS
-27480933	FBXO32	Viral	Overexpression	Surgical - DMM	No effect	No effect	Articular cavity	Mouse	2016 Jul 30	Chun JS
-27539076	IL1RN	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2016 Aug 19	D'Souza G
-27539752	EZH2	EPZ005687	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2016 Aug 19	Li F
-27681622	RELA	sirna	Knockdown	Surgical - Injury	Protective	Detrimental	Articular cavity	Mouse	2016 Sep 28	Pham CT
-27690009	CXCR4	AMD3100	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Rat	2016 Sep 29	Chen A
-27789465	IL6R	Antibody	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016 Oct 27	Richette P
-27851984	GDF5	Protein	exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Rat	2016 Nov 13	Story B
-27856294	CCR2	RS504393	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016 Nov 14	Spagnoli A
-27965260	CCL2	bindarit	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016 Dec 13	Robinson WH
-27965260	CCR2	RS-504393	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2016 Dec 13	Robinson WH
-28120109	ADAMTS5	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Jan 24	Sasho T
-28120109	MMP13	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Jan 24	Sasho T
-28129516	PRG4	Protein	exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Rat	2017 Jan 27	Fleming BC
-28139355	mir-483-5p	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2017 Jan 27	Bai X
-28165497	WNT7A	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2017 Feb 6	Zeng L
-28314754	KDM6B	Viral	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2017 Mar 17	Ouyang H
-28420447	BMPR1A	CK2.1	Activation	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2017 Apr 18	Nohe A
-28426699	IL20	Antibody	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Apr 20	Chang MS
-28464560	ST14	Compound 59	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Jul 5	Rowan AD
-28464560	ST14	Antibody	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2017 Jul 5	Rowan AD
-28544596	PTGDR	BW245C	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2017 Aug 1	Fahmi H
-28620193	mir-29a	Injection	Overexpression	Collagenase	Protective	Protective	Articular cavity	Mouse	2017 Jun 15	Wang FS
-28627522	DOT1L	EPZ-5676	Inhibition	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2017 Jun 19	Lories RJ
-28647469	mir-140	agomir	Overexpression	Surgical - ACLT+ MM	Protective	Protective	Articular cavity	Rat	2017 Jun 21	Shen B
-28648299	TNFSF11	OP3-4	Activation	MIA	Protective	Protective	Articular cavity	Mouse	2017 Jun 13	Aoki K
-28743292	A2M	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2017 Jul 25	Wei L
-28757192	EGFR	gefitinib	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Rabbit	2017 Jul 28	Ouyang H
-28823646	LEPR	shRNA	Knockdown	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rat	2017 Aug 18	Li J
-28844955	BRD2	JQ1	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2017 Aug 24	Ma J
-28844955	BRD3	JQ1	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2017 Aug 24	Ma J
-28844955	BRD4	JQ1	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2017 Aug 24	Ma J
-28919376	mir-218-5p	inhibitor	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Aug 19	Im HJ
-29026147	VEGFA	Antibody	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Oct 12	Olsen BR
-29026147	KDR	vandetanib	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Oct 12	Olsen BR
-29068480	PHLPP1	NSC117079	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Nov 28	Westendorf JJ
-29068480	PHLPP2	NSC117079	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Nov 28	Westendorf JJ
-29070587	GHRL	Protein	exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2018 Jan 3	Zhao Y
-29205898	PTGS2	celecoxib	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rabbit	2017 Dec 5	Jeong KS
-29219023	TNC	Protein	exogenous	Surgical - DMM + ACLT	Protective	Protective	Articular cavity	Mouse	2016 Dec 4	Sudo A
-29247173	ESRRG	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2017 Dec 15	Chun JS
-29247173	ESRRG	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2017 Dec 15	Chun JS
-29247173	ESRRG	GSK5182	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2017 Dec 15	Chun JS
-29257344	GGCX	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rabbit	2017 Dec 18	Yin M
-29314205	CDC42	ZCL278	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Feb 15	Wu X
-29329496	VEGFA	bevacizumab	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Mar 24	Bai X
-29415892	AXIN2	XAV-939	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Feb 8	Young PP
-29415892	TNKS	XAV-939	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Feb 8	Young PP
-29436471	IL6ST	RCGD 423	Activation	Surgical - MM	Protective	Protective	Articular cavity	Mouse	2018 Feb 7	Evseenko D
-29440889	IHH	siRNA	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rat	2018 Jan 31	Wei L
-29474860	NR1D1	SR9009	Inhibition	Surgical - MM	Protective	Detrimental	systemic	Mouse	2018 Feb 20	Im HJ
-29476740	JUN	T-5224	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018 Feb 21	Kimura T
-29488610	VEGFA	Protein	exogenous	Surgical - ACLT	Detrimental	Detrimental	Articular cavity	Rat	2018 Feb 28	Weng JQ
-29523155	CTSK	MIV-711	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rabbit	2018 Mar 9	Grabowska U
-29523155	CTSK	MIV-711	Inhibition	Surgical - MM	Protective	Detrimental	Articular cavity	Dog	2018 Mar 9	Grabowska U
-29524442	MAPK14	PH-797804	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Mar 7	Allémann E
-29549054	FABP4	BMS309403	Inhibition	High Fat Diet	Protective	Detrimental	systemic	Mouse	2018 Mar 13	Yan CH
-29555825	FYN	PP1	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018 Mar 19	Bai X
-29555825	FYN	AZD0530	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018 Mar 19	Bai X
-29622035	CCL17	Antibody	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2018 Apr 5	Cook AD
-29622035	KDM6B	Antibody	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2018 Apr 5	Cook AD
-29622035	PTGS2	SC58128	Inhibition	Collagenase	No effect	No effect	systemic	Mouse	2018 Apr 5	Cook AD
-29718273	FGF23	Antibody	Inhibition	HMWTg	Protective	Detrimental	systemic	Mouse	2018 Jun 1	Hurley MM
-29784003	BRD2	I-BET151	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018 May 21	Jiang Q
-29784003	BRD3	I-BET151	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 May 21	Jiang Q
-29784003	BRD4	I-BET151	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 May 21	Jiang Q
-29858052	mir-106a-5p	agomir	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2018 Feb 8	Wang Y
-29898872	EGFR	Gefitinib	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Jun 11	Ouyang H
-29920476	KL	Protein	exogenous	Collagenase	Protective	Protective	Articular cavity	Mouse	2018 Jun 19	Brondello JM
-29922443	SIRT1	SRT1720	Activation	Surgical - DMM	Protective	Protective	systemic	Mouse	2018 May 5	Kuroda R
-30031925	PRKAA1	berberine	Activation	Spontaneous	Protective	Protective	systemic	Mouse	2018 Jul 20	Liu-Bryan R
-30070147	PRG4	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2018 Oct 17	Lee BHL
-30106092	mir-204-5p	agomir	Overexpression	Surgical - DMM + ACL + MM	Protective	Protective	Articular cavity	Rat	2018 Aug 7	Li X
-30144298	FLT4	Antibody	Inhibition	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2019 Jan 5	Xing L
-30145794	mir-483-5p	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2018 Aug 26	Bai X
-30145794	MTOR	Rapamycin	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2018 Aug 26	Bai X
-30154423	TFEB	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2018 Aug 28	Zhang X
-30201491	FGFR1	peptide	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Sep 8	Chen L
-30206206	mir-128a	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Rat	2018 Sep 11	Wang FS
-30206206	mir-128a	Antagomir	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rat	2018 Sep 11	Wang FS
-30261507	NCOA3	sirna	Knockdown	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2018 Sep 27	Qi X
-30287418	mir-181a-5p	ASO	Knockdown	Surgical - Cartilage Injury	Protective	Detrimental	Articular cavity	Mouse	2018 Oct 4	Kapoor M
-30305454	ITGBL1	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2018 Oct 10	Park TJ
-30305454	ITGBL1	siRNA	Knockdown	Spontaneous	Detrimental	Protective	Articular cavity	Mouse	2018 Oct 10	Park TJ
-30345823	MMP13	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Oct 26	Sasho T
-30405206	CHUK	BMS-345541	Inhibition	Surgical - DMM + MM	Protective	Detrimental	Articular cavity	Mouse	2018 Nov 7	Saito T
-30465058	YAP1	siRNA	Knockdown	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2018 Nov 21	Yu B
-30496623	CASR	NPS2143	Inhibition	Surgical - UAC	Protective	Detrimental	Articular cavity	Mouse	2019 Jan 7	Wang M
-30542285	RIPK1	Necrostatin1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Nov 27	Chen AM
-30610922	AGTR1	losartan	Inhibition	Col11a1 haploinsufficient	Protective	Detrimental	systemic	Mouse	2019 Jan 3	Seegmiller RE
-30622281	HSPA1A	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 Jan 8	Chun JS
-30622281	ZFP36L1	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Jan 8	Chun JS
-30659184	PBXIP1	siRNA	Knockdown	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2019 Jan 18	Wang Y
-30728500	CH25H	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019 Feb 6	Chun JS
-30728500	CYP7B1	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019 Feb 6	Chun JS
-30728500	CYP7B1	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Feb 6	Chun JS
-30728500	RORA	Viral	Overexpression	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019 Feb 6	Chun JS
-30729704	PPARA	WY14643	Activation	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 Feb 7	Xia C
-30731321	mir-10a-5p	Antagomir	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2018 Dec 25	Zhang J
-30731321	mir-10a-5p	agomir	Overexpression	Surgical - ACLT	Detrimental	Detrimental	Articular cavity	Mouse	2018 Dec 25	Zhang J
-30745310	WNT16	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019 Feb 11	Mak KK
-30791745	CD274	Antibody	Inhibition	Collagenase	Detrimental	Protective	systemic	Mouse	2019 Jan-Dec	Gao C
-30791745	CD274	Antibody	Inhibition	Surgical - ACLT	Detrimental	Protective	systemic	Mouse	2019 Jan-Dec	Gao C
-30826358	CORT	corstatin	exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 Feb 28	Li W
-30842121	IL1B	CRISPR	Removal	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Mar 6	Chen D
-30842121	MMP13	CRISPR	Removal	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Mar 6	Chen D
-30842121	NGF	CRISPR	Removal	Surgical - DMM	Detrimental	Protective	Articular cavity	Mouse	2019 Mar 6	Chen D
-30871292	GH1	Protein	exogenous	Collagenase	Protective	Protective	Articular cavity	Mouse	2019 Mar 1	Marsetio AF
-30891766	IL4	Exogenous	recombinant	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 Mar 19	Sun HB
-30917318	CBX4	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019 Mar 26	Liu GH
-30926814	GREM1	Antibody	Inhibition	Surgical - DMM + MM	Protective	Detrimental	Articular cavity	Mouse	2019 Mar 29	Saito T
-30926814	GREM1	Exogenous	recombinant	Surgical - DMM + MM	Detrimental	Detrimental	Articular cavity	Mouse	2019 Mar 29	Saito T
-30932160	mir-21-5p	Antagomir	Removal	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Apr 1	Zheng X
-30933975	FOXD1	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019 Apr 1	Liu GH
-30933975	YAP1	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019 Apr 1	Liu GH
-30944169	mir-204	Mimic	exogenous	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2019 Apr 3	Kim JH
-30944169	mir-204	Mimic	exogenous	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019 Apr 3	Kim JH
-30944169	mir-204	anti mir-204	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Apr 3	Kim JH
-30972197	DNMT3B	Viral	Overexpression	MIA	Protective	Protective	Articular cavity	Mouse	2019 Mar 15	Mao JJ
-30977553	CCL25	Protein	exogenous	Spontaneous	Protective	Protective	Articular cavity	Guinea pig 	2019 Apr 29	Sittinger M
-31020644	GABARAP	Protein	exogenous	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2019 Apr 24	Zhao J
-31063807	NAAA	N-Acylethanolamine acid amidase	Inhibition	MIA	Protective	Detrimental	Articular cavity	Mouse	2019 May 4	Li Y
-31068441	IL36A	Protein	exogenous	Surgical - DMM	Detrimental	Detrimental	Articular cavity	Mouse	2019 May 8	Spagnoli A
-31068441	IL36RN	Protein	exogenous	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 May 8	Spagnoli A
-31075235	mir-320-3p	agomir	Inhibition	Collagenase	Protective	Protective	Articular cavity	Mouse	2019 May 8	Zhang Z
-31085006	mir-671	Mimics	Overexpression	Surgical - DMM	Protective	Protective	systemic	Mouse	2019 Apr 28	Zhu Y
-31108241	CXCR4	AMD3100	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Mouse	2019 May 17	Cui Z
-31132406	CLK2	Lorecivivint	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2019 May 25	Yazici Y
-31132406	DYRK1A	Lorecivivint	Inhibition	MIA	Protective	Detrimental	Articular cavity	Rat	2019 May 25	Yazici Y
-31160553	WWP2	mRNA	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 Jun 3	Asahara H
-31169312	mir-9-5p	Viral	Overexpression	Surgical - tibial plateau fracture	Protective	Protective	Articular cavity	Mouse	2019 Jun 6	Tan Z
-31209645	AHSG	Exogenous	Overexpression	Surgical - ACLT	No effect	No effect	Articular cavity	Rat	2019 Jun 17	Nikolaou VS
-31229684	RHEB	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 Jun 20	Lee SH
-31253842	mir-204	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 Jun 28	Chen D
-31307784	CDK9	CDK9	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Mouse	2019 Jul 13	Ma J
-31310910	HDAC4	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Rat	2019 Jul 13	Wei XC
-31350386	DGCR8	Viral	Overexpression	Surgical - ACLT	Protective	Protective	Articular cavity	Mouse	2019 Jul 26	Liu GH
-31350386	DGCR8	Viral	Overexpression	Spontaneous	Protective	Protective	Articular cavity	Mouse	2019 Jul 26	Liu GH
-31357086	EPAS1	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Jul 26	Li X
-31357086	NEDD9	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Jul 26	Li X
-31357086	AURKA	siRNA	Knockdown	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Jul 26	Li X
-31407595	MTOR	Rapamycin	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Aug 13	Jin Q
-31422941	mir-146b	Antagomir	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Aug 17	Cai D
-31495059	PTGS2	Etoricoxib	Inhibition	Surgical - ACLT	Protective	Detrimental	systemic	Rat	2019 Oct 13	Hsuan Jean Y
-31496660	SOX9	Viral	Overexpression	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2019 Aug 13	Li Y
-31534047	ITGB3	P11	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2019 Sep 19	Robinson WH
-31534047	CD47	Antibody	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2019 Sep 19	Robinson WH
-31534047	PTK2	PF-573228	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2019 Sep 19	Robinson WH
-31534049	ABAT	Viral	Overexpression	Surgical - MLI	Detrimental	Detrimental	Articular cavity	Mouse	2019 Sep 19	O'Keefe RJ
-31534049	ABAT	siRNA	Knockdown	Surgical - MLI	Protective	Detrimental	Articular cavity	Mouse	2019 Sep 19	O'Keefe RJ
-31534049	ABAT	Vigabatrin	Inhibition	Surgical - MLI	Protective	Detrimental	systemic	Mouse	2019 Sep 19	O'Keefe RJ
-31653858	TNKS	XAV939	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Oct 25	Kim JH
-31653858	TNKS2	XAV939	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Oct 25	Kim JH
-31653858	TNKS	IWR-1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Oct 25	Kim JH
-31653858	TNKS2	IWR-1	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Oct 25	Kim JH
-31696655	GRK5	Amlexanox	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Nov 6	Nakashima Y
-31889132	PTGER4	KAG-308	Activation	Surgical - DMM + MM	Protective	Protective	systemic	Mouse	2019 Dec 30	Saito T
-31837247	FOXC1	siRNA	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2019 Dec 14	Yin Z
-31735552	KAT2B	Salidroside	Inhibition	Surgical - DMM	Protective	Detrimental	systemic	Mouse	2019 Nov 14	Pan X
-31841119	F2RL1	AZ3451	Inhibition	Surgical - ACLT	Protective	Detrimental	Articular cavity	Rat	2019 Dec 16	You H
-31982563	HMGB1	Antibody	Inhibition	Surgical - DMM	Protective	Detrimental	Articular cavity	Mouse	2020 Jan 23	Erlandsson Harris H
-31989845	SIRT1	SRT2104	Activation	Surgical - DMM	Protective	Protective	Articular cavity	Mouse	2020 Jan 28	Matsushita T
-32028021	CSF2	Antibody	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2020 Feb 3	Cook AD
-32028021	CCL17	Antibody	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2020 Feb 3	Cook AD
-29564448	TNFAIP6	Exogenous	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Rat	2018 May 1	Temenoff JS
-32101625	NPY	Exogenous	Overexpression	Surgical – DMM	Detrimental	Detrimental	Articular cavity	Mouse	2020 Feb 26	Wu S
-32087740	PRKAA1	Metformin	Activation	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2020 Feb 22	Lei G
-32069893	NCF1	siRNA	Knockdown	MIA	Protective	Detrimental	Articular cavity	Rat	2020 Feb 13	Kim DW
-15331419	IL18	Viral	Overexpression	Spontaneous	Detrimental	Detrimental	Articular cavity	Mouse	2020 Jan 29	van den Berg WB
-32006659	CCL2	Antibody	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2020 Jan 29	Meng F
-32006659	CCL3	Antibody	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2020 Jan 29	Meng F
-32006659	CCR1	BX471	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2020 Jan 29	Meng F
-32006659	CCR2	RS504393	Inhibition	Collagenase	Protective	Detrimental	systemic	Mouse	2020 Jan 29	Meng F
-27808352	SULF1	Protein	Overexpression	Surgical – DMM	Protective	Protective	Articular cavity	Mouse	2016 Nov 3	Neo M
-32175635	CSNK1E	PF4800567	Inhibition	Surgical – ACLT	Protective	Detrimental	systemic	Mouse	2020 Mar 16	Rong L
-30143643	PGAM1	siRNA	Knockdown	Surgical – DMM	Protective	Detrimental	Articular cavity	Mouse	2018 Aug 24	Jin EJ
-29991473	RSPO2	antibody	Inhibition	Collagenase	Protective	Detrimental	Articular cavity	Mouse	2018 Jul 10	Bai X
+PMID,Target,Intervention,Effect on gene product,Model,Susceptibility observed,Inferred gene effect,Delivery,Species,pub_date,LastAuthor
+11237660,TGFB1,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2001 Feb,van den Berg WB
+12077282,TGFB1,soluble TGF-beta-RII,Removal,papain,Protective,Detrimental,Articular cavity,Mouse,2002 Jul 1,van den Berg WB
+12794826,MAP2K1,PD 198306,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Rabbit,2003 Jun,Martel-Pelletier J
+12794826,MAP2K2,PD 198306,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Rabbit,2003 Jun,Martel-Pelletier J
+13129693,CASP1,pralnacasan,Inhibition,Collagenase,Protective,Detrimental,systemic,Mouse,2003 Oct,van den Berg W
+13129693,CASP1,pralnacasan,Inhibition,STR/ort,Protective,Detrimental,systemic,Mouse,2003 Oct,van den Berg W
+14673992,OSM,Protein,exogenous,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2003 Dec,Cawston TE
+14673992,TNF,Protein,exogenous,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2003 Dec,Cawston TE
+14673995,SMAD6,Viral,Overexpression,papain,Protective,Protective,Articular cavity,Mouse,2003 Dec,van den Berg WB
+14673995,SMAD7,Viral,Overexpression,papain,Protective,Protective,Articular cavity,Mouse,2003 Dec,van den Berg WB
+14673995,TGFB1,MLAP-1,Inhibition,papain,Detrimental,Protective,Articular cavity,Mouse,2003 Dec,van den Berg WB
+14673995,TGFB1,Viral,Overexpression,papain,Protective,Protective,Articular cavity,Mouse,2003 Dec,van den Berg WB
+15231019,CCN2,Protein,exogenous,MIA,Protective,Protective,Articular cavity,Rat,2004 Mar 29,Takigawa M
+15692987,PPARG,Pioglitazone,Activation,Surgical - MM,Protective,Protective,systemic,Guinea pig ,2005 Feb,Pelletier JP
+16394269,HSPA2,Viral,Overexpression,MIA,Protective,Protective,Articular cavity,Rat,2006 Jan,Gillet P
+16584530,TGFB1,Viral,Overexpression,STR/ort,Ambiguous,Ambiguous,Articular cavity,Mouse,2006 Mar 29,van der Kraan PM
+16646035,CCN2,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2006 May,van der Kraan PM
+17326835,LGALS3,Protein,exogenous,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2007,Reboul P
+17590359,BMP2,Protein,exogenous,Collagenase,Protective,Protective,Articular cavity,Rat,2007 Jun 22,Han B
+17599750,PPP3CA,Cyclosporin A,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2007 Jul,Kim WU
+17623656,MMP13,MMP13 inhibitor,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Rabbit,2007 Jul 10,Dyer RD
+17907189,TNFRSF11B,Protein,exogenous,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2007 Oct,Muneta T
+17977753,BMP7,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Rabbit,2007 Oct 31,Amiel D
+18182309,IL4,Protein,exogenous,Surgical - DMM + ACL + MM,Protective,Protective,Articular cavity,Rat,2008 Jan 7,Ozaki T
+18668550,TNFRSF11B,Protein,exogenous,Surgical - DMM + MM,Protective,Protective,Articular cavity,Mouse,2008 Aug,Cohen-Solal ME
+18941854,BMP7,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Rabbit,2008 Oct 22,Amiel D
+19170094,BMP7,Protein,exogenous,Exercise,Protective,Protective,Articular cavity,Rat,2009 Aug,Muneta T
+19180479,CCN4,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2009 Feb,van den Berg WB
+19644873,CTSK,sirna,Knockdown,Surgical - ACLT,Detrimental,Protective,Articular cavity,Rabbit,2009 Aug,Uede T
+19684582,SDC4,Antibody,Inhibition,Surgical - DMM + MM,Protective,Detrimental,Articular cavity,Mouse,2009 Aug 16,Pap T
+20131282,DKK1,shRNA,Knockdown,Surgical - ACLT,Protective,Detrimental,systemic,Mouse,2010 May,Wang FS
+20131282,DKK1,shRNA,Knockdown,Collagenase,Protective,Detrimental,systemic,Mouse,2010 May,Wang FS
+20309955,THBS1,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2010 Oct,Wu CL
+20495569,EPAS1,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2010 May 23,Chun JS
+20506144,PRG4,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2010 Aug,Elsaid KA
+20584806,F2RL1,Antibody,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2010 Jun 28,McInnes IB
+20584806,F2RL1,p520,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2010 Jun 28,McInnes IB
+20733349,FGF1,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Rabbit,2010 Oct 31,Chen L
+20733349,IGF1,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Rabbit,2010 Oct 31,Chen L
+20733349,IL1RN,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Rabbit,2010 Oct 31,Chen L
+20872588,BMP7,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Rabbit,2010 Nov,Sekiya I
+21310253,IL17RA,DNA aptamers,Inhibition,Surgical - MM,Protective,Detrimental,systemic,Mouse,2011 Feb 22,Liu SQ
+21325780,ROCK1,AS1892802,Inhibition,MIA,Protective,Detrimental,Articular cavity,Rat,2011 Feb 16,Shimizu Y
+21325780,ROCK2,AS1892802,Inhibition,MIA,Protective,Detrimental,Articular cavity,Rat,2011 Feb 16,Shimizu Y
+21346391,SPHK2,ABC294640,Inhibition,MIA,Protective,Detrimental,,,2011 Feb 22,Smith CD
+21378032,POMC,adenoviral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Rat,2011 Mar 4,Hsieh JL
+21590680,IL6,Protein,exogenous,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2011 Sep,Chun JS
+21869830,EPAS1,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2011 Aug 26,Chun JS
+21905007,PTGS2,celecoxib,Inhibition,Surgical - DMM + MM,No effect,No effect,systemic,Mouse,2012 Jan,Kawaguchi H
+21911068,GSK3B,GIN,Inhibition,Spontaneous,Detrimental,Protective,Articular cavity,Mouse,2011 Aug 27,Karperien M
+22057346,C5,Antibody,Inhibition,Surgical - MM,Protective,Detrimental,systemic,Mouse,2011 Nov 6,Robinson WH
+22057346,C3,CR2-fH,Inhibition,Surgical - MM,Protective,Detrimental,systemic,Mouse,2011 Nov 6,Robinson WH
+22057346,C5,CR2-fH,Inhibition,Surgical - MM,Protective,Detrimental,systemic,Mouse,2011 Nov 6,Robinson WH
+22415882,FGF2,Protein,exogenous,Surgical - DMM,Ambiguous,Ambiguous,Articular cavity,Mouse,2012 Jul,Im HJ
+22484689,CTSK,L-006235,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Rabbit,2012 Mar 30,Duong LT
+22488261,DKK1,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2012 Aug,Chun JS
+22909215,ASIC3,APETx2,Inhibition,MIA,Protective,Detrimental,Articular cavity,Rat,2012 Aug 21,Tani T
+23151456,HMOX1,Viral,Overexpression,STR/ort,No effect,No effect,Articular cavity,Mouse,2012 Nov 11,Armentano D
+23233270,SOST,Antibody,Inhibition,Surgical - Meniscus Tear,No effect,No effect,Articular cavity,Rat,2013 Mar,Babij P
+23298463,MMP13,CL82198,Inhibition,Surgical - MMTL,Protective,Detrimental,systemic,Mouse,2013 Jan 8,Chen D
+23313477,mir-181b,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2013 Jan 9,Jin EJ
+23666904,HSP90AB1,BIIB021,Inhibition,Exercise,Protective,Detrimental,systemic,Mouse,2013 Aug,Weinans H
+23685840,TGFBR1,SB505124,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Rat,2013 May 19,Cao X
+23685840,TGFBR1,Antibody,Inhibition,Surgical - ACLT,Protective,Detrimental,Bone,Rat,2013 May 19,Cao X
+23723320,TNFRSF11B,Protein,exogenous,MIA,Protective,Protective,systemic,Rat,2013 May 30,Chapman V
+23954517,ADAMTS5,Antibody,Inhibition,STR/ort,Protective,Detrimental,Articular cavity,Mouse,2013 Aug 15,Visintin M
+24018042,ITGA1,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2013 Sep 7,Jin EJ
+24018042,mir-101,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2013 Sep 7,Jin EJ
+24257023,RAC1,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2013 Nov 20,Ouyang HW
+24257023,RAC1,NSC23766,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2013 Nov 20,Ouyang HW
+24347567,NAMPT,FK866,Inhibition,Spontaneous,Protective,Detrimental,Articular cavity,Mouse,2013 Dec 17,Chun JS
+24347567,NAMPT,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2013 Dec 17,Chun JS
+24529376,SLC39A8,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2014 Feb 13,Chun JS
+24578232,A2M,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Rat,2014 Jul,Wei L
+24757033,GSK3B,GSK3B-i,Inhibition,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2014 Aug,Rowan AD
+24848439,MMP13,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2014 May 22,Takahashi K
+25169730,GRN,Exogenous,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2014 Aug 28,Liu CJ
+25196583,mir-21,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2014 Sep 5,Jin EJ
+25196583,mir-21,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2014 Sep 5,Jin EJ
+25219670,IL1RN,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Rat,2014 Sep 16,Jay GD
+25230745,VEGFA,Bevacizumab,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Rabbit,2014 Sep 18,Mochida J
+25366485,MDK,Protein,exogenous,Surgical - DMM,Protective,Protective,systemic,Mouse,2014,Yu Y
+25592743,CST3,Viral,Overexpression,Surgical - ACLT,No effect,No effect,Articular cavity,Rabbit,2015 Jan 16,Matthews GL
+25732515,CXCR4,AMD3100,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2015 Apr 24,Wei L
+25892493,PLAU,Protein,exogenous,Spontaneous,Detrimental,Detrimental,Articular cavity,Rat,2015 Apr 20,Tang JG
+25917196,OCRL,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2015 May,Zhou Y
+25921548,mir-101,Viral,Overexpression,MIA,Detrimental,Detrimental,Articular cavity,Rat,2015 Apr 29,Ao Y
+25921548,mir-101,siRNA,Knockdown,MIA,Protective,Detrimental,Articular cavity,Rat,2015 Apr 29,Ao Y
+25937028,CNR2,HU308,Activation,Surgical - DMM,Protective,Protective,systemic,Mouse,2015 Apr 30,Ralston SH
+25969431,S100A9,paquinimod,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2015 May 12,van Lent PL
+25969431,S100A9,paquinimod,Inhibition,Collagenase,Protective,Detrimental,systemic,Mouse,2015 May 12,van Lent PL
+25976248,WNT16,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2015 May 12,van der Kraan PM
+25976248,WNT8A,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2015 May 12,van der Kraan PM
+25976248,WNT5A,Viral,Overexpression,Spontaneous,No effect,No effect,Articular cavity,Mouse,2015 May 12,van der Kraan PM
+25976248,CCN4,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2015 May 12,van der Kraan PM
+26015264,IGF2,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2015 Dec,Zeng L
+26103880,MECP2,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2015 Jun 24,Jin EJ
+26103880,MECP2,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2015 Jun 24,Jin EJ
+26103880,mir-373,siRNA,Knockdown,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2015 Jun 24,Jin EJ
+26103880,mir-373,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2015 Jun 24,Jin EJ
+26103880,mir-370,siRNA,Knockdown,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2015 Jun 24,Jin EJ
+26103880,mir-370,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2015 Jun 24,Jin EJ
+26103880,SHMT2,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2015 Jun 24,Jin EJ
+26103880,SHMT2,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2015 Jun 24,Jin EJ
+26108147,IL1B,siRNA,Knockdown,Surgical - DMM + ACL + MM,Protective,Detrimental,Articular cavity,Rabbit,2015 Jul 20,Liao Q
+26108147,TNF,siRNA,Knockdown,Surgical - DMM + ACL + MM,Protective,Detrimental,Articular cavity,Rabbit,2015 Jul 20,Liao Q
+26120493,EGFR,gefitinib,Inhibition,Surgical - DMM,Detrimental,Protective,systemic,Mouse,2014 Aug 5,Qin L
+26138996,CCR2,RS504393,inhibitor,Surgical - ACLT+MM,Protective,Detrimental,systemic,Rat,2015 Oct,Beier F
+26138996,EGFR,AG1478,inhibitor,Surgical - ACLT+MM,Protective,Detrimental,systemic,Rat,2015 Oct,Beier F
+26241779,EPAS1,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2015 Aug 1,Chun JS
+26241779,MTF1,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2015 Aug 1,Chun JS
+26241779,SLC39A8,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2015 Aug 1,Chun JS
+26256766,IKBKG,NBD peptide,Inhibition,Surgical - UAC,Protective,Detrimental,systemic,Mouse,2015 Aug 6,Wang MQ
+26275694,GH1,AOD9604,Activation,Collagenase,Protective,Protective,Articular cavity,Rabbit,2015 Summer,Park GY
+26355014,TGFBR2,losartan,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2015 Sep 4,Xu L
+26410555,ADAMTS5,Antibody,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2015 Sep 26,Malfait AM
+26445328,TNF,adalimumab,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Rat,2015 Jul 31,Yi CQ
+26531672,VEGFA,Protein,exogenous,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2015 Nov 4,Yang C
+26639398,SIRT6,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2015 Dec 7,Pan Z
+26673737,mir-222,siRNA,Knockdown,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2014 Dec 9,Jin EJ
+26686833,CALCA,BIBN4096,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2016 Jan 12,Ochi M
+26728350,RUNX1,mRNA,Overexpression,Surgical - DMM + MM,Protective,Protective,Articular cavity,Mouse,2016 Jan 5,Ohba S
+26837060,TGFB1,Antibody,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Mouse,2016 Feb 2,Cao X
+26851314,CXCR4,AMD3100,Inhibition,MIA,Protective,Detrimental,Articular cavity,Rat,2016 Jan 7,Ji P
+26903297,XDH,febuxostat,Inhibition,High Fat Diet,Protective,Detrimental,systemic,Mouse,2016 Feb 20,Asou Y
+26903440,MT1A,Viral,Overexpression,Surgical - DMM,No effect,No effect,Articular cavity,Mouse,2016 Feb 22,Chun JS
+26903440,MT2A,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2016 Feb 22,Chun JS
+27009967,SIK3,pterosin B,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2016 Mar 24,Tsumaki N
+27041213,FGFR1,G141,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2016 Apr 4,Chen L
+27052304,MTOR,Torin 1,Inhibition,Collagenase,Protective,Detrimental,Articular cavity,Rabbit,2016 Apr 6,Meng H
+27147707,BATF,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2016 May 4,Chun JS
+27147707,JUN,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2016 May 4,Chun JS
+27183574,IL3,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2016 May 13,Wani MR
+27301478,MTOR,Torin 1,Inhibition,Collagenase,Protective,Detrimental,Articular cavity,Rabbit,2016 Jun,Cui YP
+27322244,CXCR4,AMD3100,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Mouse,2016 Jun 16,Chen A
+27345362,CALCA,Protein,exogenous,Surgical - ACLT,Protective,Protective,systemic,Rat,2016 Jun 27,Jean YH
+27447821,mir-142-3p,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2016 Oct,Yu H
+27473558,FGF9,Protein,exogenous,Surgical - DMM,Ambiguous,Ambiguous,Articular cavity,Mouse,2016 Jul 27,Chen L
+27477830,LCN2,Viral,Overexpression,Surgical - DMM,No effect,No effect,Articular cavity,Mouse,2016 Jul 29,Chun JS
+27480933,FBXO32,Viral,Overexpression,Surgical - DMM,No effect,No effect,Articular cavity,Mouse,2016 Jul 30,Chun JS
+27539076,IL1RN,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Rat,2016 Aug 19,D'Souza G
+27539752,EZH2,EPZ005687,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2016 Aug 19,Li F
+27681622,RELA,sirna,Knockdown,Surgical - Injury,Protective,Detrimental,Articular cavity,Mouse,2016 Sep 28,Pham CT
+27690009,CXCR4,AMD3100,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Rat,2016 Sep 29,Chen A
+27789465,IL6R,Antibody,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2016 Oct 27,Richette P
+27851984,GDF5,Protein,exogenous,Surgical - DMM,Protective,Protective,Articular cavity,Rat,2016 Nov 13,Story B
+27856294,CCR2,RS504393,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2016 Nov 14,Spagnoli A
+27965260,CCL2,bindarit,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2016 Dec 13,Robinson WH
+27965260,CCR2,RS-504393,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2016 Dec 13,Robinson WH
+28120109,ADAMTS5,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Jan 24,Sasho T
+28120109,MMP13,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Jan 24,Sasho T
+28129516,PRG4,Protein,exogenous,Surgical - DMM,Protective,Protective,Articular cavity,Rat,2017 Jan 27,Fleming BC
+28139355,mir-483-5p,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2017 Jan 27,Bai X
+28165497,WNT7A,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2017 Feb 6,Zeng L
+28314754,KDM6B,Viral,Knockdown,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2017 Mar 17,Ouyang H
+28420447,BMPR1A,CK2.1,Activation,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2017 Apr 18,Nohe A
+28426699,IL20,Antibody,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Apr 20,Chang MS
+28464560,ST14,Compound 59,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Jul 5,Rowan AD
+28464560,ST14,Antibody,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2017 Jul 5,Rowan AD
+28544596,PTGDR,BW245C,Activation,Surgical - DMM,Protective,Protective,systemic,Mouse,2017 Aug 1,Fahmi H
+28620193,mir-29a,Injection,Overexpression,Collagenase,Protective,Protective,Articular cavity,Mouse,2017 Jun 15,Wang FS
+28627522,DOT1L,EPZ-5676,Inhibition,Spontaneous,Detrimental,Protective,Articular cavity,Mouse,2017 Jun 19,Lories RJ
+28647469,mir-140,agomir,Overexpression,Surgical - ACLT+ MM,Protective,Protective,Articular cavity,Rat,2017 Jun 21,Shen B
+28648299,TNFSF11,OP3-4,Activation,MIA,Protective,Protective,Articular cavity,Mouse,2017 Jun 13,Aoki K
+28743292,A2M,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Rat,2017 Jul 25,Wei L
+28757192,EGFR,gefitinib,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Rabbit,2017 Jul 28,Ouyang H
+28823646,LEPR,shRNA,Knockdown,Surgical - ACLT,Protective,Detrimental,Articular cavity,Rat,2017 Aug 18,Li J
+28844955,BRD2,JQ1,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2017 Aug 24,Ma J
+28844955,BRD3,JQ1,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2017 Aug 24,Ma J
+28844955,BRD4,JQ1,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2017 Aug 24,Ma J
+28919376,mir-218-5p,inhibitor,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Aug 19,Im HJ
+29026147,VEGFA,Antibody,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Oct 12,Olsen BR
+29026147,KDR,vandetanib,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Oct 12,Olsen BR
+29068480,PHLPP1,NSC117079,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Nov 28,Westendorf JJ
+29068480,PHLPP2,NSC117079,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Nov 28,Westendorf JJ
+29070587,GHRL,Protein,exogenous,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2018 Jan 3,Zhao Y
+29205898,PTGS2,celecoxib,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Rabbit,2017 Dec 5,Jeong KS
+29219023,TNC,Protein,exogenous,Surgical - DMM + ACLT,Protective,Protective,Articular cavity,Mouse,2016 Dec 4,Sudo A
+29247173,ESRRG,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2017 Dec 15,Chun JS
+29247173,ESRRG,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2017 Dec 15,Chun JS
+29247173,ESRRG,GSK5182,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2017 Dec 15,Chun JS
+29257344,GGCX,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Rabbit,2017 Dec 18,Yin M
+29314205,CDC42,ZCL278,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Feb 15,Wu X
+29329496,VEGFA,bevacizumab,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Mar 24,Bai X
+29415892,AXIN2,XAV-939,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Feb 8,Young PP
+29415892,TNKS,XAV-939,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Feb 8,Young PP
+29436471,IL6ST,RCGD 423,Activation,Surgical - MM,Protective,Protective,Articular cavity,Mouse,2018 Feb 7,Evseenko D
+29440889,IHH,siRNA,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Rat,2018 Jan 31,Wei L
+29474860,NR1D1,SR9009,Inhibition,Surgical - MM,Protective,Detrimental,systemic,Mouse,2018 Feb 20,Im HJ
+29476740,JUN,T-5224,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2018 Feb 21,Kimura T
+29488610,VEGFA,Protein,exogenous,Surgical - ACLT,Detrimental,Detrimental,Articular cavity,Rat,2018 Feb 28,Weng JQ
+29523155,CTSK,MIV-711,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Rabbit,2018 Mar 9,Grabowska U
+29523155,CTSK,MIV-711,Inhibition,Surgical - MM,Protective,Detrimental,Articular cavity,Dog,2018 Mar 9,Grabowska U
+29524442,MAPK14,PH-797804,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Mar 7,All?mann E
+29549054,FABP4,BMS309403,Inhibition,High Fat Diet,Protective,Detrimental,systemic,Mouse,2018 Mar 13,Yan CH
+29555825,FYN,PP1,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2018 Mar 19,Bai X
+29555825,FYN,AZD0530,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2018 Mar 19,Bai X
+29622035,CCL17,Antibody,Inhibition,Collagenase,Protective,Detrimental,systemic,Mouse,2018 Apr 5,Cook AD
+29622035,KDM6B,Antibody,Inhibition,Collagenase,Protective,Detrimental,Articular cavity,Mouse,2018 Apr 5,Cook AD
+29622035,PTGS2,SC58128,Inhibition,Collagenase,No effect,No effect,systemic,Mouse,2018 Apr 5,Cook AD
+29718273,FGF23,Antibody,Inhibition,HMWTg,Protective,Detrimental,systemic,Mouse,2018 Jun 1,Hurley MM
+29784003,BRD2,I-BET151,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2018 May 21,Jiang Q
+29784003,BRD3,I-BET151,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 May 21,Jiang Q
+29784003,BRD4,I-BET151,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 May 21,Jiang Q
+29858052,mir-106a-5p,agomir,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2018 Feb 8,Wang Y
+29898872,EGFR,Gefitinib,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Jun 11,Ouyang H
+29920476,KL,Protein,exogenous,Collagenase,Protective,Protective,Articular cavity,Mouse,2018 Jun 19,Brondello JM
+29922443,SIRT1,SRT1720,Activation,Surgical - DMM,Protective,Protective,systemic,Mouse,2018 May 5,Kuroda R
+30031925,PRKAA1,berberine,Activation,Spontaneous,Protective,Protective,systemic,Mouse,2018 Jul 20,Liu-Bryan R
+30070147,PRG4,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2018 Oct 17,Lee BHL
+30106092,mir-204-5p,agomir,Overexpression,Surgical - DMM + ACL + MM,Protective,Protective,Articular cavity,Rat,2018 Aug 7,Li X
+30144298,FLT4,Antibody,Inhibition,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2019 Jan 5,Xing L
+30145794,mir-483-5p,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2018 Aug 26,Bai X
+30145794,MTOR,Rapamycin,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2018 Aug 26,Bai X
+30154423,TFEB,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2018 Aug 28,Zhang X
+30201491,FGFR1,peptide,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Sep 8,Chen L
+30206206,mir-128a,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Rat,2018 Sep 11,Wang FS
+30206206,mir-128a,Antagomir,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Rat,2018 Sep 11,Wang FS
+30261507,NCOA3,sirna,Knockdown,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2018 Sep 27,Qi X
+30287418,mir-181a-5p,ASO,Knockdown,Surgical - Cartilage Injury,Protective,Detrimental,Articular cavity,Mouse,2018 Oct 4,Kapoor M
+30305454,ITGBL1,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2018 Oct 10,Park TJ
+30305454,ITGBL1,siRNA,Knockdown,Spontaneous,Detrimental,Protective,Articular cavity,Mouse,2018 Oct 10,Park TJ
+30345823,MMP13,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Oct 26,Sasho T
+30405206,CHUK,BMS-345541,Inhibition,Surgical - DMM + MM,Protective,Detrimental,Articular cavity,Mouse,2018 Nov 7,Saito T
+30465058,YAP1,siRNA,Knockdown,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2018 Nov 21,Yu B
+30496623,CASR,NPS2143,Inhibition,Surgical - UAC,Protective,Detrimental,Articular cavity,Mouse,2019 Jan 7,Wang M
+30542285,RIPK1,Necrostatin1,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Nov 27,Chen AM
+30610922,AGTR1,losartan,Inhibition,Col11a1 haploinsufficient,Protective,Detrimental,systemic,Mouse,2019 Jan 3,Seegmiller RE
+30622281,HSPA1A,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 Jan 8,Chun JS
+30622281,ZFP36L1,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Jan 8,Chun JS
+30659184,PBXIP1,siRNA,Knockdown,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2019 Jan 18,Wang Y
+30728500,CH25H,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2019 Feb 6,Chun JS
+30728500,CYP7B1,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2019 Feb 6,Chun JS
+30728500,CYP7B1,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Feb 6,Chun JS
+30728500,RORA,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2019 Feb 6,Chun JS
+30729704,PPARA,WY14643,Activation,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 Feb 7,Xia C
+30731321,mir-10a-5p,Antagomir,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2018 Dec 25,Zhang J
+30731321,mir-10a-5p,agomir,Overexpression,Surgical - ACLT,Detrimental,Detrimental,Articular cavity,Mouse,2018 Dec 25,Zhang J
+30745310,WNT16,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2019 Feb 11,Mak KK
+30791745,CD274,Antibody,Inhibition,Collagenase,Detrimental,Protective,systemic,Mouse,2019 Jan-Dec,Gao C
+30791745,CD274,Antibody,Inhibition,Surgical - ACLT,Detrimental,Protective,systemic,Mouse,2019 Jan-Dec,Gao C
+30826358,CORT,corstatin,exogenous,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 Feb 28,Li W
+30842121,IL1B,CRISPR,Removal,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Mar 6,Chen D
+30842121,MMP13,CRISPR,Removal,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Mar 6,Chen D
+30842121,NGF,CRISPR,Removal,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2019 Mar 6,Chen D
+30871292,GH1,Protein,exogenous,Collagenase,Protective,Protective,Articular cavity,Mouse,2019 Mar 1,Marsetio AF
+30891766,IL4,Exogenous,recombinant,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 Mar 19,Sun HB
+30917318,CBX4,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2019 Mar 26,Liu GH
+30926814,GREM1,Antibody,Inhibition,Surgical - DMM + MM,Protective,Detrimental,Articular cavity,Mouse,2019 Mar 29,Saito T
+30926814,GREM1,Exogenous,recombinant,Surgical - DMM + MM,Detrimental,Detrimental,Articular cavity,Mouse,2019 Mar 29,Saito T
+30932160,mir-21-5p,Antagomir,Removal,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Apr 1,Zheng X
+30933975,FOXD1,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2019 Apr 1,Liu GH
+30933975,YAP1,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2019 Apr 1,Liu GH
+30944169,mir-204,Mimic,exogenous,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2019 Apr 3,Kim JH
+30944169,mir-204,Mimic,exogenous,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2019 Apr 3,Kim JH
+30944169,mir-204,anti mir-204,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Apr 3,Kim JH
+30972197,DNMT3B,Viral,Overexpression,MIA,Protective,Protective,Articular cavity,Mouse,2019 Mar 15,Mao JJ
+30977553,CCL25,Protein,exogenous,Spontaneous,Protective,Protective,Articular cavity,Guinea pig ,2019 Apr 29,Sittinger M
+31020644,GABARAP,Protein,exogenous,Surgical - ACLT,Protective,Protective,Articular cavity,Rat,2019 Apr 24,Zhao J
+31063807,NAAA,N-Acylethanolamine acid amidase,Inhibition,MIA,Protective,Detrimental,Articular cavity,Mouse,2019 May 4,Li Y
+31068441,IL36A,Protein,exogenous,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2019 May 8,Spagnoli A
+31068441,IL36RN,Protein,exogenous,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 May 8,Spagnoli A
+31075235,mir-320-3p,agomir,Inhibition,Collagenase,Protective,Protective,Articular cavity,Mouse,2019 May 8,Zhang Z
+31085006,mir-671,Mimics,Overexpression,Surgical - DMM,Protective,Protective,systemic,Mouse,2019 Apr 28,Zhu Y
+31108241,CXCR4,AMD3100,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Mouse,2019 May 17,Cui Z
+31132406,CLK2,Lorecivivint,Inhibition,MIA,Protective,Detrimental,Articular cavity,Rat,2019 May 25,Yazici Y
+31132406,DYRK1A,Lorecivivint,Inhibition,MIA,Protective,Detrimental,Articular cavity,Rat,2019 May 25,Yazici Y
+31160553,WWP2,mRNA,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 Jun 3,Asahara H
+31169312,mir-9-5p,Viral,Overexpression,Surgical - tibial plateau fracture,Protective,Protective,Articular cavity,Mouse,2019 Jun 6,Tan Z
+31209645,AHSG,Exogenous,Overexpression,Surgical - ACLT,No effect,No effect,Articular cavity,Rat,2019 Jun 17,Nikolaou VS
+31229684,RHEB,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 Jun 20,Lee SH
+31253842,mir-204,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 Jun 28,Chen D
+31307784,CDK9,CDK9,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2019 Jul 13,Ma J
+31310910,HDAC4,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Rat,2019 Jul 13,Wei XC
+31350386,DGCR8,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2019 Jul 26,Liu GH
+31350386,DGCR8,Viral,Overexpression,Spontaneous,Protective,Protective,Articular cavity,Mouse,2019 Jul 26,Liu GH
+31357086,EPAS1,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Jul 26,Li X
+31357086,NEDD9,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Jul 26,Li X
+31357086,AURKA,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Jul 26,Li X
+31407595,MTOR,Rapamycin,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Aug 13,Jin Q
+31422941,mir-146b,Antagomir,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Aug 17,Cai D
+31495059,PTGS2,Etoricoxib,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Rat,2019 Oct 13,Hsuan Jean Y
+31496660,SOX9,Viral,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2019 Aug 13,Li Y
+31534047,ITGB3,P11,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2019 Sep 19,Robinson WH
+31534047,CD47,Antibody,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2019 Sep 19,Robinson WH
+31534047,PTK2,PF-573228,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2019 Sep 19,Robinson WH
+31534049,ABAT,Viral,Overexpression,Surgical - MLI,Detrimental,Detrimental,Articular cavity,Mouse,2019 Sep 19,O'Keefe RJ
+31534049,ABAT,siRNA,Knockdown,Surgical - MLI,Protective,Detrimental,Articular cavity,Mouse,2019 Sep 19,O'Keefe RJ
+31534049,ABAT,Vigabatrin,Inhibition,Surgical - MLI,Protective,Detrimental,systemic,Mouse,2019 Sep 19,O'Keefe RJ
+31653858,TNKS,XAV939,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Oct 25,Kim JH
+31653858,TNKS2,XAV939,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Oct 25,Kim JH
+31653858,TNKS,IWR-1,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Oct 25,Kim JH
+31653858,TNKS2,IWR-1,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Oct 25,Kim JH
+31696655,GRK5,Amlexanox,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Nov 6,Nakashima Y
+31889132,PTGER4,KAG-308,Activation,Surgical - DMM + MM,Protective,Protective,systemic,Mouse,2019 Dec 30,Saito T
+31837247,FOXC1,siRNA,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2019 Dec 14,Yin Z
+31735552,KAT2B,Salidroside,Inhibition,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2019 Nov 14,Pan X
+31841119,F2RL1,AZ3451,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Rat,2019 Dec 16,You H
+31982563,HMGB1,Antibody,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2020 Jan 23,Erlandsson Harris H
+31989845,SIRT1,SRT2104,Activation,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2020 Jan 28,Matsushita T
+32028021,CSF2,Antibody,Inhibition,Collagenase,Protective,Detrimental,Articular cavity,Mouse,2020 Feb 3,Cook AD
+32028021,CCL17,Antibody,Inhibition,Collagenase,Protective,Detrimental,Articular cavity,Mouse,2020 Feb 3,Cook AD
+29564448,TNFAIP6,Exogenous,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Rat,2018 May 1,Temenoff JS
+32101625,NPY,Exogenous,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2020 Feb 26,Wu S
+32087740,PRKAA1,Metformin,Activation,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2020 Feb 22,Lei G
+32069893,NCF1,siRNA,Knockdown,MIA,Protective,Detrimental,Articular cavity,Rat,2020 Feb 13,Kim DW
+15331419,IL18,Viral,Overexpression,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2020 Jan 29,van den Berg WB
+32006659,CCL2,Antibody,Inhibition,Collagenase,Protective,Detrimental,Articular cavity,Mouse,2020 Jan 29,Meng F
+32006659,CCL3,Antibody,Inhibition,Collagenase,Protective,Detrimental,Articular cavity,Mouse,2020 Jan 29,Meng F
+32006659,CCR1,BX471,Inhibition,Collagenase,Protective,Detrimental,systemic,Mouse,2020 Jan 29,Meng F
+32006659,CCR2,RS504393,Inhibition,Collagenase,Protective,Detrimental,systemic,Mouse,2020 Jan 29,Meng F
+27808352,SULF1,Protein,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2016 Nov 3,Neo M
+32175635,CSNK1E,PF4800567,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Mouse,2020 Mar 16,Rong L
+30143643,PGAM1,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2018 Aug 24,Jin EJ
+29991473,RSPO2,antibody,Inhibition,Collagenase,Protective,Detrimental,Articular cavity,Mouse,2018 Jul 10,Bai X
+32693649,mir-29b,Antagomir,Inhibition,Surgical - UAC,Detrimental,Protective,Articular cavity,Mouse,2020 Jul 21,Jiao K
+32693649,mir-29b,agomir,Overexpression,Surgical - UAC,Protective,Protective,Articular cavity,Mouse,2020 Jul 21,Jiao K
+32683043,BECN1,TAT-Beclin-1,Activation,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2020 Jul 17,Kapoor M
+32587244,HIF1A,DMOG,Activation,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2020 Jun 25,Xiao J
+32584470,miR-877-5p,agomir,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2020 Jun 25,Nie Z
+32564468,NFE2L2,Nomilin,Activation,Surgical - DMM,Protective,Protective,systemic,Mouse,2020 Jun 21,Yang Y
+32544091,GRIA1,NBQX,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2020 Jul 9,Mason DJ
+32544091,GRIA2,NBQX,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2020 Jul 9,Mason DJ
+32544091,GRIA3,NBQX,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2020 Jul 9,Mason DJ
+32544091,GRIA4,NBQX,Inhibition,Surgical - ACLT,Protective,Detrimental,Articular cavity,Mouse,2020 Jul 9,Mason DJ
+32416098,TRAF3,siRNA,Knockdown,Surgical - DMM,Detrimental,Protective,Articular cavity,Mouse,2020 May 19,Zhang X
+32409323,FBXO6,Viral,Overexpression,Surgical - ACLT,Protective,Protective,Articular cavity,Mouse,2020 May 14,Fan S
+32394143,KDM6B,GSK-J4,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2020 May 11,Jiangan T
+32336048,PTGDS,Virus,Overexpression,Surgical - DMM,Protective,Protective,Articular cavity,Mouse,2020 Apr 26,Fahmi H
+32335541,mir-375,Antagomir,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2020 Apr 26,Mao X
+32330796,PTGS2,Etoricoxib,Inhibition,Surgical - DMM,Ambiguous,Ambiguous,systemic,Mouse,2020 Apr 21,Luo Z
+32315726,HOTAIR,siRNA,Knockdown,Surgical - DMM,Protective,Detrimental,systemic,Mouse,2020 Apr 18,Ding L
+32295898,TET1,2-HG,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2020 Apr 15,Bhutani N
+32186934,GREM1,siRNA,Knockdown,Surgical - DMM + ACLT + MM,Detrimental,Protective,Articular cavity,Mouse,2020 Mar 18,Qian J
+32186934,mir-23a,Antagomir,Inhibition,Surgical - DMM + ACLT + MM,Protective,Detrimental,Articular cavity,Mouse,2020 Mar 18,Qian J
+32186934,mir-23b,Antagomir,Inhibition,Surgical - DMM + ACLT + MM,Protective,Detrimental,Articular cavity,Mouse,2020 Mar 18,Qian J
+32156705,PRKAA1,Metformin,Activation,Surgical - DMM,Protective,Protective,systemic,Mouse,2020 Mar 10,Chen D
+32154622,PTH,Protein,Exogenous,Spontaneous,Protective,Protective,systemic,Mouse,2020 Mar 10,Zhou X
+32151961,WNT3A,FzD7 CRD,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2020 Mar 6,He W
+32101625,NPY,Protein,Exogenous,Spontaneous,Detrimental,Detrimental,Articular cavity,Mouse,2020 Mar 12,Wu S
+32101625,NPY,Protein,Exogenous,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Mouse,2020 Mar 12,Wu S
+32045921,mir-375,Antagomir,Inhibition,Surgical - ACLT + MM,Protective,Detrimental,Articular cavity,Mouse,2020 Feb 11,Guo WC
+32067417,GDF11,Protein,Exogenous,Spontaneous,Protective,Protective,systemic,Mouse,2020 May 21,Wei L
+32518750,PTK2,Defactinib,Inhibition,Surgical - ACLT,Protective,Detrimental,systemic,Mouse,2020 May 19,Cui Z
+31945013,PRKAA1,Metformin,Activation,Surgical - DMM,Protective,Protective,systemic,Mouse,2020 Jan 16,Cai D
+31827706,KLF2,Viral,Overexpression,MIA,Protective,Protective,Articular cavity,Rat,2019 Nov 19,Li X
+31666999,PTGS2,celecoxib,Inhibition,STR/ort,Protective,Detrimental,systemic,Mouse,2019 Sep 11,Cao X
+32640182,UCMA,Protein,Exogenous,MIA,Protective,Protective,Articular cavity,Rat,2020 Jul 8,Kalaci A
+32416221,MFN2,Viral,Overexpression,Surgical - DMM,Detrimental,Detrimental,Articular cavity,Rat,2020 May 19,Wu L
+32416221,MFN2,Viral,Knockdown,Surgical - DMM,Protective,Detrimental,Articular cavity,Rat,2020 May 19,Wu L
+32377874,miR-9-5p,agomir,Overexpression,Surgical - DMM + ACLT,Protective,Protective,Articular cavity,Rat,2020 May 6,Qi S
+32377874,miR-9-5p,Antagomir,Inhibition,Surgical - DMM + ACLT,Detrimental,Protective,Articular cavity,Rat,2020 May 6,Qi S
+32134473,F2RL1,SLIGRL-NH2 ,Activation,Surgical - ACLT + MM,Detrimental,Detrimental,Articular cavity,Rat,2020 Mar 27,Chen H
+32134473,F2RL1,FSLLRY-NH2,Inhibition,Surgical - ACLT + MM,Protective,Detrimental,Articular cavity,Rat,2020 Mar 27,Chen H
+31790972,mir-140,agomir,Overexpression,Surgical - DMM + ACLT,Protective,Protective,Articular cavity,Rat,2019 Nov 9,Shen B
+32249508,OPRK1,JT09,Activation,Surgical - PMM,Protective,Protective,Articular cavity,Mouse,2020 Apr 5,Evseenko D
+32324278,PTK2,Y15,Inhibition,Surgical - ACLT,Protective,Detrimental,Subchondral bone,Rat,2020 Apr 23,Cui Z
+32308389,SHC1,siRNA,Knockdown,MIA,Protective,Detrimental,Articular cavity,Rat,2020 Apr 8,Kim DW
+32258036,NR4A1,Cytosporone B,Activation,Surgical - MM,Protective,Protective,Articular cavity,Rat,2020 Mar 17,Wu L
+32003758,NUCB2,Protein,Exogenous,Surgical - MM,Protective,Protective,Articular cavity,Rat,2020 Jan 30,Xiong Y
+32611834,BCL2,ABT263,Inhibition,Surgical - DMM + Mesical tear,Protective,Detrimental,Articular cavity,Rat,2020 Jul 1,Yang L
+15896984,FGF18,Protein,Exogenous,Surgical - DMM + Mesical tear,Protective,Protective,Articular cavity,Rat,2005 Jul 13,Ellsworth JL
+32636527,IL22RA1,antibody,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2020 Jul 7,Sacitharan PK
+32636527,IL22,antibody,Inhibition,Surgical - DMM,Protective,Detrimental,Articular cavity,Mouse,2020 Jul 7,Sacitharan PK
+24577103,FGF18,Protein,Exogenous,Surgical - DMM + Mesical tear,Protective,Protective,Articular cavity,Rat,2014 Feb 27,Kawaguchi H

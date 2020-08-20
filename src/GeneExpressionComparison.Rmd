@@ -10,6 +10,8 @@ library(ggplot2)
 library(gridExtra)
 library(tidyverse)
 library(ggsci)
+library(ggthemes)
+library(viridis)
 library(GeneOverlap)
 library(WriteXLS)
 library(readxl)
@@ -74,7 +76,7 @@ diffExp.nonHuman <- diffExp[OA$Species!="Human"]
 #combine the genetic and exogenous animal model gene data
 
 #read the annotations and combine for summary graphs
-geneticAnnotations <- read.delim("../data/geneticAnnotations.txt",check.names = F)
+geneticAnnotations <- read.csv("../data/geneticAnnotations.txt",check.names = F)
 geneticAnnotations$Model <- stringr::str_trim(geneticAnnotations$Model)
 
 geneticAnnotations <- geneticAnnotations[ geneticAnnotations$`Susceptibility observed` %in% c("Protective","Detrimental","No effect"),]
@@ -83,7 +85,7 @@ geneticAnnotations$`Susceptibility observed`  <-  factor(geneticAnnotations$`Sus
 colnames(geneticAnnotations)[7]<-"Delivery"
 
 
-exogenousAnnotations <- read.delim("../data/exogenousAnnotations.txt",check.names = F)
+exogenousAnnotations <- read.csv("../data/exogenousAnnotations.txt",check.names = F)
 exogenousAnnotations$Model <- stringr::str_trim(exogenousAnnotations$Model)
 
 exogenousAnnotations <- exogenousAnnotations[ exogenousAnnotations$`Susceptibility observed`  %in% c("Protective","Detrimental","No effect"),]
@@ -102,7 +104,7 @@ combined <- rbind(combined,combined2)
 colnames(combined)[2] <- "effect"
 
 #remove the mir genes as the gene expression studies included do not target these gene species
-combined <- combined[ -grep("mir",combined$Gene,ignore.case = T),]
+combined <- combined[ -grep("mir|HOTAIR",combined$Gene,ignore.case = T),]
 
 #percentage of animal model genes differentially expressed in at least one human gene expression study
 length(which(unique(combined$Gene) %in% unlist(diffExp.Human)))/length(unique(combined$Gene))
@@ -135,10 +137,13 @@ nonHumanDiffExp <- data.frame(Gene=unique(combined$Gene),"Number of experiments"
 nonHumanDiffExp <- nonHumanDiffExp[ order(nonHumanDiffExp$Gene),]
 
 
-#remove observations with no effect as these are often the cause of the ambignousness
+#filter observations with only no effect observations if superseeded by an obseration with a positive effect
+noEffectOnly <- combined %>% dplyr::group_by(Gene) %>%  dplyr::mutate(effectConsensus =  replace(effect,  dplyr::n_distinct(effect)>1,"Ambiguous" ) ) %>%  dplyr::filter(row_number(Gene) == 1) %>%  dplyr::filter(effectConsensus=="No effect") %>% as.data.frame()
 combined <- combined[ combined$effect != "No effect",]
-combined$simpleModel <- sapply(strsplit(combined$Model," "),"[[",1)
 
+
+#compare the gene expression data and OA genes split by model
+combined$simpleModel <- sapply(strsplit(combined$Model," "),"[[",1)
 combinedGenes <- list(OAGenes =unique(combined$Gene))
 degGenes <- c(upSig, downSig)
 overlap <- newGOM(degGenes, gsetB=combinedGenes,spec='hg19.gene')
@@ -199,16 +204,20 @@ counts <- counts %>% drop_na() %>% group_by_all() %>% tally()
 
 counts <- counts[ counts$values %in% c("Surgical","Spontaneous"),]
 
-#get the statistics on the proportions of the spontanous and surgical models - not significant
-model.prop <- counts %>% group_by(ind,facet) %>% spread(values,n) %>% group_by(ind,facet) %>% mutate(totalSurgical=252,totalSpont=146) %>% drop_na() %>% rowwise() %>% mutate(p.value = prop.test(c(Surgical,Spontaneous), c(totalSurgical,totalSpont))$p.value) %>% ungroup() %>%  mutate(padj = p.adjust(p.value,method = "BH")) %>% as.data.frame()
+#get the statistics on the proportions of the spontanous and surgical models
+model.prop <- counts %>% group_by(ind,facet) %>% spread(values,n) %>% group_by(ind,facet) %>% mutate(totalSurgical=279,totalSpont=157) %>% drop_na() %>% rowwise() %>% mutate(p.value = prop.test(c(Surgical,Spontaneous), c(totalSurgical,totalSpont))$p.value) %>% ungroup() %>%  mutate(padj = p.adjust(p.value,method = "BH")) %>% as.data.frame()
 
 
 #get a list of protective and deterimental OA animal model genes
 combined <- combined %>% dplyr::group_by(Gene) %>% dplyr::mutate(effectConsensus =  replace(effect,  dplyr::n_distinct(effect)>1,"Ambiguous" ) ) %>%  dplyr::filter(row_number(Gene) == 1) %>% as.data.frame()
+
+#add back the genes with no effect only
+combined <- combined[,-5]
+combined <- rbind(combined,noEffectOnly)
 combined$effectConsensus <- as.character(combined$effectConsensus)
 combined <- combined[order(combined$effectConsensus),]
 
-combinedGenes <- list(Protective=combined[combined$effectConsensus=="Protective","Gene"],Detrimental=combined[combined$effectConsensus=="Detrimental","Gene"])
+#combinedGenes <- list(Protective=combined[combined$effectConsensus=="Protective","Gene"],Detrimental=combined[combined$effectConsensus=="Detrimental","Gene"])
 
 
 #for each gene expression dataset get the consensus effect of the differentially expressed animal model genes
@@ -288,27 +297,27 @@ counts <- counts[ order(counts$Species,counts$Condition,counts$Tissue),]
 counts$ind <- factor(counts$ind, levels = unique(counts$ind))
 
 #plot the overlaps
-countsPlot <- counts%>% 
-  ggplot(aes(x = ind, y = n,fill= `Effect on OA`)) + 
-  geom_bar(stat = "identity") + facet_wrap(. ~ facet,ncol = 1)+ cowplot::theme_cowplot(font_size = 22) + xlab("Experiment") + ylab("Number of dysregulated OA associated genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) + scale_fill_npg() 
+# countsPlot <- counts%>% 
+#   ggplot(aes(x = ind, y = n,fill= `Effect on OA`)) + 
+#   geom_bar(stat = "identity") + facet_wrap(. ~ facet,ncol = 1)+ cowplot::theme_cowplot(font_size = 22) + xlab("Experiment") + ylab("Number of dysregulated OA associated genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) + scale_fill_colorblind(discrete = TRUE) 
 
 
 up <- counts %>% filter(facet=="Up Regulated") %>%
-  ggplot(aes(x = ind, y = n,fill= `Effect on OA`)) +
-  geom_bar(stat = "identity") + cowplot::theme_cowplot(font_size = 20) + xlab("Experiment") + ylab("No. up-regulated OA genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) + scale_fill_npg() +
+  ggplot(aes(x = ind, y = n,fill= factor(`Effect on OA`,levels=c("No effect","Ambiguous","Detrimental","Protective")))) +
+  geom_bar(stat = "identity") + cowplot::theme_cowplot(font_size = 20) + xlab("Experiment") + ylab("No. up-regulated OA genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) +  scale_fill_colorblind()  +
   theme(axis.text.x.bottom = element_blank(),
         axis.ticks = element_blank(),
         panel.spacing.x = unit(1, "mm"),
         axis.title.x = element_blank(),
         strip.background.x = element_blank(),
-        strip.text.x = element_blank())
+        strip.text.x = element_blank()) +  labs(fill="Effect on OA")
 
 labels <- levels(counts$ind)
 labels <- sapply(strsplit(labels,".",fixed = T),"[[",1)
 
 down <- counts %>% filter(facet=="Down Regulated") %>%
-  ggplot(aes(x = ind, y = n,fill= `Effect on OA`)) +
-  geom_bar(stat = "identity") + cowplot::theme_cowplot(font_size = 20) + xlab("Experiment") + ylab("No. down-regulated OA genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) + scale_fill_npg() +  theme(legend.position = "none") + theme(axis.text.x.bottom = element_text(vjust = 0.5)) + scale_x_discrete(labels=labels)
+ggplot(aes(x = ind, y = n,fill= factor(`Effect on OA`,levels=c("No effect","Ambiguous","Detrimental","Protective")))) +
+  geom_bar(stat = "identity") + cowplot::theme_cowplot(font_size = 20) + xlab("Experiment") + ylab("No. down-regulated OA genes")  + theme(axis.text.x=element_text(angle=90, hjust=1)) + scale_fill_colorblind() +  theme(legend.position = "none") + theme(axis.text.x.bottom = element_text(vjust = 0.5)) + scale_x_discrete(labels=labels) +  labs(fill="Effect on OA")
 
 jaccardUp <- counts %>% ggplot()+
   geom_tile(mapping = aes(x = ind, y = 1, fill = jaccardUp),
@@ -328,32 +337,34 @@ jaccardDown <- counts%>% ggplot()+
 species <- counts %>% ggplot()+
   geom_tile(mapping = aes(x =ind, y = 1,fill=Species),
            stat = "identity",
-           width = 1) +   scale_fill_npg() +
+           width = 1) +   scale_fill_viridis(option = "D",discrete = TRUE)  +
   theme_void(base_size = 22) +
   theme(panel.spacing.x = unit(1, "mm")) 
 
 exp <- counts %>% ggplot()+
   geom_tile(mapping = aes(x =ind, y = 1,fill=Condition),
            stat = "identity",
-           width = 1) +   scale_fill_npg() +
+           width = 1) +   scale_fill_viridis(option = "D",discrete = TRUE)  +
   theme_void(base_size = 22) +
   theme(panel.spacing.x = unit(1, "mm")) 
 
 tissue <- counts %>% ggplot()+
   geom_tile(mapping = aes(x =ind, y = 1,fill=Tissue),
            stat = "identity",
-           width = 1) +   scale_fill_npg() +  theme_void(base_size = 22) +   theme(panel.spacing.x = unit(1, "mm"))
+           width = 1) +   scale_fill_viridis(option = "D",discrete = TRUE) +  theme_void(base_size = 22) +   theme(panel.spacing.x = unit(1, "mm"))
 
 
 
-legend <- plot_grid(get_legend(species),get_legend(exp),get_legend(tissue),get_legend(up), get_legend(jaccardDown),ncol = 1,align = "v", axis = "tb")
+legend <- plot_grid(get_legend(up),get_legend(species),get_legend(exp),get_legend(tissue),ncol = 1,align = "v", axis = "tb")
 up <- up + theme(legend.position = "none")
 jaccardDown <- jaccardDown + theme(legend.position = "none")
 species <- species + theme(legend.position = "none")
 exp <- exp + theme(legend.position = "none")
 tissue <- tissue + theme(legend.position = "none")
 
-plot <- plot_grid(species,tissue,exp,jaccardUp,up,jaccardDown,down,align = "v", ncol = 1, axis = "tb", rel_heights = c(0.5,0.5,0.5,1,10,0.5,16))
+plot <- plot_grid(up,down,species,tissue,exp,align = "v", ncol = 1, axis = "tb", rel_heights = c(10,16,0.5,0.5,0.5))
+
+#plot <- plot_grid(species,tissue,exp,jaccardUp,up,jaccardDown,down,align = "v", ncol = 1, axis = "tb", rel_heights = c(0.5,0.5,0.5,1,10,0.5,16))
 g <- plot_grid(plot, legend, nrow = 1, rel_widths = c(10, 2),rel_heights = c(1,2))
 save_plot("../results/expressionComparison_Figure2.jpg", g,base_height = 11,base_width = 16)
 
@@ -367,7 +378,7 @@ getPValue <- function(a,b,c,d){
   return(pvalue)
 }
 
-counts.prop <- counts %>% group_by(ind,facet) %>% spread(`Effect on OA`,n) %>% group_by(ind,facet) %>% mutate(totalProt=166,totalDet=157) %>%  rowwise() %>% mutate(p.value = getPValue(Protective,Detrimental, totalProt,totalDet)) %>% ungroup() %>%  mutate(padj = p.adjust(p.value,method = "BH")) %>% as.data.frame()
+counts.prop <- counts %>% group_by(ind,facet) %>% spread(`Effect on OA`,n) %>% group_by(ind,facet) %>% mutate(totalProt=182,totalDet=172) %>%  rowwise() %>% mutate(p.value = getPValue(Protective,Detrimental, totalProt,totalDet)) %>% ungroup() %>%  mutate(padj = p.adjust(p.value,method = "BH")) %>% as.data.frame()
 
 
 #get the genes in the overlaps for each of the comparisons
@@ -381,8 +392,9 @@ geneOverlap <- apply(counts.prop,1,function(x) {
    Protective <- paste(overlap[ overlap$effectConsensus=="Protective",1],collapse=" ")
    Detrimental <- paste(overlap[ overlap$effectConsensus=="Detrimental",1],collapse=" ")
    Ambiguous <- paste( overlap[ overlap$effectConsensus=="Ambiguous",1],collapse=" ")
+   NoEffect <- paste( overlap[ overlap$effectConsensus=="No effect",1],collapse=" ")
    
-   return(data.frame(Protective=Protective,Detrimental=Detrimental,Ambiguous=Ambiguous))
+   return(data.frame(Protective=Protective,Detrimental=Detrimental,Ambiguous=Ambiguous,NoEffect=NoEffect))
 })
   
 geneOverlap <- bind_rows(geneOverlap)
@@ -395,7 +407,7 @@ OA$Accession <- gsub("(.*)_.*", "\\1",OA$Accession)
 
 counts.prop$Accession <- gsub("(.*)_.*", "\\1",counts.prop$ind )
 colnames(counts.prop)[c(1:2,6)] <- c("ExperimentID","Direction","jaccardDown")
-counts.prop <- counts.prop[,c(1,18,2:17)]
+counts.prop <- counts.prop[,c(1,20,2:19)]
 
 accessions <- read.delim("../data/accessions.txt")
 accessions$ID <- paste(accessions$accession,accessions$comparison,sep="_")

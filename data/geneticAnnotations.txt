@@ -1,571 +1,626 @@
-PMID	Gene	Effect on gene product	Model	Susceptibility observed	Inferred gene effect	Specificity	Species	pub_date	LastAuthor
-30813547	ACAN	Misexpression	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2019 Feb 26	Aszodi A
-17510707	ACAN	Protect	Surgical - DMM	Protective	Protective	Global	Mouse	2007 May 17	Fosang AJ
-15818704	ADAM15	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005 Apr	Burkhardt H
-29618652	ADAMTS12	Removal	Spontaneous	No effect	No effect	Global	Mouse	2018 Apr 5	Apte SS
-15334469	ADAMTS4	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2004 Aug	Morris EA
-21337391	ADAMTS5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2010 Oct 26	Plaas A
-21337391	ADAMTS5	Removal	TGFB and Treadmill	Protective	Detrimental	Global	Mouse	2010 Oct 26	Plaas A
-19010693	ADAMTS5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2008 Oct 17	van Osch GJ
-17968948	ADAMTS5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2007 Nov	Glasson SS
-15800624	ADAMTS5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2005 Mar 31	Morris EA
-23928557	ADAMTS7	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2013 Aug 8	Liu CJ
-23928557	ADAMTS7	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2013 Aug 8	Liu CJ
-23928557	ADAMTS7	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2013 Aug 8	Liu CJ
-29618652	ADAMTS7	Removal	Spontaneous	No effect	No effect	Global	Mouse	2018 Apr 5	Apte SS
-30088034	ADORA3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018 Aug 7	Evseenko D
-28492224	ADORA2A	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017 May 11	Cronstein BN
-31926929	ADRB2	Removal	Surgical - TMJ	Protective	Detrimental	MSC	Mouse	2020 Jan 9	Jiao K
-29667227	AGER	Removal	Impact	No effect	No effect	Global	Mouse	2018 May 24	Martin JA
-27236646	AGER	Removal	Surgical - TMJ	Protective	Detrimental	Global	Mouse	2016 May 14	Kooyman DL
-23755017	AGER	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2013 May 28	Kooyman DL
-19342682	AGER	Removal	Surgical - ACLT	No effect	No effect	Global	Mouse	2009 Apr 15	Terkeltaub R
-20187155	AKT1	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2010 Mar	Kawaguchi H
-28694081	ALOX15	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017 Jul 8	Fahmi H
-28694081	ALOX15	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017 Jul 8	Fahmi H
-30209244	ANP32A	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018 Sep 12	Lories RJ
-30209244	ANP32A	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2018 Sep 12	Lories RJ
-30209244	ANP32A	Removal	papain	Protective	Detrimental	Global	Mouse	2018 Sep 12	Lories RJ
-30209244	ANP32A	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2018 Sep 12	Lories RJ
-24022118	ANXA6	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2013 Dec	Kirsch T
-23151457	APOA1	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2012 Nov 11	Papachristou DJ
-29074298	APOE	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2017 Oct 24	Stoop R
-26687826	APOE	Removal	Collagenase	Detrimental	Protective	Global	Mouse	2015 Dec 12	van Lent PL
-30610061	ARG2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Jan 4	Chun JS
-31961823	ARPC2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2020 Feb 27	Risbud MV
-27159257	ATF3	Removal	Surgical - DMM + MCL	Protective	Detrimental	Cartilage	Mouse	2016 Jun 14	Hinoi E
-31511053	ATF6	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2019 Sep 11	Boot-Handford RP
-26438374	ATG5	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2015 Oct 5	Chagin AS
-24386478	ATRX	Removal	Spontaneous	No effect	No effect	Forelimb	Mouse	2013 Dec 30	Beier F
-30070692	AXIN1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2018 Aug 2	Chen D
-30471358	B4GALNT1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018 Nov 22	Iwasaki N
-26458773	BACH1	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2015 Oct 13	Ochi M
-26458773	BACH1	Removal	Surgical - DMM + MCL	Protective	Detrimental	Global	Mouse	2015 Oct 13	Ochi M
-27147707	BATF	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 May 4	Chun JS
-27147707	BATF	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2016 May 4	Chun JS
-29971011	BBS1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018 Jun 19	Kooyman DL
-19932218	BGN	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009 Nov 18	Höök M
-16006154	BGN	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005 Sep	Ameye LG
-11978731	BGN	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002 May	Young MF
-24448347	BMP2	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage Inducible	Mouse	2014 Jan 21	van der Kraan PM
-25889639	BMP7	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2015 Apr 15	Tsuji K
-22057346	C5	Removal	Surgical - MM	Protective	Detrimental	Global	Mouse	2011 Nov 6	Robinson WH
-22057346	C6	Removal	Surgical - MM	Protective	Detrimental	Global	Mouse	2011 Nov 6	Robinson WH
-26011709	CACNA1G	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2015 May 26	Kirn-Safran CB
-22122987	CALCA	Overexpression	Surgical - DMM	Protective	Protective	Global	Mouse	2011 Nov 13	Karsdal MA
-31926346	CALCA	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2020 Jan 8	Grässel S
-14673996	CASP1	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2003 Dec	Mason RM
-30496623	CASR	Removal	Surgical - UAC	Protective	Detrimental	Cartilage Inducible	Mouse	2019 Jan 7	Wang M
-29622035	CCL17	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2018 Apr 5	Cook AD
-27965260	CCL2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Dec 13	Robinson WH
-31424112	CCL2	Removal	Surgical -ACLT	Protective	Detrimental	Global	Mouse	2019 Aug 30	Krawetz RJ
-31424112	CCL2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2019 Aug 30	Krawetz RJ
-31424112	CCL2	Removal	Surgical - Cartilage Injury	No effect	No effect	Global	Mouse	2019 Aug 30	Krawetz RJ
-27746376	CCL2	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016 Oct 13	Vincent TL
-27965260	CCL5	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016 Dec 13	Robinson WH
-29925506	CCN2	Removal	Surgical - DMM	Protective	Detrimental	Inducible	Mouse	2018 Jun 20	Vincent TL
-23951098	CCN2	Overexpression	Spontaneous	Protective	Protective	Cartilage	Mouse	2013 Aug 12	Takigawa M
-25541297	CCN3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2014 Dec 22	Boulter CA
-27965260	CCR2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Dec 13	Robinson WH
-31424112	CCR2	Removal	Surgical -ACLT	Protective	Detrimental	Global	Mouse	2019 Aug 30	Krawetz RJ
-31424112	CCR2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2019 Aug 30	Krawetz RJ
-31424112	CCR2	Removal	Surgical - Cartilage Injury	Protective	Detrimental	Global	Mouse	2019 Aug 30	Krawetz RJ
-27746376	CCR2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Oct 13	Vincent TL
-23185004	CCR2	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2012 Nov 26	Malfait AM
-29622035	CCR4	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2018 Apr 5	Cook AD
-27965260	CCR5	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016 Dec 13	Robinson WH
-25498590	CCR5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2014 Dec 9	Sandell LJ
-28767178	CCR7	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2017 Aug 29	Scanzello CR
-30485272	CD14	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018 Nov 28	Scanzello CR
-31534047	CD47	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Sep 19	Robinson WH
-22057346	CD59	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2011 Nov 6	Robinson WH
-22057346	CD59	Removal	Surgical - MM	Detrimental	Protective	Global	Mouse	2011 Nov 6	Robinson WH
-27784871	CD9	Removal	Surgical - MML+MCL	No effect	No effect	Global	Mouse	2016	Ochi M
-27784871	CD9	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2016	Ochi M
-29314205	CDC42	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018 Feb 15	Wu X
-28128866	CDKN1A	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017 Jan 27	Kuroda R
-26546411	CDKN1A	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015 Nov 7	Kuroda R
-29744983	CDKN2A	Removal	Surgical - DMM	No effect	No effect	Cartilage Inducible	Mouse	2018 May 9	Sharpless NE
-29744983	CDKN2A	Removal	Spontaneous	No effect	No effect	Cartilage Inducible	Mouse	2018 May 9	Sharpless NE
-31644429	CDKN2A	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2019 Oct 22	Brondello JM
-22095691	CEBPB	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2011 Nov 17	Kawaguchi H
-22095691	CEBPB	Haploinsufficiency	Spontaneous	Protective	Detrimental	Global	Mouse	2011 Nov 17	Kawaguchi H
-29074298	CETP	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2017 Oct 24	Stoop R
-29982662	CFD	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018 Oct 1	Martel-Pelletier J
-32012117	CFD	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2020 Feb 1	Martel-Pelletier J
-30728500	CH25H	Removal	High Fat Diet	Protective	Detrimental	Global	Mouse	2019 Feb 6	Chun JS
-30728500	CH25H	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Feb 6	Chun JS
-31222033	CHUK	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2019 Jun 20	Otero M
-30716535	CLOCK	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Feb 2	Qian R
-25655021	CLOCK	Mutation	Spontaneous	No effect	No effect	Global	Mouse	2015 Sep	Im HJ
-25937028	CNR2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015 Apr 30	Ralston SH
-25937028	CNR2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015 Apr 30	Ralston SH
-28898438	COL11A1	Mutation	Cyclic	Detrimental	Protective	Global	Mouse	2017 Oct 31	van der Meulen MCH
-27031305	COL11A1	Mutation	Surgical - TMJ	Detrimental	Protective	Global	Mouse	2016 Mar 16	Seegmiller R
-15023383	COL11A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2004 Apr	Bridgewater LC
-13130470	COL11A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2003 Sep	Li Y
-11668593	COL11A2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2001 Oct	Mayne R
-18383364	COL1A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2008 Apr	Lipsky PE
-27031305	COL2A1	Mutation	Surgical - TMJ	Detrimental	Protective	Global	Mouse	2016 Mar 16	Seegmiller R
-23939426	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2013 Aug 9	Seegmiller RE
-23518238	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2013 Mar 19	Seegmiller RE
-22155431	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2011 Nov 26	Seegmiller RE
-22028304	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2012 Feb	Thakker RV
-16431140	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2006 Jan 20	Seegmiller RE
-15476249	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2004 Oct	Lammi MJ
-10943864	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2000 Aug	Vuorio E
-10903878	COL2A1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2000 Jul	Metsäranta MP
-11171689	COL2A1	Deficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2001 Mar	Helminen HJ
-25797646	COL5A1	Removal	Spontaneous	Detrimental	Protective	Tendons	Mouse	2015 Mar 20	Birk DE
-22448243	COL6A1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2012 Mar 20	Guilak F
-20360435	COL9A1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010 Apr 1	Griffin TM
-18163498	COL9A1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2008 Jan	Setton LA
-16947423	COL9A1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2006 Sep	Li Y
-17588960	COMP	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2007 Jun 22	Briggs MD
-30826358	CORT	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Feb 28	Li W
-30826358	CORT	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2019 Feb 28	Li W
-24449579	CPB2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014 Jan	Robinson WH
-29074298	CRP	Overexpression	High Fat Diet	Detrimental	Detrimental	Global	Mouse	2017 Oct 24	Stoop R
-30248505	CRP	Overexpression	High Fat Diet	Detrimental	Detrimental	Global	Mouse	2018 Sep 22	Stoop R
-27415616	CRTAC1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Jul 14	Aliprantis AO
-22995428	CSF2	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2012 Sep 20	Hamilton JA
-25655021	CSNK1E	Mutation	Spontaneous	No effect	No effect	Global	Mouse	2015 Sep	Im HJ
-30912140	CTNNB1	Activated	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2019 Mar 25	Jin H
-29686224	CTNNB1	Activated	Spontaneous	Detrimental	Detrimental	Cartilage Inducible	Mouse	2018 Apr 23	Chen D
-27018594	CTNNB1	Activated	Surgical - DMM	Protective	Protective	Cartilage Inducible	Mouse	2016 Mar 28	Alman BA
-25340802	CTNNB1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2014 Oct 23	Chen D
-18767925	CTNNB1	Activated	Spontaneous	Detrimental	Detrimental	Cartilage Inducible	Mouse	2009 Jan	Chen D
-18576323	CTNNB1	Inhibition	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2008 Jul	Chen D
-29781506	CTSK	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018 May 21	Drissi H
-22484689	CTSK	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2012 Mar 30	Duong LT
-21968827	CTSK	Removal	Surgical - DMM + MM+ACL	Protective	Detrimental	Global	Mouse	2012 Feb	Ishiguro N
-25135253	CXCR2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014 Aug 18	Dell'Accio F
-28108560	CXCR3	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2017 Jan 20	Bernardini G
-21652695	CYTL1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2011 Jun 7	Chun JS
-27377816	DCN	Removal	Treadmill	Protective	Detrimental	Global	Mouse	2016 Jul 4	Dreier R
-32162789	DCN	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2020 Mar 12	Han L
-32162789	DCN	Removal	Surgical - DMM	Detrimental	Protective	Global Inducible	Mouse	2020 Mar 12	Han L
-24795271	DDIT3	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2014 May 2	Mizuta H
-28334504	DDIT4	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017 Jun 2	Lotz MK
-23912900	DDR1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2013 Aug 4	Miosge N
-29073363	DDR2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2017 Oct 26	Franceschi RT
-27640147	DDR2	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2016 Sep 16	Xu L
-24822272	DDR2	Deficiency	Col11a1 haploinsufficient	Protective	Detrimental	Global	Mouse	2014 Apr	Xu L
-21855682	DDR2	Deficiency	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2011 Sep	Li Y
-20518074	DDR2	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2010 Sep	Li Y
-20518074	DDR2	Haploinsufficiency	Col11a1 haploinsufficient	Protective	Detrimental	Global	Mouse	2010 Sep	Li Y
-27505251	EDIL3	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016 Aug 9	Yang GP
-25549200	DIO1	Removal	Spontaneous	No effect	No effect	Global	Mouse	2015 Feb 3	Williams GR
-25550340	DIO2	Removal	Treadmill	Protective	Detrimental	Global	Mouse	2014 Dec 30	Lories RJ
-25549200	DIO2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2015 Feb 3	Williams GR
-25080367	DKK1	Overexpression	Surgical - MM	Protective	Protective	Bone	Mouse	2014 Nov	Cohen-Solal M
-22488261	DKK1	Overexpression	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2012 Aug	Chun JS
-22488261	DKK2	Overexpression	Surgical - DMM	No effect	No effect	Cartilage	Mouse	2012 Aug	Chun JS
-27315306	DLX2	Overexpression	Spontaneous	Detrimental	Detrimental	Neural crest cells	Mouse	2016 Jun 17	Shen G
-28759313	DMP1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2017 Jul 31	Sun Y
-27766035	DMP1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2016 Sep 15	Feng JQ
-25368604	DNAJC3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2014 Oct 17	Mason DJ
-30972197	DNMT3B	Removal	Surgical - TMJ	Detrimental	Protective	Cartilage Inducible	Mouse	2019 Mar 15	Mao JJ
-28614801	DNMT3B	Loss of function	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2017 Jun 15	O'Keefe RJ
-28614801	DNMT3B	Gain of function	Surgical - DMM	Protective	Protective	Cartilage Inducible	Mouse	2017 Jun 15	O'Keefe RJ
-30513362	DOT1L	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2018 Dec 1	Monteagudo S
-30513362	DOT1L	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2018 Dec 1	Monteagudo S
-25707934	DROSHA	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2015 Feb 21	Chong MW
-26562438	DUSP1	Removal	Spontaneous	No effect	No effect	Global	Mouse	2015 Nov 12	Beier F
-27780308	EFEMP1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017 Mar	Lotz MK
-27780308	EFEMP1	Removal	Surgical - MML+MCL	Detrimental	Protective	Global	Mouse	2017 Mar	Lotz MK
-26980243	EFNB2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2016 Mar 15	Martel-Pelletier J
-29898872	EGFR	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2018 Jun 11	Ouyang H
-29024567	EGFR	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2017 Dec 29	Qin L
-29024567	EGFR	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2017 Dec 29	Qin L
-29024567	EGFR	Removal	Surgical - DMM + MM	Detrimental	Protective	Cartilage	Mouse	2017 Dec 29	Qin L
-27911782	EGFR	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2016 Nov 28	Qin L
-27911782	EGFR	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2016 Nov 28	Qin L
-26120493	EGFR	Inhibition	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014 Aug 5	Qin L
-28349987	EGLN1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2017 Mar 28	Mohan S
-29691435	ELF3	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage Inducible	Mouse	2018 Apr 24	Otero M
-29691435	ELF3	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018 Apr 24	Otero M
-29488175	ENG	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2018 Feb 27	Philip A
-30111653	ENPP1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018 Sep 20	Yang Y
-22510396	ENPP1	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2012 Apr 17	Pap T
-24347567	EPAS1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2013 Dec 17	Chun JS
-21869830	EPAS1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2011 Aug 26	Chun JS
-20495569	EPAS1	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2010 May 23	Chun JS
-20495569	EPAS1	Haploinsufficiency	Collagenase	Protective	Detrimental	Global	Mouse	2010 May 23	Chun JS
-20495569	EPAS1	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2010 May 23	Chun JS
-25453723	EPHB4	Overexpression	Surgical - DMM	Protective	Protective	Bone	Mouse	2014 Nov 29	Martel-Pelletier J
-25453723	EPHB4	Overexpression	Spontaneous	Protective	Protective	Bone	Mouse	2014 Nov 29	Martel-Pelletier J
-22833446	EPHB4	Overexpression	Surgical - DMM	Protective	Protective	Bone	Mouse	2012 Nov	Martel-Pelletier J
-19932218	EPYC	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009 Nov 18	Höök M
-26097038	ERG	Removal	Surgical - DMM + MM	Detrimental	Protective	Joints	Mouse	2015 Oct	Iwamoto M
-26097038	ERG	Removal	Spontaneous	Detrimental	Protective	Joints	Mouse	2015 Oct	Iwamoto M
-24966136	ERRFI1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2014 Oct	Beier F
-24670222	ERRFI1	Removal	Surgical - DMM +MM	Detrimental	Protective	Global	Mouse	2014 Mar 27	Williams BO
-24550287	ERRFI1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2014 Feb 3	Zhang YW
-23705804	ERRFI1	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2013	Dealy CN
-16087873	ERRFI1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005 Aug 8	Vande Woude GF
-19410028	ESR1	Removal	Spontaneous	No effect	No effect	Global	Mouse	2009 Apr 17	Weinans H
-19410028	ESR2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2009 Apr 17	Weinans H
-29247173	ESRRG	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2017 Dec 15	Chun JS
-29247173	ESRRG	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2017 Dec 15	Chun JS
-30327434	EZH2	Removal	Spontaneous	No effect	No effect	Cartilage	Mouse	2018 Oct 16	van Wijnen AJ
-31910305	EZH2	Removal	Surgical - MM	Detrimental	Protective	Cartilage Inducible	Mouse	2020 Jan 7	Ouyang H
-25200274	F2R	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2014 Dec	Little CB
-26698846	F2RL1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2015 Dec 23	Ferrell WR
-25200274	F2RL1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2014 Dec	Little CB
-21285164	F2RL1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2011 Feb 1	Boileau C
-20584806	F2RL1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2010 Jun 28	McInnes IB
-20584806	F2RL1	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2010 Jun 28	McInnes IB
-29549054	FABP4	Removal	High Fat Diet	Protective	Detrimental	Global	Mouse	2018 Mar 13	Yan CH
-27480933	FBXO32	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016 Jul 30	Chun JS
-31084709	FCER1A	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 May 14	Robinson WH
-25748082	FCER1G	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2015 Mar 4	Schett G
-25748082	FCGR2B	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2015 Mar 4	Schett G
-25585625	FFAR1	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2015 Jan 13	Wittrant Y
-30075737	FFAR4	Removal	Surgical - ACLT	Detrimental	Protective	Global	Mouse	2018 Aug 3	Leung PS
-30144364	FGF2	Removal	Spontaneous	Ambiguous	Ambiguous	Global	Mouse	2018 Aug 25	Hurley MM
-27732085	FGF2	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2016 Oct 12	Hurley MM
-19565481	FGF2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009 Jul	Vincent T
-19565481	FGF2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2009 Jul	Vincent T
-29691281	FGFR1	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2018 Apr 24	Chen L
-29691281	FGFR1	Removal	Surgical - UAC	Protective	Detrimental	Cartilage Inducible	Mouse	2018 Apr 24	Chen L
-22833219	FGFR1	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2012 Dec	Chen L
-22833219	FGFR1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2012 Dec	Chen L
-28520086	FGFR3	Activated	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2017 Jun 6	Kitoh H
-28520086	FGFR3	Activated	Spontaneous	No effect	No effect	Cartilage	Mouse	2017 Jun 6	Kitoh H
-27159076	FGFR3	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2016 Oct	Chen L
-27159076	FGFR3	Activated	Surgical - DMM	Protective	Protective	Cartilage Inducible	Mouse	2016 Oct	Chen L
-27159076	FGFR3	Activated	Spontaneous	Protective	Protective	Cartilage Inducible	Mouse	2016 Oct	Chen L
-27041063	FGFR3	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2016 Apr 4	Chen L
-31662319	FGFR3	Removal	Surgical - DMM	Detrimental	Protective	Myeloid Inducible	Mouse	2019 Oct 29	Chen L
-31662319	FGFR3	Removal	Spontaneous	Detrimental	Protective	Myeloid Inducible	Mouse	2019 Oct 29	Chen L
-16006154	FMOD	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005 Sep	Ameye LG
-12089156	FMOD	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002 Jun 27	Chakravarti S
-11978731	FMOD	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002 May	Young MF
-29870552	FN1	Mutation	Surgical - MM+Forced Exercise	Detrimental	Protective	Cartilage	Mouse	2018 Jun 5	Costell M
-29444976	FOXO1	Removal	Treadmill	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-29444976	FOXO1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-29444976	FOXO1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-29444976	FOXO3	Removal	Treadmill	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-29444976	FOXO3	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-29444976	FOXO3	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-29444976	FOXO4	Removal	Treadmill	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-29444976	FOXO4	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-29444976	FOXO4	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018 Feb 14	Lotz MK
-25450854	FRZB	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014 Oct 30	Lories RJ
-29555825	FYN	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2018 Mar 19	Bai X
-29555825	FYN	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018 Mar 19	Bai X
-31534047	FYN	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Sep 19	Robinson WH
-20805298	GDF5	Haploinsufficiency	Surgical - DMM	No effect	No effect	Global	Mouse	2010 Aug 30	Lories RJ
-20805298	GDF5	Haploinsufficiency	Collagenase	Detrimental	Protective	Global	Mouse	2010 Aug 30	Lories RJ
-20805298	GDF5	Haploinsufficiency	Treadmill	Detrimental	Protective	Global	Mouse	2010 Aug 30	Lories RJ
-17656374	GDF5	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2007 Jul 26	Ikegawa S
-15219569	GH1	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2004 Jul	Delgado-Baeza E
-27682878	GJA1	Deficiency	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2016 Nov 8	Mayan MD
-19915594	GLI2	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2009 Nov 15	Alman BA
-30926814	GREM1	Removal	Surgical - DMM + MM	Protective	Detrimental	Cartilage Inducible	Mouse	2019 Mar 29	Saito T
-31696655	GRK5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Nov 6	Nakashima Y
-25169730	GRN	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2014 Aug 28	Liu CJ
-25169730	GRN	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014 Aug 28	Liu CJ
-28646530	HAS1	Removal	Surgical - Cartilage Injury	Detrimental	Protective	Global	Mouse	2017 Jul 21	Plaas A
-26521733	HAS1	Removal	Surgical - Cartilage Injury	Detrimental	Protective	Global	Mouse	2015 Nov	Plaas A
-25733872	HES1	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2015 Mar 2	Saito T
-26403062	HFE	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2015 Sep 25	Cancela ML
-31132316	HFE	Removal	Spontaneous	No effect	No effect	Global	Mouse	2019 May 27	Cancela ML
-19139395	HMGB2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009 Jan 12	Lotz M
-31176016	HSD11B1	Overexpression	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2019 Jun 5	Zhou H
-27118120	HSPD1	Overexpression	Collagenase	Protective	Protective	Global	Mouse	2016 Apr 27	Wang FS
-26636652	HSPG2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Apr	Melrose J
-23339896	HSPG2	Removal	Surgical - DMM + MM	Protective	Detrimental	Cartilage	Mouse	2013 Jan 20	Arikawa-Hirasawa E
-31051168	HTRA1	Removal	Col11a1 haploinsufficient	Protective	Detrimental	Global	Mouse	2019 Apr 30	Xu L
-31051168	HTRA1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Apr 30	Xu L
-31051168	HTRA1	Removal	Surgical - PDE	Protective	Detrimental	Global	Mouse	2019 Apr 30	Xu L
-18344557	HYAL1	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2008 Mar 15	Triggs-Raine BL
-28765635	HYAL2	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2017 Aug 1	Ishiguro N
-22173325	IFT88	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2011 Nov 27	Serra R
-31638855	IGF1	Removal	Surgical - DMM	Protective	Detrimental	Liver	Mouse	2019 Oct 22	Svensson J
-31638855	IGF1	Removal	Spontaneous	No effect	No effect	Liver	Mouse	2019 Oct 22	Svensson J
-24428864	IHH	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2014 Jan 15	Wei L
-27654963	IL1A	Removal	Collagenase	No effect	No effect	Global	Mouse	2016 Sep 18	van Lent PL
-27654963	IL1B	Removal	Collagenase	No effect	No effect	Global	Mouse	2016 Sep 18	van Lent PL
-14673996	IL1B	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2003 Dec	Mason RM
-21590680	IL6	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2011 Sep	Chun JS
-15639639	IL6	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2005 Jan	van den Berg WB
-15639639	IL6	Removal	Collagenase	No effect	No effect	Global	Mouse	2005 Jan	van den Berg WB
-29622035	IRF4	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2018 Apr 5	Cook AD
-14558093	ITGA1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2003 Oct	Lotz M
-27211864	ITGA1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016 May 20	Clark AL
-27280771	ITGA5	Removal	Surgical - DMM + MCL	Protective	Detrimental	Cartilage	Mouse	2016 Jun 9	Enomoto-Iwamoto M
-31534047	ITGB3	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Sep 19	Robinson WH
-28314754	KDM6B	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2017 Mar 17	Ouyang H
-23151457	LCAT	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2012 Nov 11	Papachristou DJ
-27477830	LCN2	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2016 Jul 29	Chun JS
-29074298	LDLR	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2017 Oct 24	Stoop R
-24286458	LDLR	Removal	Collagenase	Detrimental	Protective	Global	Mouse	2013 Nov 4	van Lent PL
-27390029	LEPR	Mutation	Surgical - DMM + MCL	Detrimental	Protective	Global	Mouse	2016 Jul 5	Caramés B
-17545192	LGALS3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2007 Jun 1	Reboul P
-17545192	LGALS3	Removal	MIA	Detrimental	Protective	Global	Mouse	2007 Jun 1	Reboul P
-32098291	LGALS3	Removal	Surgical - MM	Detrimental	Protective	Global	Mouse	2020 Feb 22	Ea HK
-32098291	LGALS3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020 Feb 22	Ea HK
-31569601	LOXL2	Overexpression	MIA	Protective	Protective	Global	Mouse	2019 Sep 27	Bais MV
-24479426	LRP5	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2014 Jan 31	Ryu JH
-24479426	LRP5	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2014 Jan 31	Ryu JH
-23756208	LRP6	Deficiency	Surgical - DMM + ACL+MM	Detrimental	Protective	Global	Mouse	2013 Jun 10	Williams BO
-11790802	LTBP3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002 Jan 14	Rifkin DB
-12089156	LUM	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2002 Jun 27	Chakravarti S
-26405834	MAP3K5	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2015 Sep 29	Freeman TA
-26405834	MAP3K5	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2015 Sep 29	Freeman TA
-18975318	MAPK14	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2008 Nov	Chen Q
-26663140	MAPK9	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 May	Saklatvala J
-27270603	MATN1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016 Jun 7	Chen Q
-31963938	MATN1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020 Jan 19	Aszodi A
-31963938	MATN2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020 Jan 19	Aszodi A
-16877353	MATN3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2006 Aug	Chen Q
-31963938	MATN3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020 Jan 19	Aszodi A
-31963938	MATN4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2020 Jan 19	Aszodi A
-25191747	MC1R	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014 Sep 5	Grässel S
-26797130	MCAT	Overexpression	Spontaneous	Protective	Protective	Global	Mouse	2016 Jan 21	Loeser RF
-31084709	MCL1	Removal	Surgical - DMM	Protective	Detrimental	Mast cells	Mouse	2019 May 14	Robinson WH
-21368873	MIA	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2010 Nov 11	Bosserhoff AK
-27564840	MIF	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2017 Feb	Loeser RF
-27564840	MIF	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2017 Feb	Loeser RF
-31647983	MINK1	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2019 Oct 21	Ouyang H
-31647983	MINK1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2019 Oct 21	Ouyang H
-29575548	mir-146a	Overexpression	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2018 Mar 24	Chen Q
-29575548	mir-146a	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2018 Mar 24	Chen Q
-29575548	mir-146a	Overexpression	Spontaneous	Protective	Protective	Cartilage	Mouse	2018 Mar 24	Chen Q
-29575548	mir-146a	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018 Mar 24	Chen Q
-28383548	mir-146a	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2017 Apr 6	Zhang X
-28383548	mir-146a	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2017 Apr 6	Zhang X
-31253842	mir-204	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Jun 28	Chen D
-31253842	mir-204	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2019 Jun 28	Chen D
-30932160	mir-21-5p	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2019 Apr 1	Zheng X
-30932160	mir-21-5p	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2019 Apr 1	Zheng X
-31253842	mir-211	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Jun 28	Chen D
-31253842	mir-211	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2019 Jun 28	Chen D
-28620193	miR-29a	Overexpression	Collagenase	Protective	Protective	Global	Mouse	2017 Jun 15	Wang FS
-31586040	mir-455-3p	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Oct 4	Zhang Z
-30145794	mir-483-5p	Overexpression	Spontaneous	Detrimental	Detrimental	Inducible	Mouse	2018 Aug 26	Bai X
-28139355	mir-483-5p	Overexpression	Surgical - DMM	Detrimental	Detrimental	Inducible	Mouse	2017 Jan 27	Bai X
-31160553	mir-140	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Jun 3	Asahara H
-20466812	mir-140	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2010 May 13	Asahara H
-20466812	mir-140	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2010 May 13	Asahara H
-23298463	MMP13	Removal	Surgical - DMM + MM	Protective	Detrimental	Cartilage Inducible	Mouse	2013 Jan 8	Chen D
-19950295	MMP13	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2009 Dec	Thompson EW
-19950295	MMP13	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2009 Dec	Thompson EW
-11134178	MMP13	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2001 Jan	DeGennaro LJ
-21216815	MMP17	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2011 Jan 7	Newham P
-17195217	MMP3	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2007 Jan	van den Berg WB
-14673996	MMP3	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2003 Dec	Mason RM
-27766031	MSR1	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2016 Aug 26	Chen Q
-30385786	STK4	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018 Nov 1	Mak KK
-30385786	STK4	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2018 Nov 1	Mak KK
-30385786	STK3	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018 Nov 1	Mak KK
-30385786	STK3	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2018 Nov 1	Mak KK
-26903440	MT1A	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2016 Feb 22	Chun JS
-26903440	MT2A	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2016 Feb 22	Chun JS
-24529376	MTF1	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2014 Feb 13	Chun JS
-24651621	MTOR	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2014 Mar 20	Kapoor M
-31007149	MTOR	Removal	Surgical - UAC	Protective	Detrimental	Cartilage Inducible	Mouse	2019 Apr 21	Wang M
-24703622	MYD88	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014 Apr 2	Busso N
-24347567	NAMPT	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2013 Dec 17	Chun JS
-31742919	NCAM1	Removal	MIA	Detrimental	Protective	Global	Mouse	2019 Nov 19	Feng ZW
-30195046	NCF1	Removal	Collagenase	No effect	No effect	Global	Mouse	2018 Sep 5	van den Bosch MHJ
-31634652	NELL1	Deficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Oct 12	Soo C
-24248346	NFATC1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013 Nov 18	Aliprantis AO
-19526482	NFATC1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009 Oct	Anderson HC
-30915215	NFATC2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Mar 2	Wang J
-24248346	NFATC2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013 Nov 18	Aliprantis AO
-21452283	NFATC2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2011 Aug	Wang J
-26408027	NFE2L2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015 Sep 26	Cao W
-26408027	NFE2L2	Removal	MIA	Detrimental	Protective	Global	Mouse	2015 Sep 26	Cao W
-29604191	NFKBIZ	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2018 Jul 25	Park Y
-29604191	NFKBIZ	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2018 Jul 25	Park Y
-14673996	NOS2	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2003 Dec	Mason RM
-26851274	NOTCH1	Deficiency	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016 Feb 5	Distler JH
-26198357	NOTCH1	Activated	Spontaneous	Detrimental	Detrimental	Cartilage Inducible	Mouse	2015 Jul 21	Hilton MJ
-29940267	NOTCH2	Activated	Surgical - DMM	Detrimental	Detrimental	Global	Mouse	2018 Jun 22	Canalis E
-31304988	NOX4	Removal	Tibial Compression	Protective	Detrimental	Global	Mouse	2019 Aug 1	Haudenschild DR
-25749104	NR1I2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015 Mar 6	Inoue S
-28492224	NT5E	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017 May 11	Cronstein BN
-30143643	NUDT7	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2018 Aug 24	Jin EJ
-28348422	OLR1	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2017 Feb 14	Akagi M
-26901593	OLR1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Feb 22	Akagi M
-28097228	OPRK1	Removal	Surgical - Cartilage Injury	Detrimental	Protective	Global	Mouse	2017 Jan 12	Evseenko D
-29323130	OPTC	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2018 Jan 11	Martel-Pelletier J
-26138248	PANX3	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2015 Jul 4	Beier F
-15882565	PAPSS2	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2005 May	Jirik FR
-30659184	PBXIP1	Removal	Surgical - ACLT	Protective	Detrimental	Cartilage	Mouse	2019 Jan 18	Wang Y
-31351471	PDPN	Removal	Loading	Protective	Detrimental	Bone	Mouse	2019 Jul 27	Farquharson C
-21643724	PHEX	Mutation	Spontaneous	Detrimental	Protective	Global	Mouse	2011 Jun 4	Macica CM
-26746148	PHLPP1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2015 Dec 31	Westendorf JJ
-31684073	PINK1	Removal	MIA	Protective	Detrimental	Global	Mouse	2019 Nov 2	Beom J
-17549029	PITX1	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2007 Sep	Moreau A
-25331977	PPARD	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2015 Feb	Beier F
-25573665	PPARG	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2015 Jan 8	Kapoor M
-23375622	PPARG	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013 Jan 30	Kapoor M
-31239244	PPARG	Removal	Surgical - DMM	Detrimental	Protective	Inducible	Mouse	2019 Jun 25	Cao W
-30629676	PRG4	Overexpression	Dominant-negative TGFBR2	Protective	Protective	Global	Mouse	2019 Jan 10	Serra R
-24834922	PRG4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2014 May 16	Nah HD
-23530215	PRG4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2013 Mar 25	Jay GD
-23486780	PRG4	Overexpression	Spontaneous	Protective	Protective	Global	Mouse	2013 Mar 13	Lee BH
-23486780	PRG4	Overexpression	Surgical - ACLT	Protective	Protective	Global	Mouse	2013 Mar 13	Lee BH
-31119776	PRG4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Jun 26	Krawetz R
-28225087	PRKAA1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2017 Feb 22	Jiang Q
-28225087	PRKAA1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2017 Feb 22	Jiang Q
-26741062	PRKAA1	Removal	Exercise	No effect	No effect	Cartilage	Mouse	2016 Jan 7	Jin D
-28225087	PRKAA2	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2017 Feb 22	Jiang Q
-28225087	PRKAA2	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2017 Feb 22	Jiang Q
-26783110	PRKCD	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Jan 18	Im HJ
-30111653	PTCH1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018 Sep 20	Yang Y
-19915594	PTCH1	Deficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2009 Nov 15	Alman BA
-31482846	PTCH1	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2019 Sep 4	Li B
-31646013	PTEN	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2019 Aug 5	Yang X
-31646013	PTEN	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2019 Aug 5	Yang X
-18163499	PTGES	Removal	Surgical - DMM + MM	No effect	No effect	Global	Mouse	2008 Jan	Kawaguchi H
-21905007	PTGS2	Removal	Surgical - DMM + MM	No effect	No effect	Global	Mouse	2012 Jan	Kawaguchi H
-26522700	RBPJ	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2015 Oct 30	Hilton MJ
-23839930	RBPJ	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2013 Oct	Hilton MJ
-23839930	RBPJ	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013 Oct	Hilton MJ
-23319657	RBPJ	Inhibition	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2013 Jan 14	Kawaguchi H
-27830706	RELA	Removal	Surgical - DMM + MM	Detrimental	Protective	Cartilage Inducible	Mouse	2016 Nov 10	Saito T
-27830706	RELA	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2016 Nov 10	Saito T
-31981416	RELA	Removal	Spontaneous	Detrimental	Protective	MSC	Mouse	2020 Jan 25	Deng Q
-29991473	RHEB	Removal	Collagenase	Protective	Detrimental	Macrophage	Mouse	2018 Jul 10	Bai X
-30728500	RORA	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2019 Feb 6	Chun JS
-30728500	RORA	Inhibition	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Feb 6	Chun JS
-30792936	RPTOR	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2019 Feb 20	Bai X
-31113964	RUNX1	Removal	Surgical - MMTL+MCL	Detrimental	Protective	Cartilage	Mouse	2019 May 21	Chung UI
-28539595	RUNX2	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2017 May 24	Chen D
-25628784	RUNX2	Overexpression	TGFB and Treadmill	Protective	Protective	Cartilage	Mouse	2014 Nov 22	Zheng Q
-22095691	RUNX2	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Global	Mouse	2011 Nov 17	Kawaguchi H
-22095691	RUNX2	Haploinsufficiency	Spontaneous	Protective	Detrimental	Global	Mouse	2011 Nov 17	Kawaguchi H
-20525838	RUNX2	Overexpression	Spontaneous	No effect	No effect	Global	Mouse	2010 Jun 4	Cohen-Solal ME
-16868966	RUNX2	Haploinsufficiency	Surgical - DMM  + MM	Protective	Detrimental	Global	Mouse	2006 Aug	Kawaguchi H
-31189030	RUNX2	Overexpression	Surgical - MLI	Detrimental	Detrimental	Cartilage Inducible	Mouse	2019 Jun 12	Jonason JH
-25180294	S100A9	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2014 Sep 1	van Lent PL
-25180294	S100A9	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2014 Sep 1	van Lent PL
-22143922	S100A9	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2012 May	van den Berg WB
-22143922	S100A9	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2012 May	van den Berg WB
-19684582	SDC4	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2009 Aug 16	Pap T
-28893232	SERPINE1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017 Sep 11	Kaji H
-24056368	SETDB1	Removal	Spontaneous	Detrimental	Protective	Forelimb	Mouse	2013 Sep 20	Yang L
-25450854	SFRP1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2014 Oct 30	Lories RJ
-27009967	SIK3	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2016 Mar 24	Tsumaki N
-23723318	SIRT1	Removal	Surgical - DMM + MM	Detrimental	Protective	Cartilage	Mouse	2013 May 30	Kurosaka M
-23723318	SIRT1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2013 May 30	Kurosaka M
-23587642	SIRT1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2013 Apr 13	McBurney MW
-23124828	SIRT1	Inhibition	Spontaneous	Detrimental	Protective	Global	Mouse	2013 Jan	McBurney MW
-22258484	SIRT1	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2012 Jan 17	Dvir-Ginzberg M
-29402405	SIRT7	Removal	Spontaneous	Protective	Detrimental	Global	Mouse	2018 Feb 2	Yamagata K
-29402405	SIRT7	Removal	Treadmill	Protective	Detrimental	Global	Mouse	2018 Feb 2	Yamagata K
-24529376	SLC39A8	Overexpression	Surgical - DMM	Detrimental	Detrimental	Cartilage	Mouse	2014 Feb 13	Chun JS
-24529376	SLC39A8	Removal	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2014 Feb 13	Chun JS
-20506210	SMAD3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010 Aug	O'Keefe RJ
-11285272	SMAD3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2001 Apr 2	Deng CX
-26272361	SMAD3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015 Aug 10	Tanaka E
-22674505	SMAD3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2012 Oct	Alliston T
-27018594	SMO	Activated	Surgical - DMM	Detrimental	Detrimental	Cartilage Inducible	Mouse	2016 Mar 28	Alman BA
-19915594	SMO	Activated	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2009 Nov 15	Alman BA
-19915594	SMO	Removal	Surgical - MM	Protective	Detrimental	Cartilage Inducible	Mouse	2009 Nov 15	Alman BA
-31608494	SMO	Removal	Surgical -ACLT	Protective	Detrimental	Inducible	Mouse	2019 Oct 24	Sakai A
-31608494	SMO	Removal	Surgical - ACLT + Climbing	Protective	Detrimental	Cartilage Inducible	Mouse	2019 Oct 24	Sakai A
-26815610	SMURF2	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Jan 27	Song J
-26815610	SMURF2	Removal	Spontaneous	No effect	No effect	Global	Mouse	2016 Jan 27	Song J
-18821706	SMURF2	Overexpression	Spontaneous	Detrimental	Detrimental	Cartilage	Mouse	2008 Oct	Rosier RN
-26108578	SOD2	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2015 Jun 25	Shimizu T
-26108578	SOD2	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2015 Jun 25	Shimizu T
-25593283	SOD3	Inhibition	Treadmill	Detrimental	Protective	Global	Mouse	2015 Jan 15	Regan EA
-29377313	SOST	Overexpression	Tibial compression	Protective	Protective	Global	Mouse	2018 Apr 2	Loots GG
-25656376	SOST	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015 Feb 6	Cohen-Solal M
-23233270	SOST	Removal	Spontaneous	No effect	No effect	Global	Mouse	2013 Mar	Babij P
-31966426	SOST	Overexpression	Surgical - DMM	Detrimental	Detrimental	Global	Mouse	2017 Nov 1	Jiang Q
-19644889	SPP1	Deficiency	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2009 Aug	Uede T
-19644889	SPP1	Deficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2009 Aug	Uede T
-28252046	ST3GAL5	Removal	Surgical - Injury	Protective	Detrimental	Global	Mouse	2017 Mar 2	Iwasaki N
-24333297	ST3GAL5	Removal	Surgical - DMM + MM	Detrimental	Protective	Global	Mouse	2013 Dec 12	Iwasaki N
-24333297	ST3GAL5	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2013 Dec 12	Iwasaki N
-30471358	ST8SIA1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2018 Nov 22	Iwasaki N
-20479257	SULF1	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010 May 17	Lotz MK
-20479257	SULF1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2010 May 17	Lotz MK
-20479257	SULF2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010 May 17	Lotz MK
-20479257	SULF2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2010 May 17	Lotz MK
-31926346	TAC1	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2020 Jan 8	Grässel S
-25964075	TFAP2E	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2015 May 12	Bosserhoff AK
-28544596	PTGDR	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017 Aug 1	Fahmi H
-28544596	PTGDR	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2017 Aug 1	Fahmi H
-27457421	TGFA	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2016 Jul 26	Beier F
-27457421	TGFA	Removal	Spontaneous	No effect	No effect	Global	Mouse	2016 Jul 26	Beier F
-24309371	TGFB1	Activated	Spontaneous	Detrimental	Detrimental	Bone	Mouse	2013 Dec 5	Wang M
-23685840	TGFB1	Activated	Spontaneous	Detrimental	Detrimental	Global	Mouse	2013 May 19	Cao X
-31673109	TGFB1I1	Removal	Surgical - DMM + MM	Protective	Detrimental	Global	Mouse	2019 Oct 31	Miyazaki A
-30078186	TGFBR1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2018 Aug 5	Chen L
-28716756	TGFBR1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2017 Jul 14	Chen L
-26355014	TGFBR2	Removal	Spontaneous	No effect	No effect	Cartilage Inducible	Mouse	2015 Sep 4	Xu L
-26355014	TGFBR2	Removal	Surgical - DMM	Protective	Detrimental	Cartilage Inducible	Mouse	2015 Sep 4	Xu L
-23982761	TGFBR2	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2013 Dec	Chen D
-23685840	TGFBR2	Removal	Surgical - ACLT	Protective	Detrimental	MSC	Mouse	2013 May 19	Cao X
-31068441	TGFBR2	Removal	Spontaneous	Detrimental	Protective	Forelimb Inducible	Mouse	2019 May 8	Spagnoli A
-31068441	TGFBR2	Removal	Surgical	Detrimental	Protective	Forelimb Inducible	Mouse	2019 May 8	Spagnoli A
-18584285	TGM2	Removal	Surgical - DMM + ACL + MM	Ambiguous	Ambiguous	Global	Mouse	2008 Jun 27	Tarantino U
-22664108	TIMP2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2012 Jun 1	Xiao T
-30379418	TIMP3	Overexpression	STR/ORT	Protective	Protective	Cartilage	Mouse	2019 Feb 14	Bou-Gharios G
-17328064	TIMP3	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2007 Mar	Mort JS
-24703622	TLR1	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014 Apr 2	Busso N
-24703622	TLR2	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014 Apr 2	Busso N
-31044181	TLR4	Removal	High Fat Diet	Protective	Detrimental	Global	Mouse	2018 Oct 4	Humphrey MB
-26245312	TLR4	Removal	Surgical - DMM	No effect	No effect	Global	Mouse	2015 Nov	Malfait AM
-24703622	TLR4	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014 Apr 2	Busso N
-30240938	TLR5	Removal	Spontaneous	No effect	No effect	Global	Mouse	2018 Sep 18	Hernandez CJ
-24703622	TLR6	Removal	Surgical - DMM +MM	No effect	No effect	Global	Mouse	2014 Apr 2	Busso N
-19747998	TNC	Removal	Surgical - DMM + ACL	Detrimental	Protective	Global	Mouse	2009 Sep 6	Uchida A
-19747998	TNC	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2009 Sep 6	Uchida A
-29622035	TNF	Removal	Collagenase	No effect	No effect	Global	Mouse	2018 Apr 5	Cook AD
-26713606	TNF	Removal	High Fat Diet	Protective	Detrimental	Global	Mouse	2016 Jun	Mooney RA
-30623241	TNFRSF11B	Removal	Surgical – TMJ	Detrimental	Protective	Global	Mouse	2019 Jan 8	Wang P
-27541035	TNFRSF11B	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2016 Aug 19	Zhang Q
-26018435	TNFRSF11B	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2015 May 27	Simonet WS
-17907189	TNFRSF11B	Haploinsufficiency	Spontaneous	Detrimental	Protective	Global	Mouse	2007 Oct	Muneta T
-17907189	TNFRSF11B	Haploinsufficiency	Surgical - DMM	Detrimental	Protective	Global	Mouse	2007 Oct	Muneta T
-27792866	TP63	Removal	Spontaneous	Protective	Detrimental	Cartilage	Mouse	2017 Mar	Saito T
-27792866	TP63	Removal	Surgical - DMM + MM	Protective	Detrimental	Cartilage	Mouse	2017 Mar	Saito T
-26521748	TRPA1	Removal	MIA	Protective	Detrimental	Global	Mouse	2015 Nov	Moilanen E
-27388701	TRPV4	Removal	Surgical - DMM	No effect	No effect	Cartilage Inducible	Mouse	2016 Jul 8	Guilak F
-27388701	TRPV4	Removal	Spontaneous	Protective	Detrimental	Cartilage Inducible	Mouse	2016 Jul 8	Guilak F
-23178209	TRPV4	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2012 Nov 23	Guilak F
-20583100	TRPV4	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2010 Oct	Guilak F
-28063212	TRPV6	Removal	Surgical - ACLT	Detrimental	Protective	Global	Mouse	2017 Apr 10	Ye T
-31007149	TSC1	Removal	Surgical - UAC	Detrimental	Protective	Cartilage	Mouse	2019 Apr 21	Wang M
-30792936	TSC1	Removal	Surgical - ACLT	Detrimental	Protective	Global	Mouse	2019 Feb 20	Bai X
-30408629	TSC1	Removal	Surgical - DMM	Detrimental	Protective	B cells	Mouse	2018 Nov 6	Cai DZ
-30145794	TSC1	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2018 Aug 26	Bai X
-29991473	TSC1	Removal	Collagenase	Detrimental	Protective	Macrophage	Mouse	2018 Jul 10	Bai X
-29329496	TSC1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage	Mouse	2018 Mar 24	Bai X
-29329496	TSC1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2018 Mar 24	Bai X
-28043938	TSC1	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2016 Dec 31	Cai D
-28043938	TSC1	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2016 Dec 31	Cai D
-28941045	TTR	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2017 Sep 22	Lotz MK
-28941045	TTR	Overexpression	Surgical - DMM	Detrimental	Detrimental	Global	Mouse	2017 Sep 22	Lotz MK
-28941045	TTR	Overexpression	Spontaneous	Detrimental	Detrimental	Global	Mouse	2017 Sep 22	Lotz MK
-30302948	TUT7	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Mar 6	Haqqi TM
-30258877	TWIST1	Activated	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2016 Feb 24	Drissi H
-31044181	TYROBP	Removal	High Fat Diet	Detrimental	Protective	Global	Mouse	2018 Oct 4	Humphrey MB
-28086000	UCMA	Removal	Surgical - DMM	Ambiguous	Ambiguous	Global	Mouse	2017 Apr 24	Schett G
-22391889	UGCG	Removal	Spontaneous	Detrimental	Protective	Cartilage	Mouse	2012 Aug	Iwasaki N
-22391889	UGCG	Removal	Surgical - DMM + MM	Detrimental	Protective	Cartilage	Mouse	2012 Aug	Iwasaki N
-29026147	VEGFA	Haploinsufficiency	Surgical - DMM	Protective	Detrimental	Cartilage	Mouse	2017 Oct 12	Olsen BR
-24999110	VHL	Removal	Spontaneous	Detrimental	Protective	Cartilage Inducible	Mouse	2014 Jul 4	Chen L
-24999110	VHL	Removal	Surgical - DMM	Detrimental	Protective	Cartilage Inducible	Mouse	2014 Jul 4	Chen L
-28735021	CCN4	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2017 Jul 19	Young MF
-28735021	CCN4	Removal	Spontaneous	No effect	No effect	Global	Mouse	2017 Jul 19	Young MF
-28735021	CCN4	Removal	Surgical - ACLT	Protective	Detrimental	Global	Mouse	2017 Jul 19	Young MF
-28735021	CCN4	Removal	Collagenase	Protective	Detrimental	Global	Mouse	2017 Jul 19	Young MF
-30745310	WNT16	Removal	Surgical - ACLT	Detrimental	Protective	Cartilage	Mouse	2019 Feb 11	Mak KK
-27147711	WNT16	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2016 May 4	Dell'Accio F
-32140758	WNT16	Overexpression	Surgical - DMM	No effect	No effect	Osteoblasts	Mouse	2020 Mar 5	Movérare-Skrtic S
-31160553	WWP2	Removal	Spontaneous	Detrimental	Protective	Global	Mouse	2019 Jun 3	Asahara H
-31160553	WWP2	Removal	Surgical - DMM	Detrimental	Protective	Global	Mouse	2019 Jun 3	Asahara H
-30385786	YAP1	Overexpression	Surgical - ACLT	Detrimental	Protective	Cartilage	Mouse	2018 Nov 1	Mak KK
-30385786	YAP1	Removal	Surgical - DMM	Protective	Protective	Cartilage	Mouse	2018 Nov 1	Mak KK
-30622281	ZFP36L1	Removal	Surgical - DMM	Protective	Detrimental	Global	Mouse	2019 Jan 8	Chun JS
-28544596	PTGDR	Removal	Surgical - DMM	Detrimental	Protective	systemic	Mouse	2017 Aug 1	Fahmi H
+PMID,Gene,Effect on gene product,Model,Susceptibility observed,Inferred gene effect,Specificity,Species,pub_date,LastAuthor
+30813547,ACAN,Misexpression,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2019 Feb 26,Aszodi A
+17510707,ACAN,Protect,Surgical - DMM,Protective,Protective,Global,Mouse,2007 May 17,Fosang AJ
+15818704,ADAM15,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2005 Apr,Burkhardt H
+29618652,ADAMTS12,Removal,Spontaneous,No effect,No effect,Global,Mouse,2018 Apr 5,Apte SS
+15334469,ADAMTS4,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2004 Aug,Morris EA
+21337391,ADAMTS5,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2010 Oct 26,Plaas A
+21337391,ADAMTS5,Removal,TGFB and Treadmill,Protective,Detrimental,Global,Mouse,2010 Oct 26,Plaas A
+19010693,ADAMTS5,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2008 Oct 17,van Osch GJ
+17968948,ADAMTS5,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2007 Nov,Glasson SS
+15800624,ADAMTS5,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2005 Mar 31,Morris EA
+23928557,ADAMTS7,Overexpression,Spontaneous,Detrimental,Detrimental,Cartilage,Mouse,2013 Aug 8,Liu CJ
+23928557,ADAMTS7,Overexpression,Surgical - DMM,Detrimental,Detrimental,Cartilage,Mouse,2013 Aug 8,Liu CJ
+23928557,ADAMTS7,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2013 Aug 8,Liu CJ
+29618652,ADAMTS7,Removal,Spontaneous,No effect,No effect,Global,Mouse,2018 Apr 5,Apte SS
+30088034,ADORA3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2018 Aug 7,Evseenko D
+28492224,ADORA2A,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2017 May 11,Cronstein BN
+31926929,ADRB2,Removal,Surgical - TMJ,Protective,Detrimental,MSC,Mouse,2020 Jan 9,Jiao K
+29667227,AGER,Removal,Impact,No effect,No effect,Global,Mouse,2018 May 24,Martin JA
+27236646,AGER,Removal,Surgical - TMJ,Protective,Detrimental,Global,Mouse,2016 May 14,Kooyman DL
+23755017,AGER,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2013 May 28,Kooyman DL
+19342682,AGER,Removal,Surgical - ACLT,No effect,No effect,Global,Mouse,2009 Apr 15,Terkeltaub R
+20187155,AKT1,Removal,Surgical - DMM + MM,Protective,Detrimental,Global,Mouse,2010 Mar,Kawaguchi H
+28694081,ALOX15,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2017 Jul 8,Fahmi H
+28694081,ALOX15,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2017 Jul 8,Fahmi H
+30209244,ANP32A,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2018 Sep 12,Lories RJ
+30209244,ANP32A,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2018 Sep 12,Lories RJ
+30209244,ANP32A,Removal,papain,Protective,Detrimental,Global,Mouse,2018 Sep 12,Lories RJ
+30209244,ANP32A,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2018 Sep 12,Lories RJ
+24022118,ANXA6,Removal,Surgical - DMM + MM,Protective,Detrimental,Global,Mouse,2013 Dec,Kirsch T
+23151457,APOA1,Removal,High Fat Diet,Detrimental,Protective,Global,Mouse,2012 Nov 11,Papachristou DJ
+29074298,APOE,Removal,High Fat Diet,Detrimental,Protective,Global,Mouse,2017 Oct 24,Stoop R
+26687826,APOE,Removal,Collagenase,Detrimental,Protective,Global,Mouse,2015 Dec 12,van Lent PL
+30610061,ARG2,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Jan 4,Chun JS
+31961823,ARPC2,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2020 Feb 27,Risbud MV
+27159257,ATF3,Removal,Surgical - DMM + MCL,Protective,Detrimental,Cartilage,Mouse,2016 Jun 14,Hinoi E
+31511053,ATF6,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2019 Sep 11,Boot-Handford RP
+26438374,ATG5,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2015 Oct 5,Chagin AS
+24386478,ATRX,Removal,Spontaneous,No effect,No effect,Forelimb,Mouse,2013 Dec 30,Beier F
+30070692,AXIN1,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2018 Aug 2,Chen D
+30471358,B4GALNT1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2018 Nov 22,Iwasaki N
+26458773,BACH1,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2015 Oct 13,Ochi M
+26458773,BACH1,Removal,Surgical - DMM + MCL,Protective,Detrimental,Global,Mouse,2015 Oct 13,Ochi M
+27147707,BATF,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 May 4,Chun JS
+27147707,BATF,Overexpression,Surgical - DMM,Detrimental,Detrimental,Cartilage,Mouse,2016 May 4,Chun JS
+29971011,BBS1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2018 Jun 19,Kooyman DL
+19932218,BGN,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2009 Nov 18,Höök M
+16006154,BGN,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2005 Sep,Ameye LG
+11978731,BGN,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2002 May,Young MF
+24448347,BMP2,Overexpression,Surgical - DMM,Detrimental,Detrimental,Cartilage Inducible,Mouse,2014 Jan 21,van der Kraan PM
+25889639,BMP7,Removal,Spontaneous,Detrimental,Protective,Forelimb,Mouse,2015 Apr 15,Tsuji K
+22057346,C5,Removal,Surgical - MM,Protective,Detrimental,Global,Mouse,2011 Nov 6,Robinson WH
+22057346,C6,Removal,Surgical - MM,Protective,Detrimental,Global,Mouse,2011 Nov 6,Robinson WH
+26011709,CACNA1G,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2015 May 26,Kirn-Safran CB
+22122987,CALCA,Overexpression,Surgical - DMM,Protective,Protective,Global,Mouse,2011 Nov 13,Karsdal MA
+31926346,CALCA,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2020 Jan 8,Grässel S
+14673996,CASP1,Removal,Surgical - DMM + MM,Detrimental,Protective,Global,Mouse,2003 Dec,Mason RM
+30496623,CASR,Removal,Surgical - UAC,Protective,Detrimental,Cartilage Inducible,Mouse,2019 Jan 7,Wang M
+29622035,CCL17,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2018 Apr 5,Cook AD
+27965260,CCL2,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Dec 13,Robinson WH
+31424112,CCL2,Removal,Surgical -ACLT,Protective,Detrimental,Global,Mouse,2019 Aug 30,Krawetz RJ
+31424112,CCL2,Removal,Spontaneous,No effect,No effect,Global,Mouse,2019 Aug 30,Krawetz RJ
+31424112,CCL2,Removal,Surgical - Cartilage Injury,No effect,No effect,Global,Mouse,2019 Aug 30,Krawetz RJ
+27746376,CCL2,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2016 Oct 13,Vincent TL
+27965260,CCL5,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2016 Dec 13,Robinson WH
+29925506,CCN2,Removal,Surgical - DMM,Protective,Detrimental,Inducible,Mouse,2018 Jun 20,Vincent TL
+23951098,CCN2,Overexpression,Spontaneous,Protective,Protective,Cartilage,Mouse,2013 Aug 12,Takigawa M
+25541297,CCN3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2014 Dec 22,Boulter CA
+27965260,CCR2,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Dec 13,Robinson WH
+31424112,CCR2,Removal,Surgical -ACLT,Protective,Detrimental,Global,Mouse,2019 Aug 30,Krawetz RJ
+31424112,CCR2,Removal,Spontaneous,No effect,No effect,Global,Mouse,2019 Aug 30,Krawetz RJ
+31424112,CCR2,Removal,Surgical - Cartilage Injury,Protective,Detrimental,Global,Mouse,2019 Aug 30,Krawetz RJ
+27746376,CCR2,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Oct 13,Vincent TL
+23185004,CCR2,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2012 Nov 26,Malfait AM
+29622035,CCR4,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2018 Apr 5,Cook AD
+27965260,CCR5,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2016 Dec 13,Robinson WH
+25498590,CCR5,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2014 Dec 9,Sandell LJ
+28767178,CCR7,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2017 Aug 29,Scanzello CR
+30485272,CD14,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2018 Nov 28,Scanzello CR
+31534047,CD47,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Sep 19,Robinson WH
+22057346,CD59,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2011 Nov 6,Robinson WH
+22057346,CD59,Removal,Surgical - MM,Detrimental,Protective,Global,Mouse,2011 Nov 6,Robinson WH
+27784871,CD9,Removal,Surgical - MML+MCL,No effect,No effect,Global,Mouse,2016,Ochi M
+27784871,CD9,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2016,Ochi M
+29314205,CDC42,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2018 Feb 15,Wu X
+28128866,CDKN1A,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2017 Jan 27,Kuroda R
+26546411,CDKN1A,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2015 Nov 7,Kuroda R
+29744983,CDKN2A,Removal,Surgical - DMM,No effect,No effect,Cartilage Inducible,Mouse,2018 May 9,Sharpless NE
+29744983,CDKN2A,Removal,Spontaneous,No effect,No effect,Cartilage Inducible,Mouse,2018 May 9,Sharpless NE
+31644429,CDKN2A,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2019 Oct 22,Brondello JM
+22095691,CEBPB,Haploinsufficiency,Surgical - DMM,Protective,Detrimental,Global,Mouse,2011 Nov 17,Kawaguchi H
+22095691,CEBPB,Haploinsufficiency,Spontaneous,Protective,Detrimental,Global,Mouse,2011 Nov 17,Kawaguchi H
+29074298,CETP,Removal,High Fat Diet,Detrimental,Protective,Global,Mouse,2017 Oct 24,Stoop R
+29982662,CFD,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2018 Oct 1,Martel-Pelletier J
+32012117,CFD,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2020 Feb 1,Martel-Pelletier J
+30728500,CH25H,Removal,High Fat Diet,Protective,Detrimental,Global,Mouse,2019 Feb 6,Chun JS
+30728500,CH25H,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Feb 6,Chun JS
+31222033,CHUK,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2019 Jun 20,Otero M
+30716535,CLOCK,Inhibition,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Feb 2,Qian R
+25655021,CLOCK,Mutation,Spontaneous,No effect,No effect,Global,Mouse,2015 Sep,Im HJ
+25937028,CNR2,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2015 Apr 30,Ralston SH
+25937028,CNR2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2015 Apr 30,Ralston SH
+28898438,COL11A1,Mutation,Cyclic,Detrimental,Protective,Global,Mouse,2017 Oct 31,van der Meulen MCH
+27031305,COL11A1,Mutation,Surgical - TMJ,Detrimental,Protective,Global,Mouse,2016 Mar 16,Seegmiller R
+15023383,COL11A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2004 Apr,Bridgewater LC
+13130470,COL11A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2003 Sep,Li Y
+11668593,COL11A2,Removal,Spontaneous,No effect,No effect,Global,Mouse,2001 Oct,Mayne R
+18383364,COL1A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2008 Apr,Lipsky PE
+27031305,COL2A1,Mutation,Surgical - TMJ,Detrimental,Protective,Global,Mouse,2016 Mar 16,Seegmiller R
+23939426,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2013 Aug 9,Seegmiller RE
+23518238,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2013 Mar 19,Seegmiller RE
+22155431,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2011 Nov 26,Seegmiller RE
+22028304,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2012 Feb,Thakker RV
+16431140,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2006 Jan 20,Seegmiller RE
+15476249,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2004 Oct,Lammi MJ
+10943864,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2000 Aug,Vuorio E
+10903878,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2000 Jul,Metsäranta MP
+11171689,COL2A1,Deficiency,Spontaneous,Detrimental,Protective,Global,Mouse,2001 Mar,Helminen HJ
+25797646,COL5A1,Removal,Spontaneous,Detrimental,Protective,Tendons,Mouse,2015 Mar 20,Birk DE
+22448243,COL6A1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2012 Mar 20,Guilak F
+20360435,COL9A1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2010 Apr 1,Griffin TM
+18163498,COL9A1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2008 Jan,Setton LA
+16947423,COL9A1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2006 Sep,Li Y
+17588960,COMP,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2007 Jun 22,Briggs MD
+30826358,CORT,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Feb 28,Li W
+30826358,CORT,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2019 Feb 28,Li W
+24449579,CPB2,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2014 Jan,Robinson WH
+29074298,CRP,Overexpression,High Fat Diet,Detrimental,Detrimental,Global,Mouse,2017 Oct 24,Stoop R
+30248505,CRP,Overexpression,High Fat Diet,Detrimental,Detrimental,Global,Mouse,2018 Sep 22,Stoop R
+27415616,CRTAC1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Jul 14,Aliprantis AO
+22995428,CSF2,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2012 Sep 20,Hamilton JA
+25655021,CSNK1E,Mutation,Spontaneous,No effect,No effect,Global,Mouse,2015 Sep,Im HJ
+30912140,CTNNB1,Activated,Spontaneous,Detrimental,Detrimental,Cartilage,Mouse,2019 Mar 25,Jin H
+29686224,CTNNB1,Activated,Spontaneous,Detrimental,Detrimental,Cartilage Inducible,Mouse,2018 Apr 23,Chen D
+27018594,CTNNB1,Activated,Surgical - DMM,Protective,Protective,Cartilage Inducible,Mouse,2016 Mar 28,Alman BA
+25340802,CTNNB1,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2014 Oct 23,Chen D
+18767925,CTNNB1,Activated,Spontaneous,Detrimental,Detrimental,Cartilage Inducible,Mouse,2009 Jan,Chen D
+18576323,CTNNB1,Inhibition,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2008 Jul,Chen D
+29781506,CTSK,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2018 May 21,Drissi H
+22484689,CTSK,Removal,Surgical - ACLT,Protective,Detrimental,Cartilage,Mouse,2012 Mar 30,Duong LT
+21968827,CTSK,Removal,Surgical - DMM + MM+ACL,Protective,Detrimental,Global,Mouse,2012 Feb,Ishiguro N
+25135253,CXCR2,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2014 Aug 18,Dell'Accio F
+28108560,CXCR3,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2017 Jan 20,Bernardini G
+21652695,CYTL1,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2011 Jun 7,Chun JS
+27377816,DCN,Removal,Treadmill,Protective,Detrimental,Global,Mouse,2016 Jul 4,Dreier R
+32162789,DCN,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2020 Mar 12,Han L
+32162789,DCN,Removal,Surgical - DMM,Detrimental,Protective,Global Inducible,Mouse,2020 Mar 12,Han L
+24795271,DDIT3,Removal,Surgical - DMM + MM,Protective,Detrimental,Global,Mouse,2014 May 2,Mizuta H
+28334504,DDIT4,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2017 Jun 2,Lotz MK
+23912900,DDR1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2013 Aug 4,Miosge N
+29073363,DDR2,Removal,Spontaneous,No effect,No effect,Global,Mouse,2017 Oct 26,Franceschi RT
+27640147,DDR2,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2016 Sep 16,Xu L
+24822272,DDR2,Deficiency,Col11a1 haploinsufficient,Protective,Detrimental,Global,Mouse,2014 Apr,Xu L
+21855682,DDR2,Deficiency,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2011 Sep,Li Y
+20518074,DDR2,Haploinsufficiency,Surgical - DMM,Protective,Detrimental,Global,Mouse,2010 Sep,Li Y
+20518074,DDR2,Haploinsufficiency,Col11a1 haploinsufficient,Protective,Detrimental,Global,Mouse,2010 Sep,Li Y
+27505251,EDIL3,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2016 Aug 9,Yang GP
+25549200,DIO1,Removal,Spontaneous,No effect,No effect,Global,Mouse,2015 Feb 3,Williams GR
+25550340,DIO2,Removal,Treadmill,Protective,Detrimental,Global,Mouse,2014 Dec 30,Lories RJ
+25549200,DIO2,Removal,Spontaneous,No effect,No effect,Global,Mouse,2015 Feb 3,Williams GR
+25080367,DKK1,Overexpression,Surgical - MM,Protective,Protective,Bone,Mouse,2014 Nov,Cohen-Solal M
+22488261,DKK1,Overexpression,Surgical - DMM,Protective,Protective,Cartilage,Mouse,2012 Aug,Chun JS
+22488261,DKK2,Overexpression,Surgical - DMM,No effect,No effect,Cartilage,Mouse,2012 Aug,Chun JS
+27315306,DLX2,Overexpression,Spontaneous,Detrimental,Detrimental,Neural crest cells,Mouse,2016 Jun 17,Shen G
+28759313,DMP1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2017 Jul 31,Sun Y
+27766035,DMP1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2016 Sep 15,Feng JQ
+25368604,DNAJC3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2014 Oct 17,Mason DJ
+30972197,DNMT3B,Removal,Surgical - TMJ,Detrimental,Protective,Cartilage Inducible,Mouse,2019 Mar 15,Mao JJ
+28614801,DNMT3B,Loss of function,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2017 Jun 15,O'Keefe RJ
+28614801,DNMT3B,Gain of function,Surgical - DMM,Protective,Protective,Cartilage Inducible,Mouse,2017 Jun 15,O'Keefe RJ
+30513362,DOT1L,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2018 Dec 1,Monteagudo S
+30513362,DOT1L,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2018 Dec 1,Monteagudo S
+25707934,DROSHA,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2015 Feb 21,Chong MW
+26562438,DUSP1,Removal,Spontaneous,No effect,No effect,Global,Mouse,2015 Nov 12,Beier F
+27780308,EFEMP1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2017 Mar,Lotz MK
+27780308,EFEMP1,Removal,Surgical - MML+MCL,Detrimental,Protective,Global,Mouse,2017 Mar,Lotz MK
+26980243,EFNB2,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2016 Mar 15,Martel-Pelletier J
+29898872,EGFR,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2018 Jun 11,Ouyang H
+29024567,EGFR,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2017 Dec 29,Qin L
+29024567,EGFR,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2017 Dec 29,Qin L
+29024567,EGFR,Removal,Surgical - DMM + MM,Detrimental,Protective,Cartilage,Mouse,2017 Dec 29,Qin L
+27911782,EGFR,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2016 Nov 28,Qin L
+27911782,EGFR,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2016 Nov 28,Qin L
+26120493,EGFR,Inhibition,Surgical - DMM,Detrimental,Protective,Global,Mouse,2014 Aug 5,Qin L
+28349987,EGLN1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2017 Mar 28,Mohan S
+29691435,ELF3,Overexpression,Surgical - DMM,Detrimental,Detrimental,Cartilage Inducible,Mouse,2018 Apr 24,Otero M
+29691435,ELF3,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2018 Apr 24,Otero M
+29488175,ENG,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2018 Feb 27,Philip A
+30111653,ENPP1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2018 Sep 20,Yang Y
+22510396,ENPP1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2012 Apr 17,Pap T
+24347567,EPAS1,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2013 Dec 17,Chun JS
+21869830,EPAS1,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2011 Aug 26,Chun JS
+20495569,EPAS1,Overexpression,Spontaneous,Detrimental,Detrimental,Cartilage,Mouse,2010 May 23,Chun JS
+20495569,EPAS1,Haploinsufficiency,Collagenase,Protective,Detrimental,Global,Mouse,2010 May 23,Chun JS
+20495569,EPAS1,Haploinsufficiency,Surgical - DMM,Protective,Detrimental,Global,Mouse,2010 May 23,Chun JS
+25453723,EPHB4,Overexpression,Surgical - DMM,Protective,Protective,Bone,Mouse,2014 Nov 29,Martel-Pelletier J
+25453723,EPHB4,Overexpression,Spontaneous,Protective,Protective,Bone,Mouse,2014 Nov 29,Martel-Pelletier J
+22833446,EPHB4,Overexpression,Surgical - DMM,Protective,Protective,Bone,Mouse,2012 Nov,Martel-Pelletier J
+19932218,EPYC,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2009 Nov 18,Höök M
+26097038,ERG,Removal,Surgical - DMM + MM,Detrimental,Protective,Joints,Mouse,2015 Oct,Iwamoto M
+26097038,ERG,Removal,Spontaneous,Detrimental,Protective,Joints,Mouse,2015 Oct,Iwamoto M
+24966136,ERRFI1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2014 Oct,Beier F
+24670222,ERRFI1,Removal,Surgical - DMM +MM,Detrimental,Protective,Global,Mouse,2014 Mar 27,Williams BO
+24550287,ERRFI1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2014 Feb 3,Zhang YW
+23705804,ERRFI1,Removal,Spontaneous,Detrimental,Protective,Forelimb,Mouse,2013,Dealy CN
+16087873,ERRFI1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2005 Aug 8,Vande Woude GF
+19410028,ESR1,Removal,Spontaneous,No effect,No effect,Global,Mouse,2009 Apr 17,Weinans H
+19410028,ESR2,Removal,Spontaneous,No effect,No effect,Global,Mouse,2009 Apr 17,Weinans H
+29247173,ESRRG,Overexpression,Surgical - DMM,Detrimental,Detrimental,Cartilage,Mouse,2017 Dec 15,Chun JS
+29247173,ESRRG,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2017 Dec 15,Chun JS
+30327434,EZH2,Removal,Spontaneous,No effect,No effect,Cartilage,Mouse,2018 Oct 16,van Wijnen AJ
+31910305,EZH2,Removal,Surgical - MM,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jan 7,Ouyang H
+25200274,F2R,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2014 Dec,Little CB
+26698846,F2RL1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2015 Dec 23,Ferrell WR
+25200274,F2RL1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2014 Dec,Little CB
+21285164,F2RL1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2011 Feb 1,Boileau C
+20584806,F2RL1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2010 Jun 28,McInnes IB
+20584806,F2RL1,Removal,Surgical - ACLT,Protective,Detrimental,Global,Mouse,2010 Jun 28,McInnes IB
+29549054,FABP4,Removal,High Fat Diet,Protective,Detrimental,Global,Mouse,2018 Mar 13,Yan CH
+27480933,FBXO32,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2016 Jul 30,Chun JS
+31084709,FCER1A,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 May 14,Robinson WH
+25748082,FCER1G,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2015 Mar 4,Schett G
+25748082,FCGR2B,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2015 Mar 4,Schett G
+25585625,FFAR1,Removal,Surgical - DMM + MM,Detrimental,Protective,Global,Mouse,2015 Jan 13,Wittrant Y
+30075737,FFAR4,Removal,Surgical - ACLT,Detrimental,Protective,Global,Mouse,2018 Aug 3,Leung PS
+30144364,FGF2,Removal,Spontaneous,Ambiguous,Ambiguous,Global,Mouse,2018 Aug 25,Hurley MM
+27732085,FGF2,Overexpression,Spontaneous,Detrimental,Detrimental,Global,Mouse,2016 Oct 12,Hurley MM
+19565481,FGF2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2009 Jul,Vincent T
+19565481,FGF2,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2009 Jul,Vincent T
+29691281,FGFR1,Removal,Spontaneous,Protective,Detrimental,Cartilage Inducible,Mouse,2018 Apr 24,Chen L
+29691281,FGFR1,Removal,Surgical - UAC,Protective,Detrimental,Cartilage Inducible,Mouse,2018 Apr 24,Chen L
+22833219,FGFR1,Removal,Spontaneous,Protective,Detrimental,Cartilage Inducible,Mouse,2012 Dec,Chen L
+22833219,FGFR1,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2012 Dec,Chen L
+28520086,FGFR3,Activated,Surgical - DMM,Protective,Protective,Cartilage,Mouse,2017 Jun 6,Kitoh H
+28520086,FGFR3,Activated,Spontaneous,No effect,No effect,Cartilage,Mouse,2017 Jun 6,Kitoh H
+27159076,FGFR3,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2016 Oct,Chen L
+27159076,FGFR3,Activated,Surgical - DMM,Protective,Protective,Cartilage Inducible,Mouse,2016 Oct,Chen L
+27159076,FGFR3,Activated,Spontaneous,Protective,Protective,Cartilage Inducible,Mouse,2016 Oct,Chen L
+27041063,FGFR3,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2016 Apr 4,Chen L
+31662319,FGFR3,Removal,Surgical - DMM,Detrimental,Protective,Myeloid Inducible,Mouse,2019 Oct 29,Chen L
+31662319,FGFR3,Removal,Spontaneous,Detrimental,Protective,Myeloid Inducible,Mouse,2019 Oct 29,Chen L
+16006154,FMOD,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2005 Sep,Ameye LG
+12089156,FMOD,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2002 Jun 27,Chakravarti S
+11978731,FMOD,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2002 May,Young MF
+29870552,FN1,Mutation,Surgical - MM+Forced Exercise,Detrimental,Protective,Cartilage,Mouse,2018 Jun 5,Costell M
+29444976,FOXO1,Removal,Treadmill,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+29444976,FOXO1,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+29444976,FOXO1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+29444976,FOXO3,Removal,Treadmill,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+29444976,FOXO3,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+29444976,FOXO3,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+29444976,FOXO4,Removal,Treadmill,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+29444976,FOXO4,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+29444976,FOXO4,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2018 Feb 14,Lotz MK
+25450854,FRZB,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2014 Oct 30,Lories RJ
+29555825,FYN,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2018 Mar 19,Bai X
+29555825,FYN,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2018 Mar 19,Bai X
+31534047,FYN,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Sep 19,Robinson WH
+20805298,GDF5,Haploinsufficiency,Surgical - DMM,No effect,No effect,Global,Mouse,2010 Aug 30,Lories RJ
+20805298,GDF5,Haploinsufficiency,Collagenase,Detrimental,Protective,Global,Mouse,2010 Aug 30,Lories RJ
+20805298,GDF5,Haploinsufficiency,Treadmill,Detrimental,Protective,Global,Mouse,2010 Aug 30,Lories RJ
+17656374,GDF5,Inhibition,Spontaneous,Detrimental,Protective,Global,Mouse,2007 Jul 26,Ikegawa S
+15219569,GH1,Overexpression,Spontaneous,Detrimental,Detrimental,Global,Mouse,2004 Jul,Delgado-Baeza E
+27682878,GJA1,Deficiency,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2016 Nov 8,Mayan MD
+19915594,GLI2,Overexpression,Spontaneous,Detrimental,Detrimental,Cartilage,Mouse,2009 Nov 15,Alman BA
+30926814,GREM1,Removal,Surgical - DMM + MM,Protective,Detrimental,Cartilage Inducible,Mouse,2019 Mar 29,Saito T
+31696655,GRK5,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Nov 6,Nakashima Y
+25169730,GRN,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2014 Aug 28,Liu CJ
+25169730,GRN,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2014 Aug 28,Liu CJ
+28646530,HAS1,Removal,Surgical - Cartilage Injury,Detrimental,Protective,Global,Mouse,2017 Jul 21,Plaas A
+26521733,HAS1,Removal,Surgical - Cartilage Injury,Detrimental,Protective,Global,Mouse,2015 Nov,Plaas A
+25733872,HES1,Removal,Spontaneous,Protective,Detrimental,Cartilage Inducible,Mouse,2015 Mar 2,Saito T
+26403062,HFE,Removal,Surgical - DMM + MM,Detrimental,Protective,Global,Mouse,2015 Sep 25,Cancela ML
+31132316,HFE,Removal,Spontaneous,No effect,No effect,Global,Mouse,2019 May 27,Cancela ML
+19139395,HMGB2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2009 Jan 12,Lotz M
+31176016,HSD11B1,Overexpression,Surgical - DMM,Protective,Protective,Cartilage,Mouse,2019 Jun 5,Zhou H
+27118120,HSPD1,Overexpression,Collagenase,Protective,Protective,Global,Mouse,2016 Apr 27,Wang FS
+26636652,HSPG2,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Apr,Melrose J
+23339896,HSPG2,Removal,Surgical - DMM + MM,Protective,Detrimental,Cartilage,Mouse,2013 Jan 20,Arikawa-Hirasawa E
+31051168,HTRA1,Removal,Col11a1 haploinsufficient,Protective,Detrimental,Global,Mouse,2019 Apr 30,Xu L
+31051168,HTRA1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Apr 30,Xu L
+31051168,HTRA1,Removal,Surgical - PDE,Protective,Detrimental,Global,Mouse,2019 Apr 30,Xu L
+18344557,HYAL1,Haploinsufficiency,Spontaneous,Detrimental,Protective,Global,Mouse,2008 Mar 15,Triggs-Raine BL
+28765635,HYAL2,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2017 Aug 1,Ishiguro N
+22173325,IFT88,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2011 Nov 27,Serra R
+31638855,IGF1,Removal,Surgical - DMM,Protective,Detrimental,Liver,Mouse,2019 Oct 22,Svensson J
+31638855,IGF1,Removal,Spontaneous,No effect,No effect,Liver,Mouse,2019 Oct 22,Svensson J
+24428864,IHH,Removal,Spontaneous,Protective,Detrimental,Cartilage Inducible,Mouse,2014 Jan 15,Wei L
+27654963,IL1A,Removal,Collagenase,No effect,No effect,Global,Mouse,2016 Sep 18,van Lent PL
+27654963,IL1B,Removal,Collagenase,No effect,No effect,Global,Mouse,2016 Sep 18,van Lent PL
+14673996,IL1B,Removal,Surgical - DMM + MM,Detrimental,Protective,Global,Mouse,2003 Dec,Mason RM
+21590680,IL6,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2011 Sep,Chun JS
+15639639,IL6,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2005 Jan,van den Berg WB
+15639639,IL6,Removal,Collagenase,No effect,No effect,Global,Mouse,2005 Jan,van den Berg WB
+29622035,IRF4,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2018 Apr 5,Cook AD
+14558093,ITGA1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2003 Oct,Lotz M
+27211864,ITGA1,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2016 May 20,Clark AL
+27280771,ITGA5,Removal,Surgical - DMM + MCL,Protective,Detrimental,Cartilage,Mouse,2016 Jun 9,Enomoto-Iwamoto M
+31534047,ITGB3,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Sep 19,Robinson WH
+28314754,KDM6B,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2017 Mar 17,Ouyang H
+23151457,LCAT,Removal,High Fat Diet,Detrimental,Protective,Global,Mouse,2012 Nov 11,Papachristou DJ
+27477830,LCN2,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2016 Jul 29,Chun JS
+29074298,LDLR,Removal,High Fat Diet,Detrimental,Protective,Global,Mouse,2017 Oct 24,Stoop R
+24286458,LDLR,Removal,Collagenase,Detrimental,Protective,Global,Mouse,2013 Nov 4,van Lent PL
+27390029,LEPR,Mutation,Surgical - DMM + MCL,Detrimental,Protective,Global,Mouse,2016 Jul 5,Caramés B
+17545192,LGALS3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2007 Jun 1,Reboul P
+17545192,LGALS3,Removal,MIA,Detrimental,Protective,Global,Mouse,2007 Jun 1,Reboul P
+32098291,LGALS3,Removal,Surgical - MM,Detrimental,Protective,Global,Mouse,2020 Feb 22,Ea HK
+32098291,LGALS3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2020 Feb 22,Ea HK
+31569601,LOXL2,Overexpression,MIA,Protective,Protective,Global,Mouse,2019 Sep 27,Bais MV
+24479426,LRP5,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2014 Jan 31,Ryu JH
+24479426,LRP5,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2014 Jan 31,Ryu JH
+23756208,LRP6,Deficiency,Surgical - DMM + ACL+MM,Detrimental,Protective,Global,Mouse,2013 Jun 10,Williams BO
+11790802,LTBP3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2002 Jan 14,Rifkin DB
+12089156,LUM,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2002 Jun 27,Chakravarti S
+26405834,MAP3K5,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2015 Sep 29,Freeman TA
+26405834,MAP3K5,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2015 Sep 29,Freeman TA
+18975318,MAPK14,Inhibition,Spontaneous,Detrimental,Protective,Global,Mouse,2008 Nov,Chen Q
+26663140,MAPK9,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 May,Saklatvala J
+27270603,MATN1,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2016 Jun 7,Chen Q
+31963938,MATN1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2020 Jan 19,Aszodi A
+31963938,MATN2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2020 Jan 19,Aszodi A
+16877353,MATN3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2006 Aug,Chen Q
+31963938,MATN3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2020 Jan 19,Aszodi A
+31963938,MATN4,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2020 Jan 19,Aszodi A
+25191747,MC1R,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2014 Sep 5,Grässel S
+26797130,MCAT,Overexpression,Spontaneous,Protective,Protective,Global,Mouse,2016 Jan 21,Loeser RF
+31084709,MCL1,Removal,Surgical - DMM,Protective,Detrimental,Mast cells,Mouse,2019 May 14,Robinson WH
+21368873,MIA,Removal,Surgical - DMM + MM,Protective,Detrimental,Global,Mouse,2010 Nov 11,Bosserhoff AK
+27564840,MIF,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2017 Feb,Loeser RF
+27564840,MIF,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2017 Feb,Loeser RF
+31647983,MINK1,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2019 Oct 21,Ouyang H
+31647983,MINK1,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2019 Oct 21,Ouyang H
+29575548,mir-146a,Overexpression,Surgical - DMM,Protective,Protective,Cartilage,Mouse,2018 Mar 24,Chen Q
+29575548,mir-146a,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2018 Mar 24,Chen Q
+29575548,mir-146a,Overexpression,Spontaneous,Protective,Protective,Cartilage,Mouse,2018 Mar 24,Chen Q
+29575548,mir-146a,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2018 Mar 24,Chen Q
+28383548,mir-146a,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2017 Apr 6,Zhang X
+28383548,mir-146a,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2017 Apr 6,Zhang X
+31253842,mir-204,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Jun 28,Chen D
+31253842,mir-204,Removal,Spontaneous,Detrimental,Protective,Forelimb,Mouse,2019 Jun 28,Chen D
+30932160,mir-21-5p,Removal,Spontaneous,Protective,Detrimental,Cartilage Inducible,Mouse,2019 Apr 1,Zheng X
+30932160,mir-21-5p,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2019 Apr 1,Zheng X
+31253842,mir-211,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Jun 28,Chen D
+31253842,mir-211,Removal,Spontaneous,Detrimental,Protective,Forelimb,Mouse,2019 Jun 28,Chen D
+28620193,miR-29a,Overexpression,Collagenase,Protective,Protective,Global,Mouse,2017 Jun 15,Wang FS
+31586040,mir-455-3p,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Oct 4,Zhang Z
+30145794,mir-483-5p,Overexpression,Spontaneous,Detrimental,Detrimental,Inducible,Mouse,2018 Aug 26,Bai X
+28139355,mir-483-5p,Overexpression,Surgical - DMM,Detrimental,Detrimental,Inducible,Mouse,2017 Jan 27,Bai X
+31160553,mir-140,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Jun 3,Asahara H
+20466812,mir-140,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2010 May 13,Asahara H
+20466812,mir-140,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2010 May 13,Asahara H
+23298463,MMP13,Removal,Surgical - DMM + MM,Protective,Detrimental,Cartilage Inducible,Mouse,2013 Jan 8,Chen D
+19950295,MMP13,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2009 Dec,Thompson EW
+19950295,MMP13,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2009 Dec,Thompson EW
+11134178,MMP13,Overexpression,Spontaneous,Detrimental,Detrimental,Global,Mouse,2001 Jan,DeGennaro LJ
+21216815,MMP17,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2011 Jan 7,Newham P
+17195217,MMP3,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2007 Jan,van den Berg WB
+14673996,MMP3,Removal,Surgical - DMM + MM,Detrimental,Protective,Global,Mouse,2003 Dec,Mason RM
+27766031,MSR1,Removal,Surgical - ACLT,Protective,Detrimental,Global,Mouse,2016 Aug 26,Chen Q
+30385786,STK4,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2018 Nov 1,Mak KK
+30385786,STK4,Removal,Surgical - ACLT,Protective,Detrimental,Cartilage,Mouse,2018 Nov 1,Mak KK
+30385786,STK3,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2018 Nov 1,Mak KK
+30385786,STK3,Removal,Surgical - ACLT,Protective,Detrimental,Cartilage,Mouse,2018 Nov 1,Mak KK
+26903440,MT1A,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2016 Feb 22,Chun JS
+26903440,MT2A,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2016 Feb 22,Chun JS
+24529376,MTF1,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2014 Feb 13,Chun JS
+24651621,MTOR,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2014 Mar 20,Kapoor M
+31007149,MTOR,Removal,Surgical - UAC,Protective,Detrimental,Cartilage Inducible,Mouse,2019 Apr 21,Wang M
+24703622,MYD88,Removal,Surgical - DMM +MM,No effect,No effect,Global,Mouse,2014 Apr 2,Busso N
+24347567,NAMPT,Overexpression,Surgical - DMM,Detrimental,Detrimental,Cartilage,Mouse,2013 Dec 17,Chun JS
+31742919,NCAM1,Removal,MIA,Detrimental,Protective,Global,Mouse,2019 Nov 19,Feng ZW
+30195046,NCF1,Removal,Collagenase,No effect,No effect,Global,Mouse,2018 Sep 5,van den Bosch MHJ
+31634652,NELL1,Deficiency,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Oct 12,Soo C
+24248346,NFATC1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2013 Nov 18,Aliprantis AO
+19526482,NFATC1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2009 Oct,Anderson HC
+30915215,NFATC2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Mar 2,Wang J
+24248346,NFATC2,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2013 Nov 18,Aliprantis AO
+21452283,NFATC2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2011 Aug,Wang J
+26408027,NFE2L2,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2015 Sep 26,Cao W
+26408027,NFE2L2,Removal,MIA,Detrimental,Protective,Global,Mouse,2015 Sep 26,Cao W
+29604191,NFKBIZ,Overexpression,Spontaneous,Detrimental,Detrimental,Cartilage,Mouse,2018 Jul 25,Park Y
+29604191,NFKBIZ,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2018 Jul 25,Park Y
+14673996,NOS2,Removal,Surgical - DMM + MM,Detrimental,Protective,Global,Mouse,2003 Dec,Mason RM
+26851274,NOTCH1,Deficiency,Surgical - DMM,Detrimental,Protective,Global,Mouse,2016 Feb 5,Distler JH
+26198357,NOTCH1,Activated,Spontaneous,Detrimental,Detrimental,Cartilage Inducible,Mouse,2015 Jul 21,Hilton MJ
+29940267,NOTCH2,Activated,Surgical - DMM,Detrimental,Detrimental,Global,Mouse,2018 Jun 22,Canalis E
+31304988,NOX4,Removal,Tibial Compression,Protective,Detrimental,Global,Mouse,2019 Aug 1,Haudenschild DR
+25749104,NR1I2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2015 Mar 6,Inoue S
+28492224,NT5E,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2017 May 11,Cronstein BN
+30143643,NUDT7,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2018 Aug 24,Jin EJ
+28348422,OLR1,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2017 Feb 14,Akagi M
+26901593,OLR1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Feb 22,Akagi M
+28097228,OPRK1,Removal,Surgical - Cartilage Injury,Detrimental,Protective,Global,Mouse,2017 Jan 12,Evseenko D
+29323130,OPTC,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2018 Jan 11,Martel-Pelletier J
+26138248,PANX3,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2015 Jul 4,Beier F
+15882565,PAPSS2,Inhibition,Spontaneous,Detrimental,Protective,Global,Mouse,2005 May,Jirik FR
+30659184,PBXIP1,Removal,Surgical - ACLT,Protective,Detrimental,Cartilage,Mouse,2019 Jan 18,Wang Y
+31351471,PDPN,Removal,Loading,Protective,Detrimental,Bone,Mouse,2019 Jul 27,Farquharson C
+21643724,PHEX,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2011 Jun 4,Macica CM
+26746148,PHLPP1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2015 Dec 31,Westendorf JJ
+31684073,PINK1,Removal,MIA,Protective,Detrimental,Global,Mouse,2019 Nov 2,Beom J
+17549029,PITX1,Haploinsufficiency,Spontaneous,Detrimental,Protective,Global,Mouse,2007 Sep,Moreau A
+25331977,PPARD,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2015 Feb,Beier F
+25573665,PPARG,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2015 Jan 8,Kapoor M
+23375622,PPARG,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2013 Jan 30,Kapoor M
+31239244,PPARG,Removal,Surgical - DMM,Detrimental,Protective,Inducible,Mouse,2019 Jun 25,Cao W
+30629676,PRG4,Overexpression,Dominant-negative TGFBR2,Protective,Protective,Global,Mouse,2019 Jan 10,Serra R
+24834922,PRG4,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2014 May 16,Nah HD
+23530215,PRG4,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2013 Mar 25,Jay GD
+23486780,PRG4,Overexpression,Spontaneous,Protective,Protective,Global,Mouse,2013 Mar 13,Lee BH
+23486780,PRG4,Overexpression,Surgical - ACLT,Protective,Protective,Global,Mouse,2013 Mar 13,Lee BH
+31119776,PRG4,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Jun 26,Krawetz R
+28225087,PRKAA1,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2017 Feb 22,Jiang Q
+28225087,PRKAA1,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2017 Feb 22,Jiang Q
+26741062,PRKAA1,Removal,Exercise,No effect,No effect,Cartilage,Mouse,2016 Jan 7,Jin D
+28225087,PRKAA2,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2017 Feb 22,Jiang Q
+28225087,PRKAA2,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2017 Feb 22,Jiang Q
+26783110,PRKCD,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Jan 18,Im HJ
+30111653,PTCH1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2018 Sep 20,Yang Y
+19915594,PTCH1,Deficiency,Spontaneous,Detrimental,Protective,Global,Mouse,2009 Nov 15,Alman BA
+31482846,PTCH1,Removal,Spontaneous,Detrimental,Protective,Forelimb,Mouse,2019 Sep 4,Li B
+31646013,PTEN,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2019 Aug 5,Yang X
+31646013,PTEN,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2019 Aug 5,Yang X
+18163499,PTGES,Removal,Surgical - DMM + MM,No effect,No effect,Global,Mouse,2008 Jan,Kawaguchi H
+21905007,PTGS2,Removal,Surgical - DMM + MM,No effect,No effect,Global,Mouse,2012 Jan,Kawaguchi H
+26522700,RBPJ,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2015 Oct 30,Hilton MJ
+23839930,RBPJ,Removal,Spontaneous,Detrimental,Protective,Forelimb,Mouse,2013 Oct,Hilton MJ
+23839930,RBPJ,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2013 Oct,Hilton MJ
+23319657,RBPJ,Inhibition,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2013 Jan 14,Kawaguchi H
+27830706,RELA,Removal,Surgical - DMM + MM,Detrimental,Protective,Cartilage Inducible,Mouse,2016 Nov 10,Saito T
+27830706,RELA,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2016 Nov 10,Saito T
+31981416,RELA,Removal,Spontaneous,Detrimental,Protective,MSC,Mouse,2020 Jan 25,Deng Q
+29991473,RHEB,Removal,Collagenase,Protective,Detrimental,Macrophage,Mouse,2018 Jul 10,Bai X
+30728500,RORA,Overexpression,Surgical - DMM,Detrimental,Detrimental,Cartilage,Mouse,2019 Feb 6,Chun JS
+30728500,RORA,Inhibition,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Feb 6,Chun JS
+30792936,RPTOR,Removal,Surgical - ACLT,Protective,Detrimental,Global,Mouse,2019 Feb 20,Bai X
+31113964,RUNX1,Removal,Surgical - MMTL+MCL,Detrimental,Protective,Cartilage,Mouse,2019 May 21,Chung UI
+28539595,RUNX2,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2017 May 24,Chen D
+25628784,RUNX2,Overexpression,TGFB and Treadmill,Protective,Protective,Cartilage,Mouse,2014 Nov 22,Zheng Q
+22095691,RUNX2,Haploinsufficiency,Surgical - DMM,Protective,Detrimental,Global,Mouse,2011 Nov 17,Kawaguchi H
+22095691,RUNX2,Haploinsufficiency,Spontaneous,Protective,Detrimental,Global,Mouse,2011 Nov 17,Kawaguchi H
+20525838,RUNX2,Overexpression,Spontaneous,No effect,No effect,Global,Mouse,2010 Jun 4,Cohen-Solal ME
+16868966,RUNX2,Haploinsufficiency,Surgical - DMM  + MM,Protective,Detrimental,Global,Mouse,2006 Aug,Kawaguchi H
+31189030,RUNX2,Overexpression,Surgical - MLI,Detrimental,Detrimental,Cartilage Inducible,Mouse,2019 Jun 12,Jonason JH
+25180294,S100A9,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2014 Sep 1,van Lent PL
+25180294,S100A9,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2014 Sep 1,van Lent PL
+22143922,S100A9,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2012 May,van den Berg WB
+22143922,S100A9,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2012 May,van den Berg WB
+19684582,SDC4,Removal,Surgical - DMM + MM,Protective,Detrimental,Global,Mouse,2009 Aug 16,Pap T
+28893232,SERPINE1,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2017 Sep 11,Kaji H
+24056368,SETDB1,Removal,Spontaneous,Detrimental,Protective,Forelimb,Mouse,2013 Sep 20,Yang L
+25450854,SFRP1,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2014 Oct 30,Lories RJ
+27009967,SIK3,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2016 Mar 24,Tsumaki N
+23723318,SIRT1,Removal,Surgical - DMM + MM,Detrimental,Protective,Cartilage,Mouse,2013 May 30,Kurosaka M
+23723318,SIRT1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2013 May 30,Kurosaka M
+23587642,SIRT1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2013 Apr 13,McBurney MW
+23124828,SIRT1,Inhibition,Spontaneous,Detrimental,Protective,Global,Mouse,2013 Jan,McBurney MW
+22258484,SIRT1,Haploinsufficiency,Spontaneous,Detrimental,Protective,Global,Mouse,2012 Jan 17,Dvir-Ginzberg M
+29402405,SIRT7,Removal,Spontaneous,Protective,Detrimental,Global,Mouse,2018 Feb 2,Yamagata K
+29402405,SIRT7,Removal,Treadmill,Protective,Detrimental,Global,Mouse,2018 Feb 2,Yamagata K
+24529376,SLC39A8,Overexpression,Surgical - DMM,Detrimental,Detrimental,Cartilage,Mouse,2014 Feb 13,Chun JS
+24529376,SLC39A8,Removal,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2014 Feb 13,Chun JS
+20506210,SMAD3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2010 Aug,O'Keefe RJ
+11285272,SMAD3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2001 Apr 2,Deng CX
+26272361,SMAD3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2015 Aug 10,Tanaka E
+22674505,SMAD3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2012 Oct,Alliston T
+27018594,SMO,Activated,Surgical - DMM,Detrimental,Detrimental,Cartilage Inducible,Mouse,2016 Mar 28,Alman BA
+19915594,SMO,Activated,Spontaneous,Detrimental,Detrimental,Cartilage,Mouse,2009 Nov 15,Alman BA
+19915594,SMO,Removal,Surgical - MM,Protective,Detrimental,Cartilage Inducible,Mouse,2009 Nov 15,Alman BA
+31608494,SMO,Removal,Surgical -ACLT,Protective,Detrimental,Inducible,Mouse,2019 Oct 24,Sakai A
+31608494,SMO,Removal,Surgical - ACLT + Climbing,Protective,Detrimental,Cartilage Inducible,Mouse,2019 Oct 24,Sakai A
+26815610,SMURF2,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Jan 27,Song J
+26815610,SMURF2,Removal,Spontaneous,No effect,No effect,Global,Mouse,2016 Jan 27,Song J
+18821706,SMURF2,Overexpression,Spontaneous,Detrimental,Detrimental,Cartilage,Mouse,2008 Oct,Rosier RN
+26108578,SOD2,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2015 Jun 25,Shimizu T
+26108578,SOD2,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2015 Jun 25,Shimizu T
+25593283,SOD3,Inhibition,Treadmill,Detrimental,Protective,Global,Mouse,2015 Jan 15,Regan EA
+29377313,SOST,Overexpression,Tibial compression,Protective,Protective,Global,Mouse,2018 Apr 2,Loots GG
+25656376,SOST,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2015 Feb 6,Cohen-Solal M
+23233270,SOST,Removal,Spontaneous,No effect,No effect,Global,Mouse,2013 Mar,Babij P
+31966426,SOST,Overexpression,Surgical - DMM,Detrimental,Detrimental,Global,Mouse,2017 Nov 1,Jiang Q
+19644889,SPP1,Deficiency,Surgical - DMM + MM,Detrimental,Protective,Global,Mouse,2009 Aug,Uede T
+19644889,SPP1,Deficiency,Spontaneous,Detrimental,Protective,Global,Mouse,2009 Aug,Uede T
+28252046,ST3GAL5,Removal,Surgical - Injury,Protective,Detrimental,Global,Mouse,2017 Mar 2,Iwasaki N
+24333297,ST3GAL5,Removal,Surgical - DMM + MM,Detrimental,Protective,Global,Mouse,2013 Dec 12,Iwasaki N
+24333297,ST3GAL5,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2013 Dec 12,Iwasaki N
+30471358,ST8SIA1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2018 Nov 22,Iwasaki N
+20479257,SULF1,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2010 May 17,Lotz MK
+20479257,SULF1,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2010 May 17,Lotz MK
+20479257,SULF2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2010 May 17,Lotz MK
+20479257,SULF2,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2010 May 17,Lotz MK
+31926346,TAC1,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2020 Jan 8,Grässel S
+25964075,TFAP2E,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2015 May 12,Bosserhoff AK
+28544596,PTGDR,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2017 Aug 1,Fahmi H
+28544596,PTGDR,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2017 Aug 1,Fahmi H
+27457421,TGFA,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2016 Jul 26,Beier F
+27457421,TGFA,Removal,Spontaneous,No effect,No effect,Global,Mouse,2016 Jul 26,Beier F
+24309371,TGFB1,Activated,Spontaneous,Detrimental,Detrimental,Bone,Mouse,2013 Dec 5,Wang M
+23685840,TGFB1,Activated,Spontaneous,Detrimental,Detrimental,Global,Mouse,2013 May 19,Cao X
+31673109,TGFB1I1,Removal,Surgical - DMM + MM,Protective,Detrimental,Global,Mouse,2019 Oct 31,Miyazaki A
+30078186,TGFBR1,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2018 Aug 5,Chen L
+28716756,TGFBR1,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2017 Jul 14,Chen L
+26355014,TGFBR2,Removal,Spontaneous,No effect,No effect,Cartilage Inducible,Mouse,2015 Sep 4,Xu L
+26355014,TGFBR2,Removal,Surgical - DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2015 Sep 4,Xu L
+23982761,TGFBR2,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2013 Dec,Chen D
+23685840,TGFBR2,Removal,Surgical - ACLT,Protective,Detrimental,MSC,Mouse,2013 May 19,Cao X
+31068441,TGFBR2,Removal,Spontaneous,Detrimental,Protective,Forelimb Inducible,Mouse,2019 May 8,Spagnoli A
+31068441,TGFBR2,Removal,Surgical,Detrimental,Protective,Forelimb Inducible,Mouse,2019 May 8,Spagnoli A
+18584285,TGM2,Removal,Surgical - DMM + ACL + MM,Ambiguous,Ambiguous,Global,Mouse,2008 Jun 27,Tarantino U
+22664108,TIMP2,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2012 Jun 1,Xiao T
+30379418,TIMP3,Overexpression,STR/ORT,Protective,Protective,Cartilage,Mouse,2019 Feb 14,Bou-Gharios G
+17328064,TIMP3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2007 Mar,Mort JS
+24703622,TLR1,Removal,Surgical - DMM +MM,No effect,No effect,Global,Mouse,2014 Apr 2,Busso N
+24703622,TLR2,Removal,Surgical - DMM +MM,No effect,No effect,Global,Mouse,2014 Apr 2,Busso N
+31044181,TLR4,Removal,High Fat Diet,Protective,Detrimental,Global,Mouse,2018 Oct 4,Humphrey MB
+26245312,TLR4,Removal,Surgical - DMM,No effect,No effect,Global,Mouse,2015 Nov,Malfait AM
+24703622,TLR4,Removal,Surgical - DMM +MM,No effect,No effect,Global,Mouse,2014 Apr 2,Busso N
+30240938,TLR5,Removal,Spontaneous,No effect,No effect,Global,Mouse,2018 Sep 18,Hernandez CJ
+24703622,TLR6,Removal,Surgical - DMM +MM,No effect,No effect,Global,Mouse,2014 Apr 2,Busso N
+19747998,TNC,Removal,Surgical - DMM + ACL,Detrimental,Protective,Global,Mouse,2009 Sep 6,Uchida A
+19747998,TNC,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2009 Sep 6,Uchida A
+29622035,TNF,Removal,Collagenase,No effect,No effect,Global,Mouse,2018 Apr 5,Cook AD
+26713606,TNF,Removal,High Fat Diet,Protective,Detrimental,Global,Mouse,2016 Jun,Mooney RA
+30623241,TNFRSF11B,Removal,Surgical – TMJ,Detrimental,Protective,Global,Mouse,2019 Jan 8,Wang P
+27541035,TNFRSF11B,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2016 Aug 19,Zhang Q
+26018435,TNFRSF11B,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2015 May 27,Simonet WS
+17907189,TNFRSF11B,Haploinsufficiency,Spontaneous,Detrimental,Protective,Global,Mouse,2007 Oct,Muneta T
+17907189,TNFRSF11B,Haploinsufficiency,Surgical - DMM,Detrimental,Protective,Global,Mouse,2007 Oct,Muneta T
+27792866,TP63,Removal,Spontaneous,Protective,Detrimental,Cartilage,Mouse,2017 Mar,Saito T
+27792866,TP63,Removal,Surgical - DMM + MM,Protective,Detrimental,Cartilage,Mouse,2017 Mar,Saito T
+26521748,TRPA1,Removal,MIA,Protective,Detrimental,Global,Mouse,2015 Nov,Moilanen E
+27388701,TRPV4,Removal,Surgical - DMM,No effect,No effect,Cartilage Inducible,Mouse,2016 Jul 8,Guilak F
+27388701,TRPV4,Removal,Spontaneous,Protective,Detrimental,Cartilage Inducible,Mouse,2016 Jul 8,Guilak F
+23178209,TRPV4,Removal,High Fat Diet,Detrimental,Protective,Global,Mouse,2012 Nov 23,Guilak F
+20583100,TRPV4,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2010 Oct,Guilak F
+28063212,TRPV6,Removal,Surgical - ACLT,Detrimental,Protective,Global,Mouse,2017 Apr 10,Ye T
+31007149,TSC1,Removal,Surgical - UAC,Detrimental,Protective,Cartilage,Mouse,2019 Apr 21,Wang M
+30792936,TSC1,Removal,Surgical - ACLT,Detrimental,Protective,Global,Mouse,2019 Feb 20,Bai X
+30408629,TSC1,Removal,Surgical - DMM,Detrimental,Protective,B cells,Mouse,2018 Nov 6,Cai DZ
+30145794,TSC1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2018 Aug 26,Bai X
+29991473,TSC1,Removal,Collagenase,Detrimental,Protective,Macrophage,Mouse,2018 Jul 10,Bai X
+29329496,TSC1,Removal,Surgical - DMM,Detrimental,Protective,Cartilage,Mouse,2018 Mar 24,Bai X
+29329496,TSC1,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2018 Mar 24,Bai X
+28043938,TSC1,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2016 Dec 31,Cai D
+28043938,TSC1,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2016 Dec 31,Cai D
+28941045,TTR,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2017 Sep 22,Lotz MK
+28941045,TTR,Overexpression,Surgical - DMM,Detrimental,Detrimental,Global,Mouse,2017 Sep 22,Lotz MK
+28941045,TTR,Overexpression,Spontaneous,Detrimental,Detrimental,Global,Mouse,2017 Sep 22,Lotz MK
+30302948,TUT7,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Mar 6,Haqqi TM
+30258877,TWIST1,Activated,Surgical - DMM,Protective,Protective,Cartilage,Mouse,2016 Feb 24,Drissi H
+31044181,TYROBP,Removal,High Fat Diet,Detrimental,Protective,Global,Mouse,2018 Oct 4,Humphrey MB
+28086000,UCMA,Removal,Surgical - DMM,Ambiguous,Ambiguous,Global,Mouse,2017 Apr 24,Schett G
+22391889,UGCG,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2012 Aug,Iwasaki N
+22391889,UGCG,Removal,Surgical - DMM + MM,Detrimental,Protective,Cartilage,Mouse,2012 Aug,Iwasaki N
+29026147,VEGFA,Haploinsufficiency,Surgical - DMM,Protective,Detrimental,Cartilage,Mouse,2017 Oct 12,Olsen BR
+24999110,VHL,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2014 Jul 4,Chen L
+24999110,VHL,Removal,Surgical - DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2014 Jul 4,Chen L
+28735021,CCN4,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2017 Jul 19,Young MF
+28735021,CCN4,Removal,Spontaneous,No effect,No effect,Global,Mouse,2017 Jul 19,Young MF
+28735021,CCN4,Removal,Surgical - ACLT,Protective,Detrimental,Global,Mouse,2017 Jul 19,Young MF
+28735021,CCN4,Removal,Collagenase,Protective,Detrimental,Global,Mouse,2017 Jul 19,Young MF
+30745310,WNT16,Removal,Surgical - ACLT,Detrimental,Protective,Cartilage,Mouse,2019 Feb 11,Mak KK
+27147711,WNT16,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2016 May 4,Dell'Accio F
+32140758,WNT16,Overexpression,Surgical - DMM,No effect,No effect,Osteoblasts,Mouse,2020 Mar 5,Movérare-Skrtic S
+31160553,WWP2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2019 Jun 3,Asahara H
+31160553,WWP2,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2019 Jun 3,Asahara H
+30385786,YAP1,Overexpression,Surgical - ACLT,Detrimental,Protective,Cartilage,Mouse,2018 Nov 1,Mak KK
+30385786,YAP1,Removal,Surgical - DMM,Protective,Protective,Cartilage,Mouse,2018 Nov 1,Mak KK
+30622281,ZFP36L1,Removal,Surgical - DMM,Protective,Detrimental,Global,Mouse,2019 Jan 8,Chun JS
+28544596,PTGDR,Removal,Surgical - DMM,Detrimental,Protective,systemic,Mouse,2017 Aug 1,Fahmi H
+32626917,mir-1,Overexpression,Surgical – ACLT,Protective,Protective,Cartilage,Mouse,2020 May 12,Li P
+32616521,CCN2,Removal,Surgical – DMM,No effect,No effect,Cartilage Inducible,Mouse,2020 Jul 2,Poulet B
+32616521,CCN2,Removal,Cyclic loading,No effect,No effect,Cartilage Inducible,Mouse,2020 Jul 2,Poulet B
+32612184,EVC,Removal,Surgical - DMM,No effect,No effect,Inducible,Mouse,2020 Jul 1,Herrero-Beaumont G
+32550912,RSK3,Removal,Surgical - DMM,Detrimental,Protective,Global,Mouse,2020 May 25,Zhou G
+32665267,SIRT1,Removal,Surgical – DMM,Detrimental,Protective,Cartilage,Mouse,2020 Jul 14,Dvir-Ginzberg M
+32638534,CHRNA7,Removal,Surgical – MM,Detrimental,Protective,Global,Mouse,2020 Jul 8,Sellam J
+32518385,TIMP3,Overexpression,Surgical – DMM,Protective,Protective,Cartilage,Mouse,2020 Jun 9,Bou-Gharios G
+32499111,SIRT1,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jun 1,Wu S
+32499111,SIRT1,Removal,Surgical – DMM,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jun 1,Wu S
+32441256,PTGS2,Removal,Surgical – DMM,No effect,No effect,Osteoblasts,Mouse,2020 May 22,Cao X
+32431699,IL17A,Removal,MIA,Protective,Detrimental,Global,Mouse,2020 May 5,Cho ML
+32431699,IL1RN,Removal,MIA,Detrimental,Protective,Global,Mouse,2020 May 5,Cho ML
+32430054,ERRFI1,Overexpression,Spontaneous,Detrimental,Detrimental,Cartilage,Mouse,2020 May 19,Beier F
+32418287,MAPK8,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2020 May 17,Carlson CS
+32418287,MAPK9,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2020 May 17,Carlson CS
+32418287,MAPK8,Removal,Surgical – DMM,No effect,No effect,Global,Mouse,2020 May 17,Carlson CS
+32418287,MAPK9,Removal,Surgical – DMM,No effect,No effect,Global,Mouse,2020 May 17,Carlson CS
+32431699,TRAF3,Overexpression,Surgical – DMM,Protective,Protective,Global,Mouse,2020 May 5,Cho ML
+32431699,IL17A,Removal,Surgical – DMM,Protective,Detrimental,Global,Mouse,2020 May 5,Cho ML
+32409323,FBXO6,Removal,Surgical – ACLT,Detrimental,Protective,Global,Mouse,2020 May 14,Fan S
+32409323,FBXO6,Removal,Surgical – ACLT,Detrimental,Protective,Cartilage Inducible,Mouse,2020 May 14,Fan S
+32371389,ENPP1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2020 May 5,Pap T
+32357909,mir-21-5p,Removal,Surgical – UAC,Protective,Detrimental,Global,Mouse,2020 May 1,Zhao H
+32339698,CRY1,Removal,Surgical – DMM,No effect,No effect,Global,Mouse,2020 Apr 24,Lotz M
+32339698,CRY2,Removal,Surgical – DMM,Detrimental,Protective,Global,Mouse,2020 Apr 24,Lotz M
+32336048,PTGDS,Removal,Surgical – DMM,Detrimental,Protective,Global,Mouse,2020 Apr 26,Fahmi H
+32315715,NDST1,Haploinsufficiency,Surgical – ACLT,Protective,Detrimental,Global,Mouse,2020 Apr 18,Vortkamp A
+32315715,NDST1,Removal,Surgical – ACLT,Protective,Detrimental,Cartilage,Mouse,2020 Apr 18,Vortkamp A
+32315715,EXT1,Removal,Spontaneous,Protective,Detrimental,Cartilage Inducible,Mouse,2020 Apr 18,Vortkamp A
+32315715,EXT1,Removal,Surgical – ACLT,Protective,Detrimental,Cartilage Inducible,Mouse,2020 Apr 18,Vortkamp A
+32295898,TET1,Removal,Surgical – DMM,Protective,Detrimental,Global,Mouse,2020 Apr 15,Bhutani N
+32269734,SOX9,Overexpression,Spontaneous,Detrimental,Detrimental,Hypertrophic cartilage,Mouse,2020 Mar 15,Zhou G
+32214220,HIF1A,Removal,Surgical – MCL + MM,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Mar 25,Saito T
+32183900,MPST,Removal,Surgical – MM,Detrimental,Protective,Global,Mouse,2020 Mar 17,Busso N
+31980519,FOXO1,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2020 Jan 24,Lotz MK
+31980519,FOXO3,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2020 Jan 24,Lotz MK
+31980519,FOXO4,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2020 Jan 24,Lotz MK
+31980519,FOXO1,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jan 24,Lotz MK
+31980519,FOXO3,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jan 24,Lotz MK
+31980519,FOXO4,Removal,Spontaneous,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jan 24,Lotz MK
+31980519,FOXO1,Removal,Treadmill,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jan 24,Lotz MK
+31980519,FOXO3,Removal,Treadmill,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jan 24,Lotz MK
+31980519,FOXO4,Removal,Treadmill,Detrimental,Protective,Cartilage Inducible,Mouse,2020 Jan 24,Lotz MK
+31958497,COL2A1,Mutation,Spontaneous,Detrimental,Protective,Global,Mouse,2020 Jan 17,Oheim R
+31901095,FGF2,Overexpression,Spontaneous,Detrimental,Detrimental,Global,Mouse,2020 Jan 1,Hurley MM
+31828128,SOST,Removal,Surgical – ACLT,Detrimental,Protective,Global,Mouse,2019 Nov 11,Bai D
+15492776,BMPR1A,Removal,Spontaneous,Detrimental,Protective,Developing Joints,Mouse,2004 Oct 19,Kingsley DM
+30104377,FOXP2,Removal,Spontaneous,Detrimental,Protective,Bone,Mouse,2018 Aug 13,Guo X
+30104377,FOXP2,Removal,Spontaneous,Detrimental,Protective,Cartilage,Mouse,2018 Aug 13,Guo X
+26683663,NID2,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2015 Dec 10,Miosge N
+32647171,LDHA,Removal,Surgical – MM,Protective,Detrimental,Cartilage,Mouse,2020 Jul 9,Abu-Amer Y
+32647171,IKK2,Overexpression,Spontaneous,Detrimental,Detrimental,Cartilage Inducible,Mouse,2020 Jul 9,Abu-Amer Y
+16624844,FGFR3,Removal,Spontaneous,Detrimental,Protective,Global,Mouse,2006 Apr 19,Henderson JE
+32636527,IL22RA1,Removal,Surgical – DMM,Protective,Detrimental,Cartilage Inducible,Mouse,2020 Jul 7,Sacitharan PK

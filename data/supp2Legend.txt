@@ -30,6 +30,7 @@ Summary	Summary statistics of the animal model OA gene overlaps by transcriptomi
 	JaccardUp	The jaccard coefficient of the upregulated differentially expressed genes and the animal model OA genes
 	Ambiguous	The number of overlapping differentially expressed and animal model genes with an ambiguous effect of OA
 	Detrimental	The number of overlapping differentially expressed and animal model genes with a inferred detrimental effect of OA
+	No effect	The number of overlapping differentially expressed and animal model genes with solely no effect on OA observations 
 	Protective	The number of overlapping differentially expressed and animal model genes with a inferred protective effect of OA
 	totalProt	The total number of genes with an inferred protective effect on OA
 	totalDet	The total number of genes with an inferred detrimental effect on OA
@@ -38,4 +39,5 @@ Summary	Summary statistics of the animal model OA gene overlaps by transcriptomi
 	Protective	The genes with a inferred protective effect on OA differentially expressed in this dataset
 	Detrimental	The genes with a inferred detrimental effect on OA differentially expressed in this dataset
 	Ambiguous	The genes with a inferred ambiguous effect on OA differentially expressed in this dataset
+	NoEffect	The genes with a inferred no effect on OA differentially expressed in this dataset
 

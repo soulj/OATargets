@@ -17,7 +17,7 @@ library(org.Hs.eg.db)
 #get all the OA genes that have an effect
 
 #read the annotations and combine for summary graphs
-geneticAnnotations <- read.delim("../data/geneticAnnotations.txt",check.names = F)
+geneticAnnotations <- read.csv("../data/geneticAnnotations.txt",check.names = F)
 geneticAnnotations$Model <- stringr::str_trim(geneticAnnotations$Model)
 
 geneticAnnotations <- geneticAnnotations[ geneticAnnotations$`Susceptibility observed` %in% c("Protective","Detrimental","No effect"),]
@@ -26,7 +26,7 @@ geneticAnnotations$`Susceptibility observed`  <-  factor(geneticAnnotations$`Sus
 colnames(geneticAnnotations)[7]<-"Delivery"
 
 
-exogenousAnnotations <- read.delim("../data/exogenousAnnotations.txt",check.names = F)
+exogenousAnnotations <- read.csv("../data/exogenousAnnotations.txt",check.names = F)
 exogenousAnnotations$Model <- stringr::str_trim(exogenousAnnotations$Model)
 
 exogenousAnnotations <- exogenousAnnotations[ exogenousAnnotations$`Susceptibility observed`  %in% c("Protective","Detrimental","No effect"),]

@@ -16,7 +16,7 @@ library(cowplot)
 
 
 #read the annotations and combine for summary graphs
-geneticAnnotations <- read.delim("../data/geneticAnnotations.txt",check.names = F)
+geneticAnnotations <- read.csv("../data/geneticAnnotations.txt",check.names = F,stringsAsFactors = F)
 geneticAnnotations$Model <- stringr::str_trim(geneticAnnotations$Model)
 
 geneticAnnotations <- geneticAnnotations[ geneticAnnotations$`Susceptibility observed` %in% c("Protective","Detrimental","No effect"),]
@@ -25,7 +25,7 @@ geneticAnnotations$`Susceptibility observed`  <-  factor(geneticAnnotations$`Sus
 colnames(geneticAnnotations)[7]<-"Delivery"
 
 
-exogenousAnnotations <- read.delim("../data/exogenousAnnotations.txt",check.names = F)
+exogenousAnnotations <- read.csv("../data/exogenousAnnotations.txt",check.names = F,stringsAsFactors = F)
 exogenousAnnotations$Model <- stringr::str_trim(exogenousAnnotations$Model)
 
 exogenousAnnotations <- exogenousAnnotations[ exogenousAnnotations$`Susceptibility observed`  %in% c("Protective","Detrimental","No effect"),]
@@ -104,7 +104,7 @@ cowplot::save_plot("../results/SummaryofStudies_Figure1.jpg",gg_all,base_width =
   
 ```
 
-Numbers of observations
+Numbers of observations, unique genes and papers 
 ```{r}
 paste("the number of total papers is ",length(unique(c(geneticAnnotations$PMID,exogenousAnnotations$PMID))))
 paste("the number of total genes is ",length(unique(combined$Gene)))

@@ -20,7 +20,7 @@ library(cowplot)
 library(ggbeeswarm)
 
 #read the annotations and combine for summary graphs
-geneticAnnotations <- read.delim("../data/geneticAnnotations.txt",check.names = F)
+geneticAnnotations <- read.csv("../data/geneticAnnotations.txt",check.names = F)
 geneticAnnotations$Model <- stringr::str_trim(geneticAnnotations$Model)
 
 geneticAnnotations <- geneticAnnotations[ geneticAnnotations$`Susceptibility observed` %in% c("Protective","Detrimental","No effect"),]
@@ -29,7 +29,7 @@ geneticAnnotations$`Susceptibility observed`  <-  factor(geneticAnnotations$`Sus
 colnames(geneticAnnotations)[7]<-"Delivery"
 
 
-exogenousAnnotations <- read.delim("../data/exogenousAnnotations.txt",check.names = F)
+exogenousAnnotations <- read.csv("../data/exogenousAnnotations.txt",check.names = F)
 exogenousAnnotations$Model <- stringr::str_trim(exogenousAnnotations$Model)
 
 exogenousAnnotations <- exogenousAnnotations[ exogenousAnnotations$`Susceptibility observed`  %in% c("Protective","Detrimental","No effect"),]
@@ -76,7 +76,7 @@ network <- as.undirected(network)
 # save(kernal,file="../data/kernal.RData")
 
 #load the precomputed kernal
-load("../data/kernal2.RData")
+load("../data/kernal.RData")
 
 
 #5 fold cross-validation
@@ -128,7 +128,7 @@ combinedResults<- rbind(resultsTest,resultsUnlabelled)
 
 median(resultsTest$ranks)
 
-box <- ggplot(combinedResults , aes(x = class, y = ranks,fill=class)) +  geom_violin(aes(fill=class),draw_quantiles = c(.5)) + cowplot::theme_cowplot(font_size = 20) + scale_fill_npg() +  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +ylab("Protein Rank") +theme(legend.position = "none")
+box <- ggplot(combinedResults , aes(x = class, y = ranks,fill=class)) +  geom_violin(aes(fill=class),draw_quantiles = c(.5)) + cowplot::theme_cowplot(font_size = 20) + scale_fill_npg() +  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +ylab("Gene Rank") +theme(legend.position = "none")
 
 #cowplot::save_plot("results/networkExpansion.png",box,base_width = 10,base_height = 6)
 
@@ -223,13 +223,15 @@ oarsiRanks <- data.frame(rank=diff[ diff$`Gene Name` %in% oarsi$Gene,6],class="O
 #are the ranks of the oarsi genes significant?
 wilcox.test(oarsiRanks$rank,mu = nrow(mat)/2)
 
-validation <-  ggplot(oarsiRanks , aes(x = class, y = rank,fill=class)) + geom_quasirandom(aes(color=class,size=2))  + cowplot::theme_cowplot(font_size = 20) + scale_fill_npg() +  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +ylab("Protein Rank") +  stat_summary(fun.y = median, fun.ymin = median, fun.ymax = median,
+validation <-  ggplot(oarsiRanks , aes(x = class, y = rank,fill=class)) + geom_quasirandom(aes(color=class),size=3)  + cowplot::theme_cowplot(font_size = 20) + scale_fill_npg() +  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +ylab("Gene Rank") +  stat_summary(fun.y = median, fun.ymin = median, fun.ymax = median,
                  geom = "crossbar", width = 0.5) + geom_hline(yintercept=nrow(mat)/2, linetype="dashed", color = "black", size=1) + ylim(0,nrow(mat)) + theme(legend.position = "none")
 
 
-
-grid <- cowplot::plot_grid(box,validation,nrow = 1,axis = "tblr",align = "hv",rel_widths = c(1,0.7),labels = c("A","B"),label_size = 22)
-cowplot::save_plot(grid,file="../results/NetworkExpansion_Figure3.jpg",base_width = 6,base_height = 6)
+diffusion <- cowplot::ggdraw() + cowplot::draw_image("~/diffusion.png", scale = 0.9)
+grid <- cowplot::plot_grid(diffusion,nrow = 1,axis = "tblr",align = "hv",rel_widths = c(0.8),labels = c("A"),label_size = 22)
+grid2 <- cowplot::plot_grid(box,validation,nrow = 1,axis = "tblr",align = "hv",rel_widths = c(0.9,0.6),labels = c("B","C"),label_size = 22)
+fig <- cowplot::plot_grid(grid,grid2,nrow = 2,axis = "tblr",align = "hv",rel_widths = c(0.5,1),label_size = 22)
+cowplot::save_plot(fig,file="../results/NetworkExpansion_Figure3.jpg",base_width = 6,base_height = 9)
 
 
 #get the GWAS nearest genes
