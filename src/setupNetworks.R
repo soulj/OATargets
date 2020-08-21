@@ -2,14 +2,14 @@ library(readr)
 library(dplyr)
 library(biomaRt)
 #devtools::install_github("MaayanLab/genesetr")
-library(genesetr,lib.loc = ".")
-library(OmnipathR,lib.loc = ".")
+library(genesetr)
+library(OmnipathR)
 
 
 #download biogrid - https://downloads.thebiogrid.org/File/BioGRID/Release-Archive/BIOGRID-3.5.186/BIOGRID-ALL-3.5.186.mitab.zip
 
 #read in the biogrid network
-BIOGRID_ALL_3_5_186_mitab <- read_delim("~/Downloads/BIOGRID-ALL-3.5.186.mitab.txt", 
+BIOGRID_ALL_3_5_186_mitab <- read_delim("BIOGRID-ALL-3.5.186.mitab.txt", 
                                         "\t", escape_double = FALSE, trim_ws = TRUE)
 
 #keep human interactions

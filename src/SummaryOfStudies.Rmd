@@ -151,16 +151,16 @@ table(studiedInBoth$`Inferred gene effect.ageing`==studiedInBoth$`Inferred gene 
 
 consensus effects by type of study
 ```{r}
-#Do the spontanous models and surgical models have the same inferred effect generally?
-#get the consensus effect split by type of model and remove genes which are ambiguous within each type of model
+#Do the exogenous and genetic studies have the same inferred effect generally?
+#get the consensus effect split by type of study and remove genes which are ambiguous within each type of study
 typeEffect <- combined %>% dplyr::group_by(Gene,Type) %>% dplyr::mutate(effectConsensus =  replace(`Inferred gene effect`,  dplyr::n_distinct(`Inferred gene effect`)>1,"Ambiguous" ) )  %>%  dplyr::filter(row_number(Gene) == 1) %>% as.data.frame()
 
-#get the genes studied in both spontenous and surgical models
+#get the genes studied in both exogenous and genetic interventions
 genetic <- typeEffect[ typeEffect$Type=="Genetic",]
 exogenous <- typeEffect[ typeEffect$Type=="Exogenous",]
 studiedInBoth <- merge(genetic,exogenous,by="Gene",suffixes=c(".genetic",".exogenous"))
 
-#what percentage of inferred effects are the same between the models?
+#what percentage of inferred effects are the same between the types of interventions?
 table(studiedInBoth$`Inferred gene effect.genetic`== studiedInBoth$`Inferred gene effect.exogenous`)
 
 ```
