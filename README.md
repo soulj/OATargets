@@ -9,7 +9,7 @@ The following R notebooks can be used to generate the figures and tables shown i
 
 * GeneExpressionComparison.Rmd - Compares the animal model associated OA genes with transcriptomics data
 
-* OATargetPrediction.Rmd - Predicts new functional OA canidates using network diffusion based similarity and expression data
+* OATargetPrediction.Rmd - Predicts new functional OA candidates using network diffusion based similarity and expression data
 
 * PathwayEnrichment.Rmd - Identifies pathways enriched in animal model OA genes.
 
